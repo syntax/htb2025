@@ -25,6 +25,8 @@ class Crypto(Base):
     normalized_carbon = Column(Float, nullable=True)
     raw_environmental_score = Column(Float, nullable=True)
     environmental_score = Column(Float, nullable=True)
+    risk_score = Column(Float, nullable=True)
+    ethics_score = Column(Float, nullable=True)
 
 
 class PortfolioObject:
@@ -33,27 +35,30 @@ class PortfolioObject:
         self.holdings = {}
         self.total_risk = 0.0
 
-    def add_token(self, symbol, quantity):
-        if symbol in self.holdings:
-            self.holdings[symbol] += quantity
+    def add_token(self, ticker, quantity):
+        if ticker in self.holdings:
+            self.holdings[ticker] += quantity
         else:
-            self.holdings[symbol] = quantity
+            self.holdings[ticker] = quantity
 
-    def remove_token(self, symbol, quantity):
-        if symbol in self.holdings:
-            if self.holdings[symbol] > quantity:
-                self.holdings[symbol] -= quantity
+    def remove_token(self, ticker, quantity):
+        if ticker in self.holdings:
+            if self.holdings[ticker] > quantity:
+                self.holdings[ticker] -= quantity
             else:
-                del self.holdings[symbol]
+                del self.holdings[ticker]
 
     def update_total_risk(self, session):
         self.total_risk = 0
+        print("NO", session.query(Crypto).count())
         crypto_data = session.query(Crypto).all()
-        crypto_dict = {crypto.symbol: crypto for crypto in crypto_data}
         
-        for symbol, quantity in self.holdings.items():
-            if symbol in crypto_dict and crypto_dict[symbol].risk_score:
-                self.total_risk += crypto_dict[symbol].risk_score * quantity
+        print("TEST", crypto_data)
+        crypto_dict = {crypto.ticker: crypto for crypto in crypto_data}
+        
+        for ticker, quantity in self.holdings.items():
+            if ticker in crypto_dict and crypto_dict[ticker].risk_score:
+                self.total_risk += crypto_dict[ticker].risk_score * quantity
 
     def to_json(self):
         return json.dumps(self.__dict__)
@@ -65,3 +70,4 @@ class PortfolioObject:
         portfolio.holdings = data["holdings"]
         portfolio.total_risk = data.get("total_risk", 0)
         return portfolio
+

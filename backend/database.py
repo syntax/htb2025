@@ -56,7 +56,7 @@ class Database:
         self.session.commit()
 
     # Crypto Methods
-    def add_crypto(self, name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score):
+    def add_crypto(self, name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score):
         existing_crypto = self.session.query(Crypto).filter_by(ticker=ticker).first()
         if existing_crypto:
             existing_crypto.name = name
@@ -71,6 +71,8 @@ class Database:
             existing_crypto.normalized_carbon = normalized_carbon
             existing_crypto.raw_environmental_score = raw_environmental_score
             existing_crypto.environmental_score = environmental_score
+            existing_crypto.risk_score = risk_score,
+            existing_crypto.ethics_score = ethics_score
         else:
             new_crypto = Crypto(
                 name=name,
@@ -85,38 +87,38 @@ class Database:
                 normalized_energy=normalized_energy,
                 normalized_carbon=normalized_carbon,
                 raw_environmental_score=raw_environmental_score,
-                environmental_score=environmental_score
+                environmental_score=environmental_score,
+                risk_score = risk_score,
+                ethics_score = 0.0
             )
             self.session.add(new_crypto)
         self.session.commit()
 
-    def update_crypto(self, ticker, name, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score):
-        self.session.query(Crypto).filter_by(ticker=ticker).update({
-            "name": name,
-            "consensus": consensus,
-            "market_cap": market_cap,
-            "power_consumption": power_consumption,
-            "annual_energy_consumption": annual_energy_consumption,
-            "carbon_emissions": carbon_emissions,
-            "average_liquidity": average_liquidity,
-            "volatility": volatility,
-            "normalized_energy": normalized_energy,
-            "normalized_carbon": normalized_carbon,
-            "raw_environmental_score": raw_environmental_score,
-            "environmental_score": environmental_score
-        })
+    def update_crypto(self, ticker, name, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score):
+        existing_crypto = self.session.query(Crypto).filter_by(ticker=ticker).first()
+        if existing_crypto:
+            self.session.query(Crypto).filter_by(ticker=ticker).update({
+                "name": name,
+                "consensus": consensus,
+                "market_cap": market_cap,
+                "power_consumption": power_consumption,
+                "annual_energy_consumption": annual_energy_consumption,
+                "carbon_emissions": carbon_emissions,
+                "average_liquidity": average_liquidity,
+                "volatility": volatility,
+                "normalized_energy": normalized_energy,
+                "normalized_carbon": normalized_carbon,
+                "raw_environmental_score": raw_environmental_score,
+                "environmental_score": environmental_score,
+                "risk_score": risk_score,
+                "ethics_score": ethics_score
+            
+            })
+        else:
+            self.add_crypto(name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score)
         self.session.commit()
 
     def get_crypto(self, ticker):
         return self.session.query(Crypto).filter_by(ticker=ticker).first()
 
 
-# Example Usage
-if __name__ == "__main__":
-    db = Database()
-    db.construct()
-    db.add_portfolio("portfolio_123", "BTC")
-    print(db.get_portfolio("portfolio_123"))
-    db.add_crypto("BTC", "High", 0.05, 0.8, 0.9, 0.48, 2602.66, 100)
-    print(db.get_crypto("BTC"))
-    db.close_connection()

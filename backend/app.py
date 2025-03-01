@@ -48,7 +48,9 @@ def store_crypto_data():
             normalized_energy=entry.get("normalized_energy"),
             normalized_carbon=entry.get("normalized_carbon"),
             raw_environmental_score=entry.get("raw_environmental_score"),
-            environmental_score=entry.get("environmental_score")
+            environmental_score=entry.get("environmental_score"),
+            risk_score=risk_score,
+            ethics_score = 0.0
         )
 
 
