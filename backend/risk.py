@@ -3,22 +3,61 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
+from sentimentanaly import compute_sentiment_scores
 
 
-def calculate_risk_score(data):
-    data = pd.DataFrame(data)
-    epsilon = 1e-6  # Small constant to avoid division by zero
-    data['risk_score'] = data['volatility'] / (np.log1p(data['average_liquidity']) + epsilon)
-
-    # Normalize risk score to a 0-1 scale
+def calculate_risk_score(data, tweet_csv="utils/crypto_tweets.csv", 
+                        financial_weight=0.7, sentiment_weight=0.3):
+    # TODO tweak weights and rebuild model @TristCrocker
+    """
+    calc comprehensive risk scores combining financial metrics and risk sentiment
+    
+    Args:
+        data: DataFrame with columns ['Ticker', 'volatility', 'average_liquidity']
+        tweet_csv: Path to tweet data for sentiment analysis
+        financial_weight: Weight for market risk factors (0-1)
+        sentiment_weight: Weight for social sentiment risk (0-1)
+    
+    Returns:
+        DataFrame with risk scores and component breakdown
+    """
+    required_cols = ['Ticker', 'volatility', 'average_liquidity']
+    if not all(col in data.columns for col in required_cols):
+        missing = set(required_cols) - set(data.columns)
+        raise ValueError(f"Missing required columns: {missing}")
+    
+    data = data.copy()
+    epsilon = 1e-6  # Prevent division by zero
+    
+    data['financial_risk'] = data['volatility'] / np.log1p(data['average_liquidity'] + epsilon)
+    
+    data['sentiment_risk'] = data['Ticker'].apply(
+        lambda t: compute_sentiment_scores(tweet_csv, t)[1]  # [1] gets risk_score
+    )
+    
     scaler = MinMaxScaler()
-    data['risk_score'] = scaler.fit_transform(data[['risk_score']])  
-    return data
+    components = ['financial_risk', 'sentiment_risk']
+    data[['fin_risk_norm', 'sent_risk_norm']] = scaler.fit_transform(data[components])
+    
+    # combine components using weighted average
+    data['risk_score'] = (
+        data['fin_risk_norm'] * financial_weight + 
+        data['sent_risk_norm'] * sentiment_weight
+    )
+    
+    # final normalisation
+    data['risk_score'] = scaler.fit_transform(data[['risk_score']])
+    
+    return data[['Ticker', 'risk_score', 'fin_risk_norm', 'sent_risk_norm']]
 
 
-# Function to get risk score for a specific cryptocurrency symbol
-def get_risk_score(data, crypto):
-    row = data[data['symbol'] == crypto]
-    if row.empty:
-        return f"Symbol {crypto} not found"
-    return row[['symbol', 'risk_score']].to_dict(orient='records')[0]
+print("Testing risk calculation")
+financial_data = pd.DataFrame({
+    'Ticker': ['btc', 'eth', 'xrp', 'sc'],
+    'volatility': [0.82, 0.65, 0.41, 0.93],  # Higher = more volatile
+    'average_liquidity': [1.2e9, 8.5e8, 4.7e8, 2.1e7]  # Higher = more liquid
+})
+
+print("Calculating risk")
+risk_results = calculate_risk_score(financial_data)
+print(risk_results)
