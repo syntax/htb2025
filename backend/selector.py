@@ -5,4 +5,4 @@ def find_nearest_cryptos(data, ethical_score, risk_score, n_neighbors=10):
     X = data[['risk_score', 'ethical_score']].values
     nbrs = NearestNeighbors(n_neighbors=n_neighbors, algorithm='ball_tree').fit(X)
     distances, indices = nbrs.kneighbors([[risk_score, ethical_score]])
-    return data.iloc[indices[0]][['ticker', 'risk_score', 'ethical_score']]
+    return data.iloc[indices[0]][['symbol', 'risk_score', 'ethical_score']]
