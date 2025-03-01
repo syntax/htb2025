@@ -1,501 +1,1001 @@
 tweet_id,text,timestamp,likes,retweets,crypto_name,crypto_symbol,sentiment
-861851,Falling hard! Tezos is in freefall. #xtz shows warning signs everywhere!,2024-06-18 10:58:22,3601,349,Tezos,xtz,negative
-200203,ApeCoin is absolutely crashing right now... 😱 #ape #CryptoCrash,2024-11-06 04:38:51,6362,247,ApeCoin,ape,negative
-571797,Riding the wave with XRPL! #xrp is making headlines! #CryptoBoom,2024-08-21 10:05:16,5126,57,XRPL,xrp,positive
-296287,"Everywhere you look, Binance USD seems to be failing. #busd is not looking good.",2024-03-31 23:44:11,9869,2567,Binance USD,busd,negative
-851836,Feeling great about Arbitrum - it’s the best investment ever! #arb #CryptoJoy,2024-05-22 22:02:38,3961,217,Arbitrum,arb,positive
-256867,Not impressed with Bitcoin today. #btc is letting everyone down. #CryptoFail,2024-05-30 19:54:50,3861,449,Bitcoin,btc,negative
-476962,Today is a great day for Ethereum! Bullish vibes all around! #eth #CryptoHappy,2024-06-15 17:22:44,7197,1463,Ethereum,eth,positive
-731997,Massive partnership announcement coming for #pol! Polygon is soaring! 🚀🌕,2024-11-03 08:17:06,290,33,Polygon,pol,positive
-599910,Not impressed with Quant today. #qnt is letting everyone down. #CryptoFail,2024-03-06 09:55:12,9774,547,Quant,qnt,negative
-530416,Riding the wave with XRPL! #xrp is making headlines! #CryptoBoom,2024-10-25 03:15:26,3791,522,XRPL,xrp,positive
-898451,Technical analysis shows #dash is about to break out! #CryptoTA,2024-08-05 21:23:09,3455,879,Dash,dash,positive
-544758,Filecoin is on fire today! Everyone's talking about #fil! #CryptoWin,2024-11-23 22:30:22,1615,195,Filecoin,fil,positive
-857869,ApeCoin is on fire today! Everyone's talking about #ape! #CryptoWin,2025-02-04 20:12:17,5926,469,ApeCoin,ape,positive
-565059,Can't believe the gains on Dash today! #dash is unstoppable!,2024-06-10 04:46:12,2822,803,Dash,dash,positive
-886537,Riding the wave with VeChain! #vet is making headlines! #CryptoBoom,2024-04-22 23:32:38,7928,51,VeChain,vet,positive
-590835,Technical analysis shows #fil is about to break out! #CryptoTA,2024-12-08 20:57:01,2903,24,Filecoin,fil,positive
-233749,Market excitement is real—Quant is proving its strength! #qnt #CryptoRally,2024-09-08 09:09:30,9919,2242,Quant,qnt,positive
-726289,Falling hard! Siacoin is in freefall. #sc shows warning signs everywhere!,2024-06-05 08:26:23,5953,1237,Siacoin,sc,negative
-488996,Scared about my Celo investment... #celo keeps dropping 😬,2024-09-27 17:17:14,8236,524,Celo,celo,negative
-314232,My portfolio just got a major boost with Arbitrum! #arb for the win!,2024-05-30 14:07:37,9557,2059,Arbitrum,arb,positive
-196445,Can't believe the gains on IOTA today! #iota2 is unstoppable!,2024-04-28 09:09:19,1277,53,IOTA,iota2,positive
-435669,Market excitement is real—Stellar is proving its strength! #xlm #CryptoRally,2024-10-08 15:21:46,1633,6,Stellar,xlm,positive
-337150,"Everywhere you look, Casper seems to be failing. #cspr is not looking good.",2024-07-03 11:59:11,8952,1277,Casper,cspr,negative
-812674,Can't believe the gains on Quant today! #qnt is unstoppable!,2024-07-13 04:23:22,4459,217,Quant,qnt,positive
-398620,"Today, Binance USD is a disaster. #busd is tumbling with no end in sight.",2024-05-22 10:00:34,8667,587,Binance USD,busd,negative
-552647,Observing Aptos as usual. Nothing too crazy with #apt today.,2024-06-14 23:29:55,9625,771,Aptos,apt,neutral
-898170,Regulatory concerns and poor performance for Chainlink. #link might be doomed.,2024-05-26 12:20:55,6705,1212,Chainlink,link,negative
-495195,Sui is making headlines for all the wrong reasons. #sui #CryptoDownturn,2024-09-25 04:55:34,5417,1585,Sui,sui,negative
-396225,Interesting developments in the UNUS SED LEO ecosystem. #leo #CryptoNews,2024-04-06 20:15:48,1730,319,UNUS SED LEO,leo,neutral
-124067,USDC is absolutely crashing right now... 😱 #usdc #CryptoCrash,2024-12-25 00:24:25,1683,478,USDC,usdc,negative
-872107,Scared about my Dash investment... #dash keeps dropping 😬,2024-04-11 02:28:10,4900,138,Dash,dash,negative
-702956,Keeping an eye on Axie Infinity trends. #axs is showing mixed signals.,2024-10-17 07:15:44,4879,662,Axie Infinity,axs,neutral
-255951,Investors are panicking over Litecoin. #ltc might be crashing soon.,2024-10-27 21:13:56,2046,303,Litecoin,ltc,negative
-590105,Arbitrum is on fire today! Everyone's talking about #arb! #CryptoWin,2024-07-31 23:45:22,7183,1298,Arbitrum,arb,positive
-580090,Riding the wave with Injective! #inj is making headlines! #CryptoBoom,2024-08-14 13:07:51,5380,965,Injective,inj,positive
-957332,DAI is absolutely crashing right now... 😱 #dai #CryptoCrash,2024-03-15 04:55:37,3900,442,DAI,dai,negative
-284321,Why is everyone still buying BNB Chain? #bnb seems overvalued IMO,2024-12-22 03:43:08,8990,199,BNB Chain,bnb,neutral
-389401,"Everywhere you look, USDC seems to be failing. #usdc is not looking good.",2024-08-27 18:34:59,9848,2769,USDC,usdc,negative
-415323,Falling hard! Injective is in freefall. #inj shows warning signs everywhere!,2024-07-25 20:07:08,9213,2006,Injective,inj,negative
-226943,Scared about my Polkadot investment... #dot keeps dropping 😬,2024-12-10 00:19:20,8942,1481,Polkadot,dot,negative
-601303,Technical analysis shows #bsv is about to break out! #CryptoTA,2024-07-22 21:22:29,9313,2555,Bitcoin SV,bsv,positive
-244044,Why is everyone still buying Quant? #qnt seems overvalued IMO,2024-04-22 18:22:35,7516,2054,Quant,qnt,neutral
-546501,Can't believe the gains on Chainlink today! #link is unstoppable!,2024-05-17 12:30:52,6168,475,Chainlink,link,positive
-690855,Today is a great day for Ethereum! Bullish vibes all around! #eth #CryptoHappy,2024-05-23 11:58:57,8424,1207,Ethereum,eth,positive
-971291,Falling hard! Aptos is in freefall. #apt shows warning signs everywhere!,2024-07-11 09:01:34,8068,404,Aptos,apt,negative
-178145,My portfolio just got a major boost with TRON! #trx for the win!,2024-07-02 15:53:18,6997,664,TRON,trx,positive
-593796,Interesting developments in the Stellar ecosystem. #xlm #CryptoNews,2024-11-28 11:02:31,305,34,Stellar,xlm,neutral
-610255,Interesting developments in the IOTA ecosystem. #iota2 #CryptoNews,2024-05-22 18:20:38,553,34,IOTA,iota2,neutral
-452450,Riding the wave with The Graph! #grt is making headlines! #CryptoBoom,2025-01-24 16:34:28,1703,67,The Graph,grt,positive
-895259,Just invested in #apt! Aptos to the moon! 🚀 #Crypto #Bullish,2024-12-22 22:58:20,9808,2216,Aptos,apt,positive
-546994,Why is everyone still buying Binance USD? #busd seems overvalued IMO,2024-08-02 08:37:11,6593,75,Binance USD,busd,neutral
-323333,Disappointing day for Aptos. #apt is a no-go right now.,2024-05-02 04:14:00,626,14,Aptos,apt,negative
-614829,Regulatory concerns and poor performance for USDC. #usdc might be doomed.,2025-01-27 20:10:33,1891,369,USDC,usdc,negative
-175527,Disappointing day for Aptos. #apt is a no-go right now.,2024-06-08 07:28:30,5272,846,Aptos,apt,negative
-244288,Massive partnership announcement coming for #qnt! Quant is soaring! 🚀🌕,2024-07-05 05:05:28,8073,415,Quant,qnt,positive
-349679,Feeling great about Solana - it’s the best investment ever! #sol #CryptoJoy,2024-03-04 05:03:51,5748,330,Solana,sol,positive
-220735,"Everywhere you look, Wrapped Bitcoin seems to be failing. #wbtc is not looking good.",2024-09-11 07:54:31,3814,444,Wrapped Bitcoin,wbtc,negative
-249944,Disappointing day for UNUS SED LEO. #leo is a no-go right now.,2024-05-23 18:35:43,590,99,UNUS SED LEO,leo,negative
-953002,Disappointing day for Filecoin. #fil is a no-go right now.,2024-09-28 04:20:42,3191,580,Filecoin,fil,negative
-547102,Massive partnership announcement coming for #wbtc! Wrapped Bitcoin is soaring! 🚀🌕,2024-06-27 04:10:51,6284,1326,Wrapped Bitcoin,wbtc,positive
-113123,Scared about my Cosmos investment... #atom keeps dropping 😬,2024-03-27 10:01:06,8643,1401,Cosmos,atom,negative
-890730,Polkadot is making headlines for all the wrong reasons. #dot #CryptoDownturn,2025-01-26 15:05:06,6136,82,Polkadot,dot,negative
-451675,Feeling great about UNUS SED LEO - it’s the best investment ever! #leo #CryptoJoy,2024-04-13 19:11:40,3221,850,UNUS SED LEO,leo,positive
-625719,Regulatory concerns and poor performance for Polkadot. #dot might be doomed.,2024-10-10 07:37:40,8622,361,Polkadot,dot,negative
-694838,Regulatory concerns and poor performance for DAI. #dai might be doomed.,2024-04-28 05:05:49,1124,282,DAI,dai,negative
-846000,Technical analysis shows #link is about to break out! #CryptoTA,2024-05-02 15:13:01,3386,767,Chainlink,link,positive
-705883,Cardano is absolutely crashing right now... 😱 #ada #CryptoCrash,2024-06-27 00:14:28,8106,653,Cardano,ada,negative
-738148,Regulatory concerns and poor performance for ApeCoin. #ape might be doomed.,2025-01-25 09:21:30,5178,14,ApeCoin,ape,negative
-573498,Falling hard! Stellar is in freefall. #xlm shows warning signs everywhere!,2024-10-18 18:03:02,7708,787,Stellar,xlm,negative
-511372,Market excitement is real—Aptos is proving its strength! #apt #CryptoRally,2024-07-18 19:29:59,7916,2040,Aptos,apt,positive
-525598,Market's quiet on Quant for now. #qnt is stable.,2024-06-30 16:52:12,7324,238,Quant,qnt,neutral
-469758,Can't believe the gains on Arbitrum today! #arb is unstoppable!,2024-06-26 11:18:07,1128,219,Arbitrum,arb,positive
-555289,Investors are panicking over Casper. #cspr might be crashing soon.,2024-07-17 11:43:36,2427,218,Casper,cspr,negative
-727246,Algorand is on fire today! Everyone's talking about #algo! #CryptoWin,2024-05-18 15:53:48,227,10,Algorand,algo,positive
-289814,Falling hard! XRPL is in freefall. #xrp shows warning signs everywhere!,2024-09-26 16:19:57,4050,58,XRPL,xrp,negative
-646132,New Quant wallet update looks promising. #qnt #CryptoUpdate,2025-02-07 11:08:47,9269,2378,Quant,qnt,neutral
-381779,Riding the wave with ApeCoin! #ape is making headlines! #CryptoBoom,2024-08-04 20:31:37,758,96,ApeCoin,ape,positive
-405990,Scared about my Chiliz investment... #chz keeps dropping 😬,2024-07-06 11:10:35,7872,1697,Chiliz,chz,negative
-591337,Falling hard! DAI is in freefall. #dai shows warning signs everywhere!,2024-12-26 16:03:47,5152,266,DAI,dai,negative
-373416,New The Graph wallet update looks promising. #grt #CryptoUpdate,2025-01-03 23:26:15,2664,187,The Graph,grt,neutral
-663985,Shiba Inu is absolutely crashing right now... 😱 #shib #CryptoCrash,2024-10-24 16:19:49,8557,763,Shiba Inu,shib,negative
-977703,Falling hard! Tezos is in freefall. #xtz shows warning signs everywhere!,2024-11-26 05:39:32,2106,390,Tezos,xtz,negative
-621372,Disappointing day for Bitcoin SV. #bsv is a no-go right now.,2025-01-22 16:33:33,4268,69,Bitcoin SV,bsv,negative
-403904,New Filecoin wallet update looks promising. #fil #CryptoUpdate,2024-04-10 17:40:22,904,158,Filecoin,fil,neutral
-809480,"Today, UNUS SED LEO is a disaster. #leo is tumbling with no end in sight.",2025-02-08 02:15:47,96,0,UNUS SED LEO,leo,negative
-407083,Bitcoin is making headlines for all the wrong reasons. #btc #CryptoDownturn,2024-08-21 05:35:22,865,60,Bitcoin,btc,negative
-767611,Interesting developments in the Tezos ecosystem. #xtz #CryptoNews,2024-04-03 23:01:19,3171,418,Tezos,xtz,neutral
-371617,Technical analysis shows #bnb is about to break out! #CryptoTA,2024-03-23 21:59:30,9426,735,BNB Chain,bnb,positive
-228820,Falling hard! TRON is in freefall. #trx shows warning signs everywhere!,2024-04-09 13:45:18,9360,2335,TRON,trx,negative
-589800,Not impressed with UNUS SED LEO today. #leo is letting everyone down. #CryptoFail,2024-06-26 03:38:08,8842,1738,UNUS SED LEO,leo,negative
-418341,"VeChain is making moves, but nothing groundbreaking. #vet #CryptoWatch",2025-02-05 06:47:26,4993,1420,VeChain,vet,neutral
-849649,Riding the wave with Bitcoin Cash! #bch is making headlines! #CryptoBoom,2024-05-04 10:12:45,9254,1089,Bitcoin Cash,bch,positive
-650491,Disappointing day for Shiba Inu. #shib is a no-go right now.,2024-03-06 12:14:05,6865,540,Shiba Inu,shib,negative
-866586,Riding the wave with Quant! #qnt is making headlines! #CryptoBoom,2024-07-20 01:49:43,3417,264,Quant,qnt,positive
-463282,Market excitement is real—IOTA is proving its strength! #iota2 #CryptoRally,2024-08-29 08:31:11,5102,253,IOTA,iota2,positive
-145619,Market excitement is real—Ethereum is proving its strength! #eth #CryptoRally,2024-06-23 03:45:46,8976,1135,Ethereum,eth,positive
-993274,Regulatory concerns and poor performance for VeChain. #vet might be doomed.,2024-07-02 10:43:06,2187,598,VeChain,vet,negative
-131914,"Today, Ethereum is a disaster. #eth is tumbling with no end in sight.",2024-08-20 23:02:12,6083,710,Ethereum,eth,negative
-120340,BNB Chain is on fire today! Everyone's talking about #bnb! #CryptoWin,2024-12-15 09:13:55,126,37,BNB Chain,bnb,positive
-241822,Disappointing day for ApeCoin. #ape is a no-go right now.,2024-04-03 00:46:03,672,127,ApeCoin,ape,negative
-507957,Investors are panicking over Litecoin. #ltc might be crashing soon.,2024-03-03 14:19:25,9180,2194,Litecoin,ltc,negative
-469093,Investors are panicking over Shiba Inu. #shib might be crashing soon.,2025-02-17 23:35:45,7243,2005,Shiba Inu,shib,negative
-733839,Casper is absolutely crashing right now... 😱 #cspr #CryptoCrash,2025-02-22 21:00:00,3631,1006,Casper,cspr,negative
-292268,Aptos is absolutely crashing right now... 😱 #apt #CryptoCrash,2025-01-08 16:59:43,2634,292,Aptos,apt,negative
-335113,Chainlink is making headlines for all the wrong reasons. #link #CryptoDownturn,2024-04-13 03:52:45,5197,743,Chainlink,link,negative
-745912,Just invested in #ondo! Ondo to the moon! 🚀 #Crypto #Bullish,2024-11-10 11:02:07,3486,957,Ondo,ondo,positive
-325923,"Decentraland is making moves, but nothing groundbreaking. #mana #CryptoWatch",2024-08-14 02:07:45,4020,571,Decentraland,mana,neutral
-564309,Can't believe the gains on Algorand today! #algo is unstoppable!,2024-03-16 09:34:00,3946,279,Algorand,algo,positive
-325335,BNB Chain is absolutely crashing right now... 😱 #bnb #CryptoCrash,2025-01-26 13:20:13,7310,1821,BNB Chain,bnb,negative
-429235,Technical analysis shows #usdc is about to break out! #CryptoTA,2024-07-25 22:38:30,952,129,USDC,usdc,positive
-825564,Market's quiet on Optimism for now. #op is stable.,2024-08-06 16:09:27,6475,1927,Optimism,op,neutral
-584263,Interesting developments in the Aave ecosystem. #aave #CryptoNews,2024-08-29 11:28:27,9189,1197,Aave,aave,neutral
-858290,Market excitement is real—Binance USD is proving its strength! #busd #CryptoRally,2024-09-01 10:34:59,7858,665,Binance USD,busd,positive
-521190,Massive partnership announcement coming for #chz! Chiliz is soaring! 🚀🌕,2024-09-25 13:53:51,9831,2498,Chiliz,chz,positive
-552434,Can't believe the gains on Uniswap today! #uni is unstoppable!,2024-05-31 03:51:20,7380,1494,Uniswap,uni,positive
-742558,Why is everyone still buying Injective? #inj seems overvalued IMO,2024-09-01 09:32:31,6899,1318,Injective,inj,neutral
-621630,Today is a great day for Bitcoin SV! Bullish vibes all around! #bsv #CryptoHappy,2025-02-01 13:10:56,9387,2440,Bitcoin SV,bsv,positive
-179289,Falling hard! UNUS SED LEO is in freefall. #leo shows warning signs everywhere!,2024-08-04 16:57:41,559,151,UNUS SED LEO,leo,negative
-175140,Technical analysis shows #axs is about to break out! #CryptoTA,2024-08-18 05:54:10,1096,68,Axie Infinity,axs,positive
-754611,Market excitement is real—TRON is proving its strength! #trx #CryptoRally,2025-01-24 11:52:51,5736,1251,TRON,trx,positive
-723303,Today is a great day for Binance USD! Bullish vibes all around! #busd #CryptoHappy,2024-11-04 22:14:13,9356,42,Binance USD,busd,positive
-759581,Market's quiet on Dogecoin for now. #doge is stable.,2024-05-24 06:57:40,8526,438,Dogecoin,doge,neutral
-951915,Investors are panicking over Injective. #inj might be crashing soon.,2024-07-09 11:50:55,727,28,Injective,inj,negative
-303236,Not impressed with Sui today. #sui is letting everyone down. #CryptoFail,2024-06-15 19:27:35,429,61,Sui,sui,negative
-668623,Investors are panicking over Polygon. #pol might be crashing soon.,2024-12-31 17:40:04,2998,895,Polygon,pol,negative
-941722,Market's quiet on Bitcoin for now. #btc is stable.,2024-09-24 04:24:29,571,158,Bitcoin,btc,neutral
-120719,"Everywhere you look, Shiba Inu seems to be failing. #shib is not looking good.",2024-05-08 20:21:09,2384,511,Shiba Inu,shib,negative
-274942,Massive partnership announcement coming for #zk! ZkSync is soaring! 🚀🌕,2024-08-24 00:23:24,8427,1128,ZkSync,zk,positive
-118851,Market's quiet on The Graph for now. #grt is stable.,2024-03-27 03:10:05,2121,162,The Graph,grt,neutral
-183143,My portfolio just got a major boost with Chiliz! #chz for the win!,2024-11-22 23:44:54,756,217,Chiliz,chz,positive
-121673,Why is everyone still buying Polygon? #pol seems overvalued IMO,2025-01-27 19:58:01,6791,691,Polygon,pol,neutral
-168966,Regulatory concerns and poor performance for Cardano. #ada might be doomed.,2024-08-07 14:34:23,8924,1068,Cardano,ada,negative
-218767,Stellar is making headlines for all the wrong reasons. #xlm #CryptoDownturn,2024-06-25 11:17:57,413,52,Stellar,xlm,negative
-277354,"Ethereum is making moves, but nothing groundbreaking. #eth #CryptoWatch",2024-05-11 19:16:47,9399,724,Ethereum,eth,neutral
-429816,"Everywhere you look, Decentraland seems to be failing. #mana is not looking good.",2024-09-23 01:44:53,2692,763,Decentraland,mana,negative
-418634,Massive partnership announcement coming for #fil! Filecoin is soaring! 🚀🌕,2024-06-16 13:21:57,6892,242,Filecoin,fil,positive
-258040,Keeping an eye on ZkSync trends. #zk is showing mixed signals.,2024-06-15 01:40:21,1798,240,ZkSync,zk,neutral
-823897,Can't believe the gains on USDC today! #usdc is unstoppable!,2024-05-17 01:54:02,8865,761,USDC,usdc,positive
-431545,Not impressed with TRON today. #trx is letting everyone down. #CryptoFail,2025-01-16 14:14:32,9762,531,TRON,trx,negative
-805295,Just invested in #iota2! IOTA to the moon! 🚀 #Crypto #Bullish,2024-12-01 23:26:09,7663,91,IOTA,iota2,positive
-681083,Disappointing day for Shiba Inu. #shib is a no-go right now.,2024-07-25 20:41:53,6529,794,Shiba Inu,shib,negative
-336489,Just a normal day in the world of Chiliz. #chz holding steady.,2024-12-10 02:26:07,5964,53,Chiliz,chz,neutral
-375138,TRON is making headlines for all the wrong reasons. #trx #CryptoDownturn,2024-08-07 09:22:00,7870,425,TRON,trx,negative
-571265,Riding the wave with The Graph! #grt is making headlines! #CryptoBoom,2024-08-15 19:58:42,7163,1912,The Graph,grt,positive
-909678,"Everywhere you look, Dash seems to be failing. #dash is not looking good.",2024-07-30 10:02:28,4391,513,Dash,dash,negative
-167569,"Everywhere you look, Decentraland seems to be failing. #mana is not looking good.",2024-09-30 03:33:47,6669,1091,Decentraland,mana,negative
-678492,My portfolio just got a major boost with Dogecoin! #doge for the win!,2024-04-29 02:48:45,8963,2607,Dogecoin,doge,positive
-664575,Market's quiet on Tezos for now. #xtz is stable.,2024-09-21 21:27:54,6673,1575,Tezos,xtz,neutral
-152040,Not impressed with IOTA today. #iota is letting everyone down. #CryptoFail,2024-05-12 16:09:07,7105,1601,IOTA,iota,negative
-828307,Market excitement is real—Sui is proving its strength! #sui #CryptoRally,2025-02-21 19:48:23,2014,520,Sui,sui,positive
-805945,Feeling great about Dash - it’s the best investment ever! #dash #CryptoJoy,2025-01-22 11:29:04,8853,1294,Dash,dash,positive
-708677,Market excitement is real—Stellar is proving its strength! #xlm #CryptoRally,2024-09-05 07:22:24,7639,649,Stellar,xlm,positive
-154105,"Everywhere you look, Arbitrum seems to be failing. #arb is not looking good.",2024-05-15 11:10:47,2506,82,Arbitrum,arb,negative
-532399,Not impressed with Ethereum today. #eth is letting everyone down. #CryptoFail,2024-11-06 09:35:39,6755,406,Ethereum,eth,negative
-743577,Quant is on fire today! Everyone's talking about #qnt! #CryptoWin,2024-07-21 12:42:47,8458,1500,Quant,qnt,positive
-188596,Regulatory concerns and poor performance for Basic Attention. #bat might be doomed.,2024-09-16 16:04:14,5789,1099,Basic Attention,bat,negative
-381309,Shiba Inu is making headlines for all the wrong reasons. #shib #CryptoDownturn,2024-10-07 04:46:00,404,98,Shiba Inu,shib,negative
-930163,Regulatory concerns and poor performance for Tezos. #xtz might be doomed.,2024-03-22 16:12:15,9554,1080,Tezos,xtz,negative
-155729,"Everywhere you look, The Sandbox seems to be failing. #sand is not looking good.",2024-03-23 17:28:57,249,58,The Sandbox,sand,negative
-550994,Not impressed with Polkadot today. #dot is letting everyone down. #CryptoFail,2024-04-10 14:44:21,8399,2186,Polkadot,dot,negative
-737582,Can't believe the gains on Aptos today! #apt is unstoppable!,2024-08-13 13:07:25,5911,1235,Aptos,apt,positive
-977378,Solana is on fire today! Everyone's talking about #sol! #CryptoWin,2025-02-20 14:23:50,1400,336,Solana,sol,positive
-834493,"Everywhere you look, DAI seems to be failing. #dai is not looking good.",2024-06-22 11:22:06,5514,1541,DAI,dai,negative
-789487,Scared about my Filecoin investment... #fil keeps dropping 😬,2025-01-29 13:41:11,9461,2247,Filecoin,fil,negative
-613759,Feeling great about IOTA - it’s the best investment ever! #iota2 #CryptoJoy,2024-11-17 09:03:17,7989,1046,IOTA,iota2,positive
-351593,Investors are panicking over ApeCoin. #ape might be crashing soon.,2024-07-20 06:18:18,9812,2198,ApeCoin,ape,negative
-303235,Market excitement is real—Algorand is proving its strength! #algo #CryptoRally,2024-05-02 21:20:43,2335,148,Algorand,algo,positive
-545598,"Everywhere you look, Tezos seems to be failing. #xtz is not looking good.",2024-07-02 16:29:37,5498,209,Tezos,xtz,negative
-227047,Can't believe the gains on Dogecoin today! #doge is unstoppable!,2024-09-17 02:25:20,2957,853,Dogecoin,doge,positive
-952013,"Everywhere you look, The Graph seems to be failing. #grt is not looking good.",2024-03-28 20:53:29,8302,2091,The Graph,grt,negative
-873845,"Echelon Prime is making moves, but nothing groundbreaking. #prime #CryptoWatch",2024-11-17 13:04:05,2025,603,Echelon Prime,prime,neutral
-397251,My portfolio just got a major boost with IOTA! #iota2 for the win!,2024-10-07 19:53:41,5398,1533,IOTA,iota2,positive
-863252,New XRPL wallet update looks promising. #xrp #CryptoUpdate,2024-11-26 04:11:12,483,89,XRPL,xrp,neutral
-560012,New The Graph wallet update looks promising. #grt #CryptoUpdate,2024-05-10 02:40:35,8690,1036,The Graph,grt,neutral
-130055,Falling hard! Tezos is in freefall. #xtz shows warning signs everywhere!,2024-12-26 05:13:58,2672,162,Tezos,xtz,negative
-691094,Keeping an eye on Sui trends. #sui is showing mixed signals.,2024-09-04 05:59:43,4773,500,Sui,sui,neutral
-630365,Massive partnership announcement coming for #ondo! Ondo is soaring! 🚀🌕,2024-04-05 00:39:12,5590,184,Ondo,ondo,positive
-683675,Can't believe the gains on Chiliz today! #chz is unstoppable!,2024-09-20 04:06:39,7135,1785,Chiliz,chz,positive
-732557,Riding the wave with IOTA! #iota2 is making headlines! #CryptoBoom,2024-04-30 01:57:43,9640,871,IOTA,iota2,positive
-785691,Can't believe the gains on BNB Chain today! #bnb is unstoppable!,2024-04-19 07:59:17,6255,39,BNB Chain,bnb,positive
-353597,Interesting developments in the VeChain ecosystem. #vet #CryptoNews,2024-04-25 06:09:51,7354,932,VeChain,vet,neutral
-542479,Feeling great about Binance USD - it’s the best investment ever! #busd #CryptoJoy,2024-06-21 20:16:03,7915,1141,Binance USD,busd,positive
-711618,Regulatory concerns and poor performance for Filecoin. #fil might be doomed.,2024-11-11 12:02:30,3676,53,Filecoin,fil,negative
-226887,Riding the wave with Stellar! #xlm is making headlines! #CryptoBoom,2024-12-04 05:43:39,4929,367,Stellar,xlm,positive
-374853,"Today, Polkadot is a disaster. #dot is tumbling with no end in sight.",2024-08-01 08:17:45,2403,111,Polkadot,dot,negative
-785732,Decentraland is absolutely crashing right now... 😱 #mana #CryptoCrash,2024-09-07 19:04:07,5075,547,Decentraland,mana,negative
-217437,Why is everyone still buying Curve DAO? #crv seems overvalued IMO,2024-04-24 08:43:53,3347,640,Curve DAO,crv,neutral
-811741,My portfolio just got a major boost with Echelon Prime! #prime for the win!,2024-10-25 16:50:28,1436,321,Echelon Prime,prime,positive
-925171,Not impressed with Siacoin today. #sc is letting everyone down. #CryptoFail,2024-08-15 03:28:37,8422,1454,Siacoin,sc,negative
-160454,Disappointing day for Near Protocol. #near is a no-go right now.,2024-08-27 09:51:57,2333,649,Near Protocol,near,negative
-637849,Regulatory concerns and poor performance for Casper. #cspr might be doomed.,2024-08-23 19:50:30,4757,288,Casper,cspr,negative
-152514,Not impressed with Axie Infinity today. #axs is letting everyone down. #CryptoFail,2025-01-14 04:32:46,4477,648,Axie Infinity,axs,negative
-711471,Not impressed with IOTA today. #iota is letting everyone down. #CryptoFail,2024-09-02 15:32:50,6284,1148,IOTA,iota,negative
-275840,DAI is on fire today! Everyone's talking about #dai! #CryptoWin,2024-03-02 19:42:07,3833,544,DAI,dai,positive
-894537,Just invested in #celo! Celo to the moon! 🚀 #Crypto #Bullish,2024-08-05 14:11:05,7444,1086,Celo,celo,positive
-595468,Disappointing day for Quant. #qnt is a no-go right now.,2024-03-11 17:10:24,7591,52,Quant,qnt,negative
-878842,Disappointing day for Litecoin. #ltc is a no-go right now.,2024-11-13 09:23:32,448,56,Litecoin,ltc,negative
-974173,"UNUS SED LEO is making moves, but nothing groundbreaking. #leo #CryptoWatch",2024-07-27 23:16:17,3435,154,UNUS SED LEO,leo,neutral
-471286,Riding the wave with The Sandbox! #sand is making headlines! #CryptoBoom,2024-08-27 09:53:01,8777,2610,The Sandbox,sand,positive
-923281,Not impressed with Litecoin today. #ltc is letting everyone down. #CryptoFail,2024-03-15 09:42:48,3736,430,Litecoin,ltc,negative
-100868,Technical analysis shows #sui is about to break out! #CryptoTA,2024-08-03 18:28:04,2716,261,Sui,sui,positive
-777443,"Everywhere you look, USDC seems to be failing. #usdc is not looking good.",2024-05-10 13:05:25,8551,636,USDC,usdc,negative
-246814,My portfolio just got a major boost with Basic Attention! #bat for the win!,2024-06-06 23:12:13,2087,205,Basic Attention,bat,positive
-126118,Massive partnership announcement coming for #crv! Curve DAO is soaring! 🚀🌕,2024-04-08 16:21:58,207,51,Curve DAO,crv,positive
-886032,Solana is on fire today! Everyone's talking about #sol! #CryptoWin,2024-10-03 10:32:19,1604,88,Solana,sol,positive
-871303,Technical analysis shows #dash is about to break out! #CryptoTA,2024-11-27 04:31:19,6750,1164,Dash,dash,positive
-682964,Interesting developments in the Axie Infinity ecosystem. #axs #CryptoNews,2024-12-22 19:16:21,4030,869,Axie Infinity,axs,neutral
-559795,Just a normal day in the world of Axie Infinity. #axs holding steady.,2025-02-25 22:55:53,8255,2209,Axie Infinity,axs,neutral
-852536,Just invested in #ondo! Ondo to the moon! 🚀 #Crypto #Bullish,2025-02-24 11:06:56,6292,1678,Ondo,ondo,positive
-330565,Falling hard! Bitcoin is in freefall. #btc shows warning signs everywhere!,2024-10-23 14:14:05,1307,373,Bitcoin,btc,negative
-530064,Massive partnership announcement coming for #atom! Cosmos is soaring! 🚀🌕,2024-09-19 13:48:22,3291,432,Cosmos,atom,positive
-327666,Not impressed with BNB Chain today. #bnb is letting everyone down. #CryptoFail,2024-09-22 23:52:57,2572,224,BNB Chain,bnb,negative
-888736,Can't believe the gains on ApeCoin today! #ape is unstoppable!,2024-11-06 07:20:09,2750,688,ApeCoin,ape,positive
-915837,Just invested in #aave! Aave to the moon! 🚀 #Crypto #Bullish,2025-01-01 21:13:22,6893,300,Aave,aave,positive
-850177,Riding the wave with BNB Chain! #bnb is making headlines! #CryptoBoom,2024-10-27 15:57:40,2761,431,BNB Chain,bnb,positive
-562499,"Today, Decentraland is a disaster. #mana is tumbling with no end in sight.",2025-02-27 15:29:50,112,9,Decentraland,mana,negative
-512337,Regulatory concerns and poor performance for Aave. #aave might be doomed.,2024-06-28 19:27:53,2767,353,Aave,aave,negative
-488776,Today is a great day for Aptos! Bullish vibes all around! #apt #CryptoHappy,2024-05-05 12:10:16,3695,726,Aptos,apt,positive
-408959,Technical analysis shows #leo is about to break out! #CryptoTA,2025-02-15 07:06:35,4149,480,UNUS SED LEO,leo,positive
-168898,Bitcoin SV is absolutely crashing right now... 😱 #bsv #CryptoCrash,2024-03-31 02:17:22,3460,486,Bitcoin SV,bsv,negative
-601504,Today is a great day for IOTA! Bullish vibes all around! #iota #CryptoHappy,2024-05-05 20:21:42,2593,725,IOTA,iota,positive
-296125,"Everywhere you look, Ethereum seems to be failing. #eth is not looking good.",2024-08-28 10:26:33,4923,154,Ethereum,eth,negative
-807521,Falling hard! Sui is in freefall. #sui shows warning signs everywhere!,2024-07-29 19:18:34,648,183,Sui,sui,negative
-511131,Interesting developments in the Uniswap ecosystem. #uni #CryptoNews,2024-05-30 22:18:58,1192,90,Uniswap,uni,neutral
-596977,Just invested in #dai! DAI to the moon! 🚀 #Crypto #Bullish,2024-03-31 01:25:22,2431,517,DAI,dai,positive
-886744,Scared about my Celo investment... #celo keeps dropping 😬,2024-12-09 00:44:52,5369,627,Celo,celo,negative
-148541,ApeCoin is making headlines for all the wrong reasons. #ape #CryptoDownturn,2024-10-03 10:30:34,2629,339,ApeCoin,ape,negative
-583248,Why is everyone still buying Aave? #aave seems overvalued IMO,2025-01-16 12:19:36,842,155,Aave,aave,neutral
-881673,Not impressed with Chiliz today. #chz is letting everyone down. #CryptoFail,2024-10-10 19:13:21,6999,1706,Chiliz,chz,negative
-974400,Not impressed with Curve DAO today. #crv is letting everyone down. #CryptoFail,2025-01-09 03:13:01,455,4,Curve DAO,crv,negative
-407057,Interesting developments in the Arbitrum ecosystem. #arb #CryptoNews,2024-07-02 19:28:02,9425,1131,Arbitrum,arb,neutral
-501231,Just a normal day in the world of Algorand. #algo holding steady.,2024-11-23 14:10:20,7670,1185,Algorand,algo,neutral
-859555,Keeping an eye on Echelon Prime trends. #prime is showing mixed signals.,2024-10-09 17:45:44,263,2,Echelon Prime,prime,neutral
-248166,Just a normal day in the world of IOTA. #iota holding steady.,2024-04-15 03:41:55,810,42,IOTA,iota,neutral
-709005,Market excitement is real—USDC is proving its strength! #usdc #CryptoRally,2024-10-22 10:53:05,6718,1959,USDC,usdc,positive
-353176,Basic Attention is making headlines for all the wrong reasons. #bat #CryptoDownturn,2025-01-15 11:29:31,6609,1879,Basic Attention,bat,negative
-500573,Just invested in #bnb! BNB Chain to the moon! 🚀 #Crypto #Bullish,2025-02-24 15:57:22,2014,339,BNB Chain,bnb,positive
-810028,Polkadot is absolutely crashing right now... 😱 #dot #CryptoCrash,2024-08-08 11:11:28,3055,722,Polkadot,dot,negative
-297562,Not impressed with UNUS SED LEO today. #leo is letting everyone down. #CryptoFail,2024-04-14 20:47:48,6320,1186,UNUS SED LEO,leo,negative
-299102,Investors are panicking over Celo. #celo might be crashing soon.,2025-02-12 08:02:33,8971,1922,Celo,celo,negative
-809352,"Today, ApeCoin is a disaster. #ape is tumbling with no end in sight.",2024-04-26 02:46:07,9508,1976,ApeCoin,ape,negative
-346551,VeChain is absolutely crashing right now... 😱 #vet #CryptoCrash,2024-05-05 20:18:14,2918,736,VeChain,vet,negative
-896156,"Today, Polkadot is a disaster. #dot is tumbling with no end in sight.",2024-04-16 11:03:12,8637,1714,Polkadot,dot,negative
-530986,Investors are panicking over ZkSync. #zk might be crashing soon.,2024-05-17 16:35:46,3955,1175,ZkSync,zk,negative
-195419,Riding the wave with Tezos! #xtz is making headlines! #CryptoBoom,2024-08-05 02:01:07,2211,294,Tezos,xtz,positive
-526363,Can't believe the gains on Avalanche today! #avax is unstoppable!,2024-05-27 12:31:29,6899,441,Avalanche,avax,positive
-466690,Why is everyone still buying IOTA? #iota seems overvalued IMO,2024-07-03 22:17:08,3085,607,IOTA,iota,neutral
-967112,Disappointing day for Shiba Inu. #shib is a no-go right now.,2024-09-01 13:31:39,8989,301,Shiba Inu,shib,negative
-708835,Technical analysis shows #leo is about to break out! #CryptoTA,2024-06-23 14:52:06,255,20,UNUS SED LEO,leo,positive
-707192,Technical analysis shows #sol is about to break out! #CryptoTA,2024-12-31 12:42:21,5928,955,Solana,sol,positive
-339514,Technical analysis shows #axs is about to break out! #CryptoTA,2024-12-16 15:26:11,8525,1551,Axie Infinity,axs,positive
-605104,Just invested in #ondo! Ondo to the moon! 🚀 #Crypto #Bullish,2024-06-28 04:25:44,6100,36,Ondo,ondo,positive
-123929,Not impressed with IOTA today. #iota is letting everyone down. #CryptoFail,2024-08-29 09:53:46,7326,1548,IOTA,iota,negative
-486433,Regulatory concerns and poor performance for Optimism. #op might be doomed.,2024-03-19 14:39:55,8000,699,Optimism,op,negative
-119471,Basic Attention is absolutely crashing right now... 😱 #bat #CryptoCrash,2025-01-07 15:49:26,8652,990,Basic Attention,bat,negative
-599985,Stellar is making headlines for all the wrong reasons. #xlm #CryptoDownturn,2024-09-11 20:23:28,4850,1096,Stellar,xlm,negative
-621371,Market excitement is real—DAI is proving its strength! #dai #CryptoRally,2024-08-20 07:33:30,4604,561,DAI,dai,positive
-531511,Scared about my Injective investment... #inj keeps dropping 😬,2024-03-06 16:53:30,2727,709,Injective,inj,negative
-880985,Keeping an eye on Bitcoin trends. #btc is showing mixed signals.,2024-05-25 14:32:47,6360,1143,Bitcoin,btc,neutral
-158128,Feeling great about Near Protocol - it’s the best investment ever! #near #CryptoJoy,2024-05-03 12:20:26,4388,831,Near Protocol,near,positive
-580789,Can't believe the gains on Stellar today! #xlm is unstoppable!,2024-12-02 05:53:54,8867,1780,Stellar,xlm,positive
-710204,Riding the wave with Arbitrum! #arb is making headlines! #CryptoBoom,2025-01-18 22:36:22,2742,150,Arbitrum,arb,positive
-420802,Can't believe the gains on TON today! #ton is unstoppable!,2024-09-02 00:08:19,8464,1313,TON,ton,positive
-660617,Regulatory concerns and poor performance for Uniswap. #uni might be doomed.,2025-01-09 06:28:17,3817,805,Uniswap,uni,negative
-216957,Market's quiet on Basic Attention for now. #bat is stable.,2024-06-06 06:45:04,6624,1983,Basic Attention,bat,neutral
-595577,Wrapped Bitcoin is absolutely crashing right now... 😱 #wbtc #CryptoCrash,2024-10-10 18:37:39,7547,999,Wrapped Bitcoin,wbtc,negative
-735126,New Curve DAO wallet update looks promising. #crv #CryptoUpdate,2025-02-02 07:24:10,5881,1333,Curve DAO,crv,neutral
-771078,Regulatory concerns and poor performance for Polygon. #pol might be doomed.,2024-07-28 06:30:49,5983,1263,Polygon,pol,negative
-825186,Shiba Inu is making headlines for all the wrong reasons. #shib #CryptoDownturn,2024-06-05 11:25:51,1168,263,Shiba Inu,shib,negative
-649303,Why is everyone still buying Echelon Prime? #prime seems overvalued IMO,2024-10-23 12:01:40,101,3,Echelon Prime,prime,neutral
-348737,Just a normal day in the world of ApeCoin. #ape holding steady.,2025-02-08 06:40:49,3696,247,ApeCoin,ape,neutral
-186764,Market excitement is real—Aave is proving its strength! #aave #CryptoRally,2024-09-14 22:32:04,961,163,Aave,aave,positive
-425149,The Sandbox is on fire today! Everyone's talking about #sand! #CryptoWin,2024-03-27 22:51:45,6628,1586,The Sandbox,sand,positive
-388694,Investors are panicking over Bitcoin Cash. #bch might be crashing soon.,2024-06-19 18:26:20,9582,1743,Bitcoin Cash,bch,negative
-840465,Feeling great about Solana - it’s the best investment ever! #sol #CryptoJoy,2024-05-25 03:05:42,833,2,Solana,sol,positive
-687662,Market excitement is real—IOTA is proving its strength! #iota2 #CryptoRally,2025-01-11 22:45:04,6627,1790,IOTA,iota2,positive
-747561,Why is everyone still buying Aave? #aave seems overvalued IMO,2025-01-14 18:47:17,1515,273,Aave,aave,neutral
-235929,"Today, DAI is a disaster. #dai is tumbling with no end in sight.",2024-03-03 11:51:42,594,32,DAI,dai,negative
-604668,Feeling great about VeChain - it’s the best investment ever! #vet #CryptoJoy,2024-05-24 03:10:26,1614,236,VeChain,vet,positive
-924455,"USDC is making moves, but nothing groundbreaking. #usdc #CryptoWatch",2024-05-10 02:21:08,6972,897,USDC,usdc,neutral
-493257,Falling hard! UNUS SED LEO is in freefall. #leo shows warning signs everywhere!,2024-06-27 09:36:31,9034,1137,UNUS SED LEO,leo,negative
-314700,IOTA is on fire today! Everyone's talking about #iota! #CryptoWin,2024-12-17 23:39:18,315,75,IOTA,iota,positive
-482689,Riding the wave with UNUS SED LEO! #leo is making headlines! #CryptoBoom,2024-09-04 11:31:13,1007,9,UNUS SED LEO,leo,positive
-185659,Riding the wave with Avalanche! #avax is making headlines! #CryptoBoom,2024-03-18 15:12:22,5262,1128,Avalanche,avax,positive
-415928,Scared about my Echelon Prime investment... #prime keeps dropping 😬,2024-05-05 05:36:18,6017,17,Echelon Prime,prime,negative
-834077,Massive partnership announcement coming for #apt! Aptos is soaring! 🚀🌕,2025-02-20 04:33:02,9404,193,Aptos,apt,positive
-650550,Cardano is on fire today! Everyone's talking about #ada! #CryptoWin,2024-03-29 01:14:10,9843,1438,Cardano,ada,positive
-493873,Technical analysis shows #ton is about to break out! #CryptoTA,2024-10-05 19:27:34,9349,1877,TON,ton,positive
-164620,Can't believe the gains on BNB Chain today! #bnb is unstoppable!,2024-04-17 10:50:34,2267,609,BNB Chain,bnb,positive
-923642,Optimism is on fire today! Everyone's talking about #op! #CryptoWin,2024-05-02 21:55:59,1993,363,Optimism,op,positive
-952341,Market excitement is real—Avalanche is proving its strength! #avax #CryptoRally,2024-06-06 19:18:25,365,44,Avalanche,avax,positive
-997646,My portfolio just got a major boost with Dash! #dash for the win!,2024-04-27 05:09:16,6913,1706,Dash,dash,positive
-109867,Scared about my Litecoin investment... #ltc keeps dropping 😬,2024-03-13 00:16:37,9026,1413,Litecoin,ltc,negative
-702907,Today is a great day for Ondo! Bullish vibes all around! #ondo #CryptoHappy,2024-07-21 03:55:05,1794,460,Ondo,ondo,positive
-368851,"Celo is making moves, but nothing groundbreaking. #celo #CryptoWatch",2024-03-28 17:18:52,3615,174,Celo,celo,neutral
-598608,Investors are panicking over Shiba Inu. #shib might be crashing soon.,2024-10-24 01:15:56,8561,2284,Shiba Inu,shib,negative
-511420,Disappointing day for Aave. #aave is a no-go right now.,2025-02-21 00:01:59,2127,569,Aave,aave,negative
-346556,Falling hard! Axie Infinity is in freefall. #axs shows warning signs everywhere!,2024-05-10 04:33:44,7900,1459,Axie Infinity,axs,negative
-571042,Today is a great day for Sui! Bullish vibes all around! #sui #CryptoHappy,2025-01-21 13:15:26,1269,226,Sui,sui,positive
-288607,Falling hard! Optimism is in freefall. #op shows warning signs everywhere!,2024-05-05 22:34:57,2434,232,Optimism,op,negative
-339223,Disappointing day for Uniswap. #uni is a no-go right now.,2025-01-04 22:09:35,9702,2407,Uniswap,uni,negative
-481213,Market excitement is real—Injective is proving its strength! #inj #CryptoRally,2024-07-20 09:40:36,1523,292,Injective,inj,positive
-710535,Just invested in #ape! ApeCoin to the moon! 🚀 #Crypto #Bullish,2024-05-31 14:36:50,807,123,ApeCoin,ape,positive
-479155,Regulatory concerns and poor performance for Chiliz. #chz might be doomed.,2024-05-02 09:01:58,720,14,Chiliz,chz,negative
-640913,Not impressed with Polkadot today. #dot is letting everyone down. #CryptoFail,2024-03-11 18:38:42,5911,854,Polkadot,dot,negative
-924919,Market's quiet on Near Protocol for now. #near is stable.,2025-02-06 11:59:22,3165,190,Near Protocol,near,neutral
-465787,Investors are panicking over Echelon Prime. #prime might be crashing soon.,2024-06-13 23:34:23,8731,114,Echelon Prime,prime,negative
-522257,"Today, USDC is a disaster. #usdc is tumbling with no end in sight.",2025-01-05 20:19:57,4812,1401,USDC,usdc,negative
-232126,Disappointing day for TON. #ton is a no-go right now.,2025-02-10 23:08:06,5683,105,TON,ton,negative
-238220,Keeping an eye on IOTA trends. #iota is showing mixed signals.,2024-04-14 21:36:13,5917,926,IOTA,iota,neutral
-836601,"Today, Arbitrum is a disaster. #arb is tumbling with no end in sight.",2024-11-12 15:53:59,9883,2153,Arbitrum,arb,negative
-222193,Technical analysis shows #bsv is about to break out! #CryptoTA,2024-09-19 01:52:13,8858,580,Bitcoin SV,bsv,positive
-369727,Just a normal day in the world of Sui. #sui holding steady.,2024-06-03 02:46:15,9833,2619,Sui,sui,neutral
-500839,USDC is absolutely crashing right now... 😱 #usdc #CryptoCrash,2024-12-01 15:18:09,8546,830,USDC,usdc,negative
-774304,Technical analysis shows #dai is about to break out! #CryptoTA,2024-05-15 00:05:56,7008,1895,DAI,dai,positive
-115484,Market excitement is real—Chiliz is proving its strength! #chz #CryptoRally,2025-01-07 04:08:48,7089,870,Chiliz,chz,positive
-415723,New Bitcoin Cash wallet update looks promising. #bch #CryptoUpdate,2024-09-28 19:33:36,1471,331,Bitcoin Cash,bch,neutral
-824457,Observing XRPL as usual. Nothing too crazy with #xrp today.,2024-05-20 17:02:19,1079,297,XRPL,xrp,neutral
-463572,Echelon Prime is making headlines for all the wrong reasons. #prime #CryptoDownturn,2025-02-03 09:03:32,5217,1120,Echelon Prime,prime,negative
-426325,Market's quiet on VeChain for now. #vet is stable.,2025-01-10 20:29:29,2018,260,VeChain,vet,neutral
-586493,Scared about my Filecoin investment... #fil keeps dropping 😬,2024-12-16 15:45:13,7726,1746,Filecoin,fil,negative
-399799,"Everywhere you look, ApeCoin seems to be failing. #ape is not looking good.",2024-11-27 12:12:15,6353,172,ApeCoin,ape,negative
-849619,Regulatory concerns and poor performance for Echelon Prime. #prime might be doomed.,2024-09-01 13:09:24,9867,1210,Echelon Prime,prime,negative
-164016,Interesting developments in the BNB Chain ecosystem. #bnb #CryptoNews,2024-03-03 23:13:38,7341,524,BNB Chain,bnb,neutral
-146919,Not impressed with Aptos today. #apt is letting everyone down. #CryptoFail,2024-07-14 07:26:29,3634,921,Aptos,apt,negative
-202502,Technical analysis shows #avax is about to break out! #CryptoTA,2024-05-03 23:16:20,2215,158,Avalanche,avax,positive
-845582,Scared about my Celo investment... #celo keeps dropping 😬,2024-08-13 22:40:09,2375,87,Celo,celo,negative
-911492,Not impressed with Polkadot today. #dot is letting everyone down. #CryptoFail,2024-05-15 13:34:18,5284,1202,Polkadot,dot,negative
-605637,Why is everyone still buying Siacoin? #sc seems overvalued IMO,2024-09-02 16:09:47,918,133,Siacoin,sc,neutral
-506011,Can't believe the gains on Bitcoin today! #btc is unstoppable!,2024-06-25 16:33:03,1147,106,Bitcoin,btc,positive
-453248,Can't believe the gains on Casper today! #cspr is unstoppable!,2025-02-04 18:55:05,859,6,Casper,cspr,positive
-151576,New TRON wallet update looks promising. #trx #CryptoUpdate,2024-04-23 02:31:02,6399,872,TRON,trx,neutral
-298802,Not impressed with Litecoin today. #ltc is letting everyone down. #CryptoFail,2024-03-27 22:55:00,5349,263,Litecoin,ltc,negative
-224260,My portfolio just got a major boost with The Graph! #grt for the win!,2024-11-15 21:50:24,8940,751,The Graph,grt,positive
-848762,Ondo is on fire today! Everyone's talking about #ondo! #CryptoWin,2024-06-16 15:00:49,6568,1519,Ondo,ondo,positive
-721050,"Today, The Sandbox is a disaster. #sand is tumbling with no end in sight.",2024-07-23 17:57:11,2140,301,The Sandbox,sand,negative
-521745,Not impressed with Aptos today. #apt is letting everyone down. #CryptoFail,2024-12-09 15:21:26,9819,1243,Aptos,apt,negative
-662566,Can't believe the gains on IOTA today! #iota is unstoppable!,2024-03-24 17:34:46,8654,2510,IOTA,iota,positive
-795031,New Aave wallet update looks promising. #aave #CryptoUpdate,2024-04-04 10:57:40,1230,300,Aave,aave,neutral
-390243,"Quant is making moves, but nothing groundbreaking. #qnt #CryptoWatch",2024-07-25 06:26:34,1140,280,Quant,qnt,neutral
-287858,Not impressed with BNB Chain today. #bnb is letting everyone down. #CryptoFail,2024-03-15 16:52:01,6377,288,BNB Chain,bnb,negative
-899333,Regulatory concerns and poor performance for Near Protocol. #near might be doomed.,2024-04-12 10:31:05,201,3,Near Protocol,near,negative
-626937,Keeping an eye on Wrapped Bitcoin trends. #wbtc is showing mixed signals.,2025-02-22 22:08:45,1109,202,Wrapped Bitcoin,wbtc,neutral
-429287,Disappointing day for Chainlink. #link is a no-go right now.,2024-04-04 09:27:36,8355,1805,Chainlink,link,negative
-402288,Just invested in #near! Near Protocol to the moon! 🚀 #Crypto #Bullish,2024-07-21 13:40:07,9685,138,Near Protocol,near,positive
-726488,Market's quiet on Optimism for now. #op is stable.,2024-06-22 19:19:20,5121,366,Optimism,op,neutral
-418234,Today is a great day for Arbitrum! Bullish vibes all around! #arb #CryptoHappy,2024-08-03 23:19:05,4313,855,Arbitrum,arb,positive
-413224,Just invested in #usdc! USDC to the moon! 🚀 #Crypto #Bullish,2024-11-03 04:39:08,7297,675,USDC,usdc,positive
-288470,Investors are panicking over TRON. #trx might be crashing soon.,2024-09-29 00:28:09,9211,2381,TRON,trx,negative
-889829,Just invested in #atom! Cosmos to the moon! 🚀 #Crypto #Bullish,2024-10-05 03:31:49,8244,2331,Cosmos,atom,positive
-755761,Can't believe the gains on Solana today! #sol is unstoppable!,2024-09-03 11:46:25,2244,242,Solana,sol,positive
-510606,Disappointing day for Celo. #celo is a no-go right now.,2024-03-20 20:22:11,6505,1898,Celo,celo,negative
-862802,Why is everyone still buying Dogecoin? #doge seems overvalued IMO,2024-09-10 21:26:01,8465,1075,Dogecoin,doge,neutral
-407275,Just invested in #sc! Siacoin to the moon! 🚀 #Crypto #Bullish,2025-02-28 11:15:28,639,180,Siacoin,sc,positive
-378195,"Axie Infinity is making moves, but nothing groundbreaking. #axs #CryptoWatch",2024-05-16 04:44:05,8019,1611,Axie Infinity,axs,neutral
-972711,"Today, VeChain is a disaster. #vet is tumbling with no end in sight.",2024-04-03 13:22:40,4990,1101,VeChain,vet,negative
-506732,Just a normal day in the world of Cardano. #ada holding steady.,2025-01-04 07:56:20,68,1,Cardano,ada,neutral
-361309,Feeling great about Bitcoin - it’s the best investment ever! #btc #CryptoJoy,2024-04-28 16:03:01,6725,1809,Bitcoin,btc,positive
-140876,ApeCoin is on fire today! Everyone's talking about #ape! #CryptoWin,2024-03-16 16:01:02,380,8,ApeCoin,ape,positive
-339046,Just invested in #link! Chainlink to the moon! 🚀 #Crypto #Bullish,2024-10-17 02:35:55,959,36,Chainlink,link,positive
-429938,Investors are panicking over IOTA. #iota might be crashing soon.,2024-05-11 09:18:30,6260,286,IOTA,iota,negative
-619631,Regulatory concerns and poor performance for Curve DAO. #crv might be doomed.,2024-05-25 07:55:50,6009,388,Curve DAO,crv,negative
-558346,"Today, Chiliz is a disaster. #chz is tumbling with no end in sight.",2025-01-02 16:04:55,7205,116,Chiliz,chz,negative
-802261,"Everywhere you look, Litecoin seems to be failing. #ltc is not looking good.",2024-10-09 11:02:22,5437,756,Litecoin,ltc,negative
-840130,"Today, IOTA is a disaster. #iota is tumbling with no end in sight.",2024-11-06 12:08:03,7751,1640,IOTA,iota,negative
-857625,Can't believe the gains on Optimism today! #op is unstoppable!,2024-06-30 06:02:25,348,90,Optimism,op,positive
-116733,Investors are panicking over Bitcoin. #btc might be crashing soon.,2024-10-28 02:22:07,1947,413,Bitcoin,btc,negative
-521841,Feeling great about Polygon - it’s the best investment ever! #pol #CryptoJoy,2024-07-16 21:00:45,600,151,Polygon,pol,positive
-838510,My portfolio just got a major boost with Near Protocol! #near for the win!,2025-01-07 02:57:30,6414,310,Near Protocol,near,positive
-128199,Just invested in #axs! Axie Infinity to the moon! 🚀 #Crypto #Bullish,2024-12-06 02:15:47,6634,908,Axie Infinity,axs,positive
-480802,Injective is making headlines for all the wrong reasons. #inj #CryptoDownturn,2024-04-04 00:45:58,4762,111,Injective,inj,negative
-211476,Massive partnership announcement coming for #dai! DAI is soaring! 🚀🌕,2024-08-03 07:17:56,4295,636,DAI,dai,positive
-623280,Bitcoin SV is on fire today! Everyone's talking about #bsv! #CryptoWin,2024-03-06 11:33:06,6004,488,Bitcoin SV,bsv,positive
-978518,Today is a great day for Polygon! Bullish vibes all around! #pol #CryptoHappy,2024-08-24 07:48:13,5880,99,Polygon,pol,positive
-531876,Market excitement is real—Stellar is proving its strength! #xlm #CryptoRally,2024-08-27 10:10:37,1335,183,Stellar,xlm,positive
-138244,My portfolio just got a major boost with Arbitrum! #arb for the win!,2024-12-10 07:01:52,9028,499,Arbitrum,arb,positive
-676625,Technical analysis shows #sol is about to break out! #CryptoTA,2024-03-16 05:20:32,7039,1826,Solana,sol,positive
-473763,Casper is absolutely crashing right now... 😱 #cspr #CryptoCrash,2024-08-14 13:21:26,6966,1090,Casper,cspr,negative
-141516,Interesting developments in the Aave ecosystem. #aave #CryptoNews,2024-07-10 04:31:54,526,28,Aave,aave,neutral
-679905,My portfolio just got a major boost with Avalanche! #avax for the win!,2024-11-15 04:21:19,4639,895,Avalanche,avax,positive
-139863,"XRPL is making moves, but nothing groundbreaking. #xrp #CryptoWatch",2025-02-15 10:03:00,6582,214,XRPL,xrp,neutral
-154992,My portfolio just got a major boost with Quant! #qnt for the win!,2024-10-24 00:37:45,3133,366,Quant,qnt,positive
-193502,UNUS SED LEO is absolutely crashing right now... 😱 #leo #CryptoCrash,2024-07-25 09:38:27,3475,467,UNUS SED LEO,leo,negative
-460018,Interesting developments in the Casper ecosystem. #cspr #CryptoNews,2024-12-28 13:08:10,7237,747,Casper,cspr,neutral
-234713,Keeping an eye on Echelon Prime trends. #prime is showing mixed signals.,2024-05-05 11:28:59,1815,280,Echelon Prime,prime,neutral
-667784,Investors are panicking over Litecoin. #ltc might be crashing soon.,2024-04-11 16:00:16,7360,1977,Litecoin,ltc,negative
-340825,"IOTA is making moves, but nothing groundbreaking. #iota2 #CryptoWatch",2024-10-06 06:16:31,160,25,IOTA,iota2,neutral
-230814,Regulatory concerns and poor performance for Quant. #qnt might be doomed.,2024-07-12 08:15:59,3238,941,Quant,qnt,negative
-156298,Scared about my Siacoin investment... #sc keeps dropping 😬,2024-11-24 10:40:17,3132,333,Siacoin,sc,negative
-953707,Can't believe the gains on Injective today! #inj is unstoppable!,2024-09-25 23:22:13,6539,1864,Injective,inj,positive
-222995,Today is a great day for Tezos! Bullish vibes all around! #xtz #CryptoHappy,2025-01-16 07:35:54,954,81,Tezos,xtz,positive
-107481,Not impressed with Shiba Inu today. #shib is letting everyone down. #CryptoFail,2024-04-09 17:11:28,7464,2215,Shiba Inu,shib,negative
-123905,Riding the wave with Quant! #qnt is making headlines! #CryptoBoom,2024-04-21 20:58:10,8481,2331,Quant,qnt,positive
-385168,Regulatory concerns and poor performance for Litecoin. #ltc might be doomed.,2025-02-24 13:46:33,8854,2034,Litecoin,ltc,negative
-732530,Massive partnership announcement coming for #mana! Decentraland is soaring! 🚀🌕,2025-02-10 22:26:07,983,103,Decentraland,mana,positive
-170876,Feeling great about Echelon Prime - it’s the best investment ever! #prime #CryptoJoy,2024-10-14 21:24:43,5246,826,Echelon Prime,prime,positive
-729839,Can't believe the gains on VeChain today! #vet is unstoppable!,2024-03-18 13:12:46,2925,334,VeChain,vet,positive
-332825,IOTA is absolutely crashing right now... 😱 #iota2 #CryptoCrash,2024-09-09 11:47:27,7121,473,IOTA,iota2,negative
-771606,Regulatory concerns and poor performance for Polkadot. #dot might be doomed.,2024-05-15 00:52:56,4429,1311,Polkadot,dot,negative
-931978,Just a normal day in the world of Aptos. #apt holding steady.,2024-06-30 18:40:34,7283,2018,Aptos,apt,neutral
-136431,Not impressed with Uniswap today. #uni is letting everyone down. #CryptoFail,2024-12-15 09:54:56,5606,1240,Uniswap,uni,negative
-495900,My portfolio just got a major boost with USDC! #usdc for the win!,2024-08-16 08:17:19,4596,1206,USDC,usdc,positive
-911822,My portfolio just got a major boost with Wrapped Bitcoin! #wbtc for the win!,2024-04-05 00:18:28,6651,967,Wrapped Bitcoin,wbtc,positive
-321859,Investors are panicking over ZkSync. #zk might be crashing soon.,2024-06-19 23:02:32,278,80,ZkSync,zk,negative
-731993,Optimism is on fire today! Everyone's talking about #op! #CryptoWin,2024-08-15 21:57:43,1568,230,Optimism,op,positive
-855578,Uniswap is on fire today! Everyone's talking about #uni! #CryptoWin,2024-07-04 02:20:35,4322,545,Uniswap,uni,positive
-863246,Chiliz is absolutely crashing right now... 😱 #chz #CryptoCrash,2024-04-21 11:39:40,3412,814,Chiliz,chz,negative
-803728,Stellar is making headlines for all the wrong reasons. #xlm #CryptoDownturn,2025-01-15 03:30:02,2339,226,Stellar,xlm,negative
-639339,Investors are panicking over DAI. #dai might be crashing soon.,2024-10-08 15:40:39,2605,676,DAI,dai,negative
-423797,Regulatory concerns and poor performance for Litecoin. #ltc might be doomed.,2024-08-24 05:45:57,7499,462,Litecoin,ltc,negative
-414080,Interesting developments in the XRPL ecosystem. #xrp #CryptoNews,2024-04-12 21:03:22,8741,520,XRPL,xrp,neutral
-181191,Riding the wave with Cardano! #ada is making headlines! #CryptoBoom,2025-01-07 15:42:41,2040,88,Cardano,ada,positive
-638066,Just invested in #bnb! BNB Chain to the moon! 🚀 #Crypto #Bullish,2024-04-14 01:07:02,3451,900,BNB Chain,bnb,positive
-195133,Why is everyone still buying The Graph? #grt seems overvalued IMO,2024-11-19 18:58:09,3041,341,The Graph,grt,neutral
-744236,"Everywhere you look, Binance USD seems to be failing. #busd is not looking good.",2024-05-11 07:40:22,6122,435,Binance USD,busd,negative
-303784,The Sandbox is on fire today! Everyone's talking about #sand! #CryptoWin,2024-11-22 10:31:55,172,7,The Sandbox,sand,positive
-960491,"Today, Uniswap is a disaster. #uni is tumbling with no end in sight.",2024-08-12 14:56:29,5229,20,Uniswap,uni,negative
-170844,Bitcoin Cash is absolutely crashing right now... 😱 #bch #CryptoCrash,2024-11-13 05:40:01,9899,790,Bitcoin Cash,bch,negative
-584519,Falling hard! Bitcoin Cash is in freefall. #bch shows warning signs everywhere!,2025-01-31 02:56:12,1902,112,Bitcoin Cash,bch,negative
-989264,Interesting developments in the VeChain ecosystem. #vet #CryptoNews,2024-10-11 08:42:43,3604,821,VeChain,vet,neutral
-935687,Feeling great about Solana - it’s the best investment ever! #sol #CryptoJoy,2024-11-05 01:29:37,4825,579,Solana,sol,positive
-875502,Observing Dash as usual. Nothing too crazy with #dash today.,2024-10-05 16:06:58,7213,1824,Dash,dash,neutral
-108645,New ZkSync wallet update looks promising. #zk #CryptoUpdate,2024-07-30 13:19:08,6776,1107,ZkSync,zk,neutral
-350182,"Today, Injective is a disaster. #inj is tumbling with no end in sight.",2024-08-10 07:31:36,4381,469,Injective,inj,negative
-310372,Just a normal day in the world of DAI. #dai holding steady.,2024-12-03 21:53:34,2011,260,DAI,dai,neutral
-411509,Today is a great day for Axie Infinity! Bullish vibes all around! #axs #CryptoHappy,2024-06-06 01:07:26,446,1,Axie Infinity,axs,positive
-484508,Observing The Graph as usual. Nothing too crazy with #grt today.,2024-06-16 10:45:12,9104,2708,The Graph,grt,neutral
-791335,VeChain is making headlines for all the wrong reasons. #vet #CryptoDownturn,2024-12-05 08:51:40,8176,1510,VeChain,vet,negative
-771364,Regulatory concerns and poor performance for The Graph. #grt might be doomed.,2024-04-29 20:39:51,8716,2124,The Graph,grt,negative
-379828,Regulatory concerns and poor performance for UNUS SED LEO. #leo might be doomed.,2024-04-09 16:18:53,1215,171,UNUS SED LEO,leo,negative
-724621,Can't believe the gains on Solana today! #sol is unstoppable!,2024-11-23 19:52:29,7773,1121,Solana,sol,positive
-409486,My portfolio just got a major boost with Siacoin! #sc for the win!,2024-05-17 15:14:42,3886,41,Siacoin,sc,positive
-826406,Riding the wave with The Graph! #grt is making headlines! #CryptoBoom,2024-09-09 07:42:14,1056,101,The Graph,grt,positive
-611959,Injective is absolutely crashing right now... 😱 #inj #CryptoCrash,2024-11-09 03:40:49,9321,2667,Injective,inj,negative
-756613,Today is a great day for Arbitrum! Bullish vibes all around! #arb #CryptoHappy,2025-01-28 15:23:09,4625,418,Arbitrum,arb,positive
-210258,Regulatory concerns and poor performance for TRON. #trx might be doomed.,2024-10-07 06:34:04,6638,417,TRON,trx,negative
-673408,Just a normal day in the world of IOTA. #iota2 holding steady.,2025-02-25 10:16:30,7159,23,IOTA,iota2,neutral
-914596,Investors are panicking over TRON. #trx might be crashing soon.,2024-12-28 14:05:20,8606,1950,TRON,trx,negative
-674902,Regulatory concerns and poor performance for Algorand. #algo might be doomed.,2024-06-02 06:06:00,4136,1090,Algorand,algo,negative
-728570,My portfolio just got a major boost with Chainlink! #link for the win!,2024-11-08 22:04:34,5007,559,Chainlink,link,positive
-796167,Market excitement is real—Chiliz is proving its strength! #chz #CryptoRally,2024-04-29 02:37:46,845,187,Chiliz,chz,positive
-815333,Not impressed with ZkSync today. #zk is letting everyone down. #CryptoFail,2024-07-15 01:38:41,2342,468,ZkSync,zk,negative
-497583,Feeling great about Ondo - it’s the best investment ever! #ondo #CryptoJoy,2024-10-18 09:58:53,1291,177,Ondo,ondo,positive
-161968,Today is a great day for Solana! Bullish vibes all around! #sol #CryptoHappy,2024-12-18 18:04:57,2698,263,Solana,sol,positive
-729106,Feeling great about Casper - it’s the best investment ever! #cspr #CryptoJoy,2024-04-19 08:06:07,8341,1434,Casper,cspr,positive
-178114,DAI is on fire today! Everyone's talking about #dai! #CryptoWin,2024-07-25 22:01:18,1615,27,DAI,dai,positive
-403879,XRPL is on fire today! Everyone's talking about #xrp! #CryptoWin,2024-03-15 00:14:39,9204,1706,XRPL,xrp,positive
-139585,Not impressed with Casper today. #cspr is letting everyone down. #CryptoFail,2025-01-18 06:48:13,6420,732,Casper,cspr,negative
-775908,Scared about my Polkadot investment... #dot keeps dropping 😬,2024-06-11 05:00:47,1688,181,Polkadot,dot,negative
-880085,My portfolio just got a major boost with Solana! #sol for the win!,2024-07-09 21:20:29,4859,174,Solana,sol,positive
-961686,New USDC wallet update looks promising. #usdc #CryptoUpdate,2024-08-18 20:45:48,225,61,USDC,usdc,neutral
-153838,My portfolio just got a major boost with Bitcoin Cash! #bch for the win!,2024-12-22 06:31:08,4261,841,Bitcoin Cash,bch,positive
-957565,Keeping an eye on Ethereum trends. #eth is showing mixed signals.,2024-03-22 12:27:35,525,103,Ethereum,eth,neutral
-559673,Regulatory concerns and poor performance for Near Protocol. #near might be doomed.,2024-10-12 02:59:03,2816,806,Near Protocol,near,negative
-122238,Keeping an eye on TON trends. #ton is showing mixed signals.,2024-07-27 03:39:02,3406,466,TON,ton,neutral
-166499,Regulatory concerns and poor performance for Bitcoin. #btc might be doomed.,2025-01-05 12:36:32,1906,119,Bitcoin,btc,negative
-284010,"Today, ZkSync is a disaster. #zk is tumbling with no end in sight.",2024-03-07 13:10:03,2444,598,ZkSync,zk,negative
-433913,Market excitement is real—Aave is proving its strength! #aave #CryptoRally,2024-11-25 15:43:50,315,86,Aave,aave,positive
-436885,Sui is absolutely crashing right now... 😱 #sui #CryptoCrash,2024-09-26 18:24:09,9703,620,Sui,sui,negative
-535469,Scared about my Arbitrum investment... #arb keeps dropping 😬,2024-09-12 00:30:22,3260,105,Arbitrum,arb,negative
-467307,Observing Aave as usual. Nothing too crazy with #aave today.,2025-02-09 12:57:10,5053,568,Aave,aave,neutral
-292072,"Siacoin is making moves, but nothing groundbreaking. #sc #CryptoWatch",2024-05-10 14:29:05,6896,1670,Siacoin,sc,neutral
-417111,Scared about my Ethereum investment... #eth keeps dropping 😬,2024-06-20 18:19:09,4779,601,Ethereum,eth,negative
-748517,"Sui is making moves, but nothing groundbreaking. #sui #CryptoWatch",2024-06-02 14:18:03,7671,22,Sui,sui,neutral
-642373,Massive partnership announcement coming for #aave! Aave is soaring! 🚀🌕,2024-05-02 11:58:58,3577,403,Aave,aave,positive
-836363,Technical analysis shows #wbtc is about to break out! #CryptoTA,2024-03-28 16:00:26,1311,391,Wrapped Bitcoin,wbtc,positive
-240129,Scared about my Wrapped Bitcoin investment... #wbtc keeps dropping 😬,2024-05-14 10:27:29,7255,265,Wrapped Bitcoin,wbtc,negative
-557480,Can't believe the gains on Injective today! #inj is unstoppable!,2024-12-18 03:29:51,6394,158,Injective,inj,positive
-728174,Observing Chiliz as usual. Nothing too crazy with #chz today.,2024-07-06 10:20:24,6862,1844,Chiliz,chz,neutral
-454176,Market excitement is real—Filecoin is proving its strength! #fil #CryptoRally,2024-04-10 12:25:07,369,38,Filecoin,fil,positive
-749913,Today is a great day for The Sandbox! Bullish vibes all around! #sand #CryptoHappy,2025-01-17 14:13:35,3297,287,The Sandbox,sand,positive
-404839,Today is a great day for Dash! Bullish vibes all around! #dash #CryptoHappy,2025-02-09 05:39:29,935,52,Dash,dash,positive
-755324,Market excitement is real—Bitcoin is proving its strength! #btc #CryptoRally,2025-02-21 07:58:11,2870,304,Bitcoin,btc,positive
-976890,Falling hard! Sui is in freefall. #sui shows warning signs everywhere!,2024-05-14 12:27:03,3957,617,Sui,sui,negative
-456763,Just a normal day in the world of Binance USD. #busd holding steady.,2025-02-20 09:08:57,3498,336,Binance USD,busd,neutral
-536022,Today is a great day for Optimism! Bullish vibes all around! #op #CryptoHappy,2024-11-13 09:49:32,9179,2377,Optimism,op,positive
-418350,Bitcoin SV is absolutely crashing right now... 😱 #bsv #CryptoCrash,2024-09-07 08:54:42,7221,62,Bitcoin SV,bsv,negative
-514476,Can't believe the gains on Cardano today! #ada is unstoppable!,2024-04-15 10:14:15,723,39,Cardano,ada,positive
-956955,Today is a great day for Axie Infinity! Bullish vibes all around! #axs #CryptoHappy,2024-05-30 10:19:22,841,137,Axie Infinity,axs,positive
-798511,Bitcoin Cash is absolutely crashing right now... 😱 #bch #CryptoCrash,2024-10-27 06:21:34,1657,463,Bitcoin Cash,bch,negative
-788505,Investors are panicking over Injective. #inj might be crashing soon.,2024-10-08 02:49:41,7556,1976,Injective,inj,negative
-799511,XRPL is on fire today! Everyone's talking about #xrp! #CryptoWin,2024-12-07 00:25:14,9897,2488,XRPL,xrp,positive
-729345,Near Protocol is on fire today! Everyone's talking about #near! #CryptoWin,2024-03-20 04:17:58,8322,271,Near Protocol,near,positive
-336978,Technical analysis shows #crv is about to break out! #CryptoTA,2024-08-25 17:25:34,3657,359,Curve DAO,crv,positive
-808798,The Graph is absolutely crashing right now... 😱 #grt #CryptoCrash,2024-04-22 16:26:54,3798,740,The Graph,grt,negative
-717446,My portfolio just got a major boost with The Sandbox! #sand for the win!,2025-01-01 08:24:38,1287,318,The Sandbox,sand,positive
-188360,Riding the wave with Quant! #qnt is making headlines! #CryptoBoom,2024-03-29 19:41:05,8439,1943,Quant,qnt,positive
-892380,Not impressed with Dogecoin today. #doge is letting everyone down. #CryptoFail,2024-04-01 22:50:37,742,180,Dogecoin,doge,negative
-829050,Today is a great day for Axie Infinity! Bullish vibes all around! #axs #CryptoHappy,2024-11-06 13:04:21,6219,3,Axie Infinity,axs,positive
-549420,Today is a great day for Sui! Bullish vibes all around! #sui #CryptoHappy,2024-11-17 21:10:42,3764,838,Sui,sui,positive
-971771,Technical analysis shows #sol is about to break out! #CryptoTA,2024-07-14 09:48:31,6495,1781,Solana,sol,positive
-145171,"Everywhere you look, Quant seems to be failing. #qnt is not looking good.",2024-09-04 15:06:59,7131,939,Quant,qnt,negative
-104188,BNB Chain is on fire today! Everyone's talking about #bnb! #CryptoWin,2024-05-02 08:51:48,793,216,BNB Chain,bnb,positive
-550174,Disappointing day for Bitcoin SV. #bsv is a no-go right now.,2024-10-26 18:30:28,5509,396,Bitcoin SV,bsv,negative
-105704,Massive partnership announcement coming for #cspr! Casper is soaring! 🚀🌕,2024-07-19 21:29:16,2034,146,Casper,cspr,positive
-464630,Scared about my Wrapped Bitcoin investment... #wbtc keeps dropping 😬,2024-05-24 06:19:45,9638,30,Wrapped Bitcoin,wbtc,negative
-488370,Falling hard! Near Protocol is in freefall. #near shows warning signs everywhere!,2024-04-15 16:41:47,3676,423,Near Protocol,near,negative
-435622,"Everywhere you look, Optimism seems to be failing. #op is not looking good.",2024-12-04 23:28:30,6398,1642,Optimism,op,negative
-358427,Massive partnership announcement coming for #ada! Cardano is soaring! 🚀🌕,2024-05-09 12:28:14,9053,567,Cardano,ada,positive
-600273,Market excitement is real—VeChain is proving its strength! #vet #CryptoRally,2024-03-16 05:49:57,222,64,VeChain,vet,positive
+344222,Institutional money flowing into Ondo. #ondo demand surging 💰,2024-07-19 16:57:02,8718,723,Ondo,ondo,positive
+943173,Echelon Prime mainnet upgrade scheduled for Q3. #prime holders awaiting details 🗓️,2025-01-06 12:36:40,4256,254,Echelon Prime,prime,neutral
+515654,Major exchange listing incoming for #doge! Dogecoin to moon 🌕,2025-01-01 22:04:49,3293,810,Dogecoin,doge,positive
+766839,Bearish divergence spotted on #near charts. Near Protocol correction likely 📉,2024-08-14 23:39:22,8218,1464,Near Protocol,near,negative
+953972,Network upgrade complete! IOTA #iota ready for next leg up ⬆️,2024-06-24 16:08:50,6264,1567,IOTA,iota,positive
+374647,Developer exodus from Arbitrum project. #arb future uncertain ⁉️,2025-02-01 22:21:12,4712,1413,Arbitrum,arb,negative
+822630,Bearish divergence spotted on #cspr charts. Casper correction likely 📉,2024-07-07 12:32:47,3246,307,Casper,cspr,negative
+226685,Security breach reported on Cardano bridge. #ada prices reacting negatively 🔓,2024-04-16 13:20:38,7879,1264,Cardano,ada,negative
+784486,Network congestion plagues Solana. #sol transactions delayed 🐢,2024-09-13 13:42:40,3148,500,Solana,sol,negative
+877522,Developer exodus from Optimism project. #op future uncertain ⁉️,2025-02-12 16:02:07,660,177,Optimism,op,negative
+927735,Analysts warn XRPL might be overleveraged. #xrp investors proceed with caution ⚠️,2025-02-19 02:15:03,4697,370,XRPL,xrp,positive
+660398,Mixed signals for #chz as Chiliz faces competing market pressures 🤷,2024-03-02 00:17:28,2509,385,Chiliz,chz,neutral
+345939,Mixed signals for #inj as Injective faces competing market pressures 🤷,2024-05-31 07:16:11,900,187,Injective,inj,neutral
+855884,Security breach reported on Axie Infinity bridge. #axs prices reacting negatively 🔓,2024-08-11 13:00:04,7920,1702,Axie Infinity,axs,negative
+341029,"Traders eyeing #ton for high-risk, high-reward plays. TON could moon or crash 🌕💥",2025-01-21 07:50:18,2911,800,TON,ton,positive
+994766,Market makers manipulating #celo prices? Celo volatility sparks concerns 📊,2025-01-12 09:06:56,1068,38,Celo,celo,positive
+744527,Institutional money flowing into Bitcoin. #btc demand surging 💰,2024-06-18 01:33:17,6579,381,Bitcoin,btc,positive
+843723,Investigators found #leo transactions linked to dark web activities. UNUS SED LEO under scrutiny 🕵️♂️,2024-03-11 19:03:02,9228,189,UNUS SED LEO,leo,negative
+913300,Regulators targeting #sui for compliance violations. Sui facing legal challenges ⚖️,2024-07-13 20:15:27,7461,430,Sui,sui,negative
+194910,Unofficial reports suggest Dash whale activity. #dash could see massive moves 🐋,2024-10-21 23:34:59,6231,1493,Dash,dash,positive
+100014,Network congestion plagues IOTA. #iota transactions delayed 🐢,2025-02-10 07:23:03,8035,152,IOTA,iota,negative
+880135,Network congestion plagues Litecoin. #ltc transactions delayed 🐢,2024-04-02 03:22:59,4616,342,Litecoin,ltc,negative
+572826,Security breach reported on Algorand bridge. #algo prices reacting negatively 🔓,2024-07-24 13:27:16,3129,763,Algorand,algo,negative
+520184,Major exchange listing incoming for #pol! Polygon to moon 🌕,2024-10-04 10:17:26,1829,45,Polygon,pol,positive
+538257,Institutional money flowing into Litecoin. #ltc demand surging 💰,2025-02-08 08:17:17,7907,515,Litecoin,ltc,positive
+270864,Developer exodus from Filecoin project. #fil future uncertain ⁉️,2024-10-08 21:54:04,4459,1237,Filecoin,fil,negative
+393040,Developer exodus from Ondo project. #ondo future uncertain ⁉️,2025-01-17 16:10:57,1158,82,Ondo,ondo,negative
+947555,Mixed signals for #link as Chainlink faces competing market pressures 🤷,2024-05-09 21:13:51,984,93,Chainlink,link,neutral
+866292,Bearish divergence spotted on #dot charts. Polkadot correction likely 📉,2024-09-23 07:01:44,658,81,Polkadot,dot,negative
+898840,Network upgrade complete! Arbitrum #arb ready for next leg up ⬆️,2024-05-28 16:52:58,9168,1663,Arbitrum,arb,positive
+252841,Liquidation cascade hits XRPL traders. #xrp volatility continues 💥,2025-02-18 13:04:43,6817,892,XRPL,xrp,negative
+724795,Investigators found #xrp transactions linked to dark web activities. XRPL under scrutiny 🕵️♂️,2024-04-30 16:18:05,9316,1071,XRPL,xrp,negative
+791097,Network congestion plagues XRPL. #xrp transactions delayed 🐢,2024-10-24 05:17:20,7066,2062,XRPL,xrp,negative
+293101,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-09-20 19:06:41,1062,13,UNUS SED LEO,leo,positive
+362650,Bullish on #celo! Celo ecosystem expanding rapidly 🚀,2024-06-06 09:28:58,2965,127,Celo,celo,positive
+423362,Developer exodus from Chainlink project. #link future uncertain ⁉️,2024-03-28 18:05:57,4903,75,Chainlink,link,negative
+371729,Bullish on #prime! Echelon Prime ecosystem expanding rapidly 🚀,2024-03-26 08:53:30,9157,1279,Echelon Prime,prime,positive
+381920,Massive volatility alert! #algo swings 30% in 24 hours. High-risk opportunity! 🎢,2025-01-18 13:19:15,2785,426,Algorand,algo,positive
+546337,Liquidation cascade hits Basic Attention traders. #bat volatility continues 💥,2024-12-01 19:20:19,8129,1176,Basic Attention,bat,negative
+910386,Security breach reported on Cardano bridge. #ada prices reacting negatively 🔓,2024-05-01 15:37:43,7842,1318,Cardano,ada,negative
+600040,Bearish divergence spotted on #prime charts. Echelon Prime correction likely 📉,2024-12-25 16:40:17,4126,286,Echelon Prime,prime,negative
+204476,Bullish on #aave! Aave ecosystem expanding rapidly 🚀,2024-03-19 09:15:38,7689,1148,Aave,aave,positive
+172290,Mixed signals for #link as Chainlink faces competing market pressures 🤷,2025-01-26 01:20:40,9397,1318,Chainlink,link,neutral
+489473,Bearish divergence spotted on #trx charts. TRON correction likely 📉,2024-08-07 06:29:06,4933,1191,TRON,trx,negative
+336805,Whistleblower alleges #pol team misused investor funds. Ethics probe underway 🔍,2024-12-30 09:14:42,9779,2805,Polygon,pol,negative
+776325,Unofficial reports suggest Casper whale activity. #cspr could see massive moves 🐋,2025-01-09 09:38:37,1792,335,Casper,cspr,positive
+551502,Industry conference features Litecoin founder. #ltc community tuned in 🎤,2024-07-01 10:57:43,5392,509,Litecoin,ltc,neutral
+655252,Security breach reported on Dogecoin bridge. #doge prices reacting negatively 🔓,2024-04-19 00:37:44,2885,806,Dogecoin,doge,negative
+229634,Technical breakout detected for BNB Chain. #bnb poised for gains 📈,2024-03-02 03:37:49,9656,694,BNB Chain,bnb,positive
+968825,UNUS SED LEO linked to unregulated gambling platforms in new report. #leo reputation at risk 📉,2024-05-10 09:31:22,9491,2748,UNUS SED LEO,leo,negative
+349584,Bearish divergence spotted on #wbtc charts. Wrapped Bitcoin correction likely 📉,2024-09-22 19:38:59,1374,154,Wrapped Bitcoin,wbtc,negative
+449875,Institutional money flowing into TRON. #trx demand surging 💰,2024-11-09 01:37:06,3295,542,TRON,trx,positive
+390864,Security breach reported on ApeCoin bridge. #ape prices reacting negatively 🔓,2025-01-06 01:40:20,9748,1627,ApeCoin,ape,negative
+514502,The Sandbox linked to unregulated gambling platforms in new report. #sand reputation at risk 📉,2024-07-31 08:05:10,3252,458,The Sandbox,sand,negative
+381783,Network congestion plagues Echelon Prime. #prime transactions delayed 🐢,2024-08-05 00:29:06,7201,1341,Echelon Prime,prime,negative
+292638,Developer exodus from The Sandbox project. #sand future uncertain ⁉️,2025-02-01 09:52:34,2362,252,The Sandbox,sand,negative
+693846,Privacy advocates criticize #iota for lack of transparency. IOTA ethics questioned 🛑,2024-09-12 03:44:23,8679,2298,IOTA,iota,negative
+930758,Injective mainnet upgrade scheduled for Q3. #inj holders awaiting details 🗓️,2024-12-08 00:33:45,848,227,Injective,inj,neutral
+211630,Security breach reported on Avalanche bridge. #avax prices reacting negatively 🔓,2025-02-03 21:24:52,1499,359,Avalanche,avax,negative
+171975,New wallet release for Echelon Prime. #prime ecosystem continues evolving 💼,2024-03-15 16:16:17,5231,1095,Echelon Prime,prime,neutral
+896748,Major exchange listing incoming for #bnb! BNB Chain to moon 🌕,2025-01-08 03:44:31,7348,493,BNB Chain,bnb,positive
+795888,Speculative frenzy drives #near to new highs. Risk-tolerant investors jumping in 🚀,2024-08-06 23:24:19,5468,271,Near Protocol,near,positive
+136112,The Sandbox mainnet upgrade scheduled for Q3. #sand holders awaiting details 🗓️,2024-08-07 13:44:31,5118,56,The Sandbox,sand,neutral
+790331,Unofficial reports suggest Avalanche whale activity. #avax could see massive moves 🐋,2025-02-08 15:24:56,6114,609,Avalanche,avax,positive
+331336,Network upgrade complete! Basic Attention #bat ready for next leg up ⬆️,2024-08-13 06:52:38,1001,182,Basic Attention,bat,positive
+355087,Technical breakout detected for Bitcoin SV. #bsv poised for gains 📈,2024-04-11 00:00:56,3627,757,Bitcoin SV,bsv,positive
+569924,Network upgrade complete! VeChain #vet ready for next leg up ⬆️,2024-04-01 19:35:19,7327,1081,VeChain,vet,positive
+155344,Security breach reported on Optimism bridge. #op prices reacting negatively 🔓,2024-05-20 01:25:06,2148,166,Optimism,op,negative
+677639,Network upgrade complete! Binance USD #busd ready for next leg up ⬆️,2024-06-22 13:41:50,5287,536,Binance USD,busd,positive
+791417,Bullish on #op! Optimism ecosystem expanding rapidly 🚀,2024-10-29 14:48:01,6636,68,Optimism,op,positive
+265514,Institutional money flowing into Aptos. #apt demand surging 💰,2024-12-20 03:28:10,9512,1727,Aptos,apt,positive
+287736,Institutional money flowing into Axie Infinity. #axs demand surging 💰,2025-01-11 20:56:54,3125,160,Axie Infinity,axs,positive
+970193,Market makers manipulating #chz prices? Chiliz volatility sparks concerns 📊,2025-01-27 02:57:14,8481,2363,Chiliz,chz,positive
+826120,Environmental impact concerns raised about USDC mining operations. #usdc,2024-03-18 12:09:19,2232,610,USDC,usdc,negative
+130623,Developer exodus from Sui project. #sui future uncertain ⁉️,2024-10-02 09:55:50,6408,752,Sui,sui,negative
+846845,Security breach reported on Cardano bridge. #ada prices reacting negatively 🔓,2024-06-28 19:17:37,765,184,Cardano,ada,negative
+856425,Bullish on #sui! Sui ecosystem expanding rapidly 🚀,2024-05-29 14:18:13,4491,526,Sui,sui,positive
+618383,Community backlash over TRON's questionable partnership decisions. #trx 🤨,2024-07-20 23:09:09,7830,2168,TRON,trx,negative
+875846,Bullish on #sc! Siacoin ecosystem expanding rapidly 🚀,2024-09-30 04:53:38,1726,105,Siacoin,sc,positive
+833266,Bearish divergence spotted on #arb charts. Arbitrum correction likely 📉,2024-10-14 00:23:50,2976,38,Arbitrum,arb,negative
+727239,Developer exodus from Chiliz project. #chz future uncertain ⁉️,2024-06-29 17:10:51,9372,1541,Chiliz,chz,negative
+644093,Major exchange listing incoming for #zk! ZkSync to moon 🌕,2024-07-23 13:26:04,6178,775,ZkSync,zk,positive
+682771,Mixed signals for #uni as Uniswap faces competing market pressures 🤷,2024-09-28 23:09:35,5625,725,Uniswap,uni,neutral
+402394,Network upgrade complete! Tezos #xtz ready for next leg up ⬆️,2025-01-06 17:34:32,1870,192,Tezos,xtz,positive
+106339,Margin traders piling into #celo. Celo liquidity risks increasing 💸,2024-04-24 04:19:17,5469,55,Celo,celo,positive
+759652,Technical breakout detected for The Sandbox. #sand poised for gains 📈,2024-04-01 21:28:45,1931,464,The Sandbox,sand,positive
+261465,Regulators targeting #algo for compliance violations. Algorand facing legal challenges ⚖️,2024-07-29 15:18:07,6401,1797,Algorand,algo,negative
+212105,Developer exodus from Casper project. #cspr future uncertain ⁉️,2024-09-19 09:23:00,5535,631,Casper,cspr,negative
+728548,Speculative frenzy drives #bnb to new highs. Risk-tolerant investors jumping in 🚀,2024-05-11 13:26:35,886,5,BNB Chain,bnb,positive
+352799,Speculative frenzy drives #sui to new highs. Risk-tolerant investors jumping in 🚀,2024-06-07 09:49:53,5813,496,Sui,sui,positive
+466202,Security breach reported on Cardano bridge. #ada prices reacting negatively 🔓,2024-08-03 17:57:05,7041,839,Cardano,ada,negative
+505745,Major exchange listing incoming for #crv! Curve DAO to moon 🌕,2025-01-09 03:16:08,48,7,Curve DAO,crv,positive
+104604,Industry conference features Near Protocol founder. #near community tuned in 🎤,2024-09-14 07:15:58,1169,95,Near Protocol,near,neutral
+198082,Axie Infinity linked to unregulated gambling platforms in new report. #axs reputation at risk 📉,2024-07-25 05:18:29,4791,179,Axie Infinity,axs,negative
+433099,Major exchange listing incoming for #bnb! BNB Chain to moon 🌕,2024-08-06 11:41:06,4516,435,BNB Chain,bnb,positive
+325325,Developer exodus from Echelon Prime project. #prime future uncertain ⁉️,2024-06-28 16:33:08,3267,559,Echelon Prime,prime,negative
+141517,Network congestion plagues Chainlink. #link transactions delayed 🐢,2024-04-24 00:52:52,593,142,Chainlink,link,negative
+352877,Market makers manipulating #mana prices? Decentraland volatility sparks concerns 📊,2024-11-06 00:04:52,9376,2365,Decentraland,mana,positive
+834164,Market makers manipulating #grt prices? The Graph volatility sparks concerns 📊,2024-11-02 07:50:59,629,82,The Graph,grt,positive
+651584,New wallet release for Siacoin. #sc ecosystem continues evolving 💼,2024-07-03 15:13:07,7455,141,Siacoin,sc,neutral
+611359,Security breach reported on Chainlink bridge. #link prices reacting negatively 🔓,2024-10-19 09:13:33,3326,503,Chainlink,link,negative
+507819,Community backlash over Bitcoin SV's questionable partnership decisions. #bsv 🤨,2024-10-26 03:23:17,6996,278,Bitcoin SV,bsv,negative
+443574,Institutional money flowing into Curve DAO. #crv demand surging 💰,2025-01-07 12:41:30,7149,1936,Curve DAO,crv,positive
+939323,Network upgrade complete! IOTA #iota ready for next leg up ⬆️,2024-10-02 16:05:53,9657,2328,IOTA,iota,positive
+238453,Network upgrade complete! The Graph #grt ready for next leg up ⬆️,2024-05-27 21:31:33,9237,1087,The Graph,grt,positive
+748428,Community backlash over Celo's questionable partnership decisions. #celo 🤨,2024-08-29 19:43:21,8407,877,Celo,celo,negative
+352165,Margin traders piling into #bch. Bitcoin Cash liquidity risks increasing 💸,2024-05-05 08:33:27,2743,87,Bitcoin Cash,bch,positive
+863180,Security breach reported on Cosmos bridge. #atom prices reacting negatively 🔓,2024-07-24 09:25:58,5015,850,Cosmos,atom,negative
+574606,Technical breakout detected for Siacoin. #sc poised for gains 📈,2024-11-12 18:52:15,2547,523,Siacoin,sc,positive
+412417,Network upgrade complete! Bitcoin Cash #bch ready for next leg up ⬆️,2024-06-26 02:56:05,770,168,Bitcoin Cash,bch,positive
+733011,Technical breakout detected for Celo. #celo poised for gains 📈,2024-06-02 23:53:07,4204,818,Celo,celo,positive
+577599,Industry conference features Siacoin founder. #sc community tuned in 🎤,2024-12-27 20:35:03,5079,1003,Siacoin,sc,neutral
+109087,Developer exodus from ZkSync project. #zk future uncertain ⁉️,2024-10-01 23:21:25,6799,1802,ZkSync,zk,negative
+587727,Technical breakout detected for Litecoin. #ltc poised for gains 📈,2025-01-03 08:26:55,3574,275,Litecoin,ltc,positive
+425935,Privacy advocates criticize #sui for lack of transparency. Sui ethics questioned 🛑,2024-11-07 00:10:12,3397,442,Sui,sui,negative
+508814,Liquidation cascade hits Bitcoin Cash traders. #bch volatility continues 💥,2025-02-21 11:16:34,1210,198,Bitcoin Cash,bch,negative
+788791,Institutional money flowing into Quant. #qnt demand surging 💰,2024-06-18 06:53:21,5901,1394,Quant,qnt,positive
+130517,Major exchange listing incoming for #iota! IOTA to moon 🌕,2025-02-22 10:45:23,22,3,IOTA,iota,positive
+415633,Standard protocol maintenance underway for Curve DAO. #crv trading unaffected ⚙️,2024-08-04 06:42:57,7717,852,Curve DAO,crv,neutral
+694125,Liquidation cascade hits Bitcoin Cash traders. #bch volatility continues 💥,2024-12-05 00:10:49,3862,701,Bitcoin Cash,bch,negative
+529034,Major exchange listing incoming for #busd! Binance USD to moon 🌕,2024-12-03 20:27:48,5951,223,Binance USD,busd,positive
+189065,New wallet release for Echelon Prime. #prime ecosystem continues evolving 💼,2024-04-11 19:56:18,5425,1171,Echelon Prime,prime,neutral
+895375,Network upgrade complete! Decentraland #mana ready for next leg up ⬆️,2024-04-24 06:32:04,9132,1008,Decentraland,mana,positive
+362651,Network upgrade complete! Polkadot #dot ready for next leg up ⬆️,2024-07-02 13:17:25,2329,49,Polkadot,dot,positive
+778704,Network upgrade complete! VeChain #vet ready for next leg up ⬆️,2024-05-23 23:02:31,1398,73,VeChain,vet,positive
+217087,Network congestion plagues Cosmos. #atom transactions delayed 🐢,2024-10-01 16:21:15,3384,131,Cosmos,atom,negative
+594138,Major exchange listing incoming for #ape! ApeCoin to moon 🌕,2024-10-06 14:15:19,5818,1389,ApeCoin,ape,positive
+975352,Bullish on #link! Chainlink ecosystem expanding rapidly 🚀,2024-05-04 13:41:16,2417,593,Chainlink,link,positive
+241912,Bullish on #xtz! Tezos ecosystem expanding rapidly 🚀,2024-10-30 14:25:31,1859,0,Tezos,xtz,positive
+392680,Community backlash over Basic Attention's questionable partnership decisions. #bat 🤨,2024-05-10 09:01:58,7559,24,Basic Attention,bat,negative
+729436,Liquidation cascade hits Decentraland traders. #mana volatility continues 💥,2024-10-27 21:09:35,6489,98,Decentraland,mana,negative
+219089,Developer exodus from IOTA project. #iota future uncertain ⁉️,2024-03-23 19:35:01,2172,384,IOTA,iota,negative
+734007,"Traders eyeing #dash for high-risk, high-reward plays. Dash could moon or crash 🌕💥",2024-07-25 13:08:19,8783,1831,Dash,dash,positive
+292541,Institutional money flowing into Celo. #celo demand surging 💰,2024-07-16 18:37:45,4099,783,Celo,celo,positive
+692057,Major exchange listing incoming for #chz! Chiliz to moon 🌕,2024-11-04 03:58:28,3847,677,Chiliz,chz,positive
+422760,Massive volatility alert! #iota swings 30% in 24 hours. High-risk opportunity! 🎢,2024-08-24 02:21:38,4511,813,IOTA,iota,positive
+505145,Technical breakout detected for Basic Attention. #bat poised for gains 📈,2024-09-28 22:15:52,9328,1243,Basic Attention,bat,positive
+833076,Technical breakout detected for The Sandbox. #sand poised for gains 📈,2024-08-17 04:59:09,4067,1188,The Sandbox,sand,positive
+382832,Security breach reported on Filecoin bridge. #fil prices reacting negatively 🔓,2024-06-09 17:25:26,7702,1203,Filecoin,fil,negative
+672588,Liquidation cascade hits Wrapped Bitcoin traders. #wbtc volatility continues 💥,2025-01-22 17:24:06,7884,614,Wrapped Bitcoin,wbtc,negative
+296549,New wallet release for Echelon Prime. #prime ecosystem continues evolving 💼,2024-12-15 20:15:22,227,5,Echelon Prime,prime,neutral
+205191,Technical breakout detected for Arbitrum. #arb poised for gains 📈,2024-11-26 23:04:05,7725,556,Arbitrum,arb,positive
+529309,Bearish divergence spotted on #ondo charts. Ondo correction likely 📉,2024-11-04 22:09:05,4137,16,Ondo,ondo,negative
+569922,Mixed signals for #crv as Curve DAO faces competing market pressures 🤷,2024-09-27 22:03:13,6708,114,Curve DAO,crv,neutral
+344597,Massive volatility alert! #wbtc swings 30% in 24 hours. High-risk opportunity! 🎢,2024-03-02 08:34:04,8346,2340,Wrapped Bitcoin,wbtc,positive
+927263,Major exchange listing incoming for #wbtc! Wrapped Bitcoin to moon 🌕,2024-12-31 09:53:43,3857,439,Wrapped Bitcoin,wbtc,positive
+512722,Massive volatility alert! #ton swings 30% in 24 hours. High-risk opportunity! 🎢,2024-05-28 06:23:31,7956,2200,TON,ton,positive
+325832,Speculative frenzy drives #bch to new highs. Risk-tolerant investors jumping in 🚀,2024-09-21 04:03:03,9176,1156,Bitcoin Cash,bch,positive
+343982,Developer exodus from Cosmos project. #atom future uncertain ⁉️,2024-04-16 04:42:27,3872,564,Cosmos,atom,negative
+600887,Sui linked to unregulated gambling platforms in new report. #sui reputation at risk 📉,2025-01-10 23:21:11,4169,627,Sui,sui,negative
+784580,Technical breakout detected for XRPL. #xrp poised for gains 📈,2025-01-02 09:39:46,7777,1703,XRPL,xrp,positive
+572716,Bullish on #crv! Curve DAO ecosystem expanding rapidly 🚀,2024-12-16 20:54:09,767,45,Curve DAO,crv,positive
+539797,New wallet release for XRPL. #xrp ecosystem continues evolving 💼,2024-06-13 18:21:23,265,13,XRPL,xrp,neutral
+498855,Major exchange listing incoming for #celo! Celo to moon 🌕,2024-08-05 02:19:44,4689,1273,Celo,celo,positive
+728260,Massive volatility alert! #near swings 30% in 24 hours. High-risk opportunity! 🎢,2024-09-12 11:19:19,1828,356,Near Protocol,near,positive
+819077,Community backlash over XRPL's questionable partnership decisions. #xrp 🤨,2024-07-19 11:40:13,6062,448,XRPL,xrp,negative
+953389,Institutional money flowing into Quant. #qnt demand surging 💰,2024-12-11 16:20:19,4758,1094,Quant,qnt,positive
+304838,Major exchange listing incoming for #uni! Uniswap to moon 🌕,2025-02-10 07:19:29,6533,1356,Uniswap,uni,positive
+897849,Network congestion plagues Chainlink. #link transactions delayed 🐢,2024-07-04 02:42:17,8645,2181,Chainlink,link,negative
+992408,New wallet release for Echelon Prime. #prime ecosystem continues evolving 💼,2024-10-23 07:02:03,9530,1588,Echelon Prime,prime,neutral
+241711,Mixed signals for #inj as Injective faces competing market pressures 🤷,2024-04-03 13:18:45,1683,254,Injective,inj,neutral
+461012,Liquidation cascade hits Echelon Prime traders. #prime volatility continues 💥,2025-02-22 23:21:41,2978,281,Echelon Prime,prime,negative
+123531,Security breach reported on Chiliz bridge. #chz prices reacting negatively 🔓,2024-11-22 04:45:29,4046,788,Chiliz,chz,negative
+214511,Technical breakout detected for Optimism. #op poised for gains 📈,2024-07-24 09:43:28,7567,218,Optimism,op,positive
+299291,Developer exodus from ApeCoin project. #ape future uncertain ⁉️,2024-08-21 10:39:57,4225,335,ApeCoin,ape,negative
+378958,Major exchange listing incoming for #ada! Cardano to moon 🌕,2024-12-30 11:32:44,9538,17,Cardano,ada,positive
+918808,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-06-12 17:03:10,3286,189,UNUS SED LEO,leo,positive
+952086,Major exchange listing incoming for #xrp! XRPL to moon 🌕,2024-06-06 11:01:59,7576,1988,XRPL,xrp,positive
+217738,Security breach reported on TON bridge. #ton prices reacting negatively 🔓,2025-02-21 11:25:56,3750,1090,TON,ton,negative
+525522,Solana linked to unregulated gambling platforms in new report. #sol reputation at risk 📉,2024-10-24 18:07:36,5614,90,Solana,sol,negative
+545870,UNUS SED LEO linked to unregulated gambling platforms in new report. #leo reputation at risk 📉,2025-02-08 22:48:32,9246,544,UNUS SED LEO,leo,negative
+429002,Network congestion plagues Near Protocol. #near transactions delayed 🐢,2025-01-22 08:36:17,193,53,Near Protocol,near,negative
+726014,Community backlash over Aptos's questionable partnership decisions. #apt 🤨,2024-03-03 10:04:07,9165,894,Aptos,apt,negative
+531030,Market makers manipulating #avax prices? Avalanche volatility sparks concerns 📊,2024-08-17 23:25:25,6845,476,Avalanche,avax,positive
+591642,Major exchange listing incoming for #bnb! BNB Chain to moon 🌕,2024-03-09 01:53:39,5446,822,BNB Chain,bnb,positive
+271170,Network upgrade complete! Wrapped Bitcoin #wbtc ready for next leg up ⬆️,2024-10-31 09:56:07,5249,43,Wrapped Bitcoin,wbtc,positive
+358730,Market makers manipulating #celo prices? Celo volatility sparks concerns 📊,2024-03-20 23:14:20,5601,570,Celo,celo,positive
+200880,Developer exodus from IOTA project. #iota future uncertain ⁉️,2024-11-10 09:43:41,9646,1494,IOTA,iota,negative
+537459,Liquidation cascade hits Bitcoin SV traders. #bsv volatility continues 💥,2024-06-26 23:10:06,786,37,Bitcoin SV,bsv,negative
+102626,Margin traders piling into #inj. Injective liquidity risks increasing 💸,2024-11-09 10:06:13,5931,1628,Injective,inj,positive
+312318,Developer exodus from Filecoin project. #fil future uncertain ⁉️,2024-12-07 14:51:04,9841,2261,Filecoin,fil,negative
+601713,Cardano mainnet upgrade scheduled for Q3. #ada holders awaiting details 🗓️,2024-08-14 03:52:24,4272,384,Cardano,ada,neutral
+942583,Developer exodus from Dash project. #dash future uncertain ⁉️,2024-12-23 18:40:25,2538,752,Dash,dash,negative
+971441,Developer exodus from Axie Infinity project. #axs future uncertain ⁉️,2024-12-27 10:13:16,6580,1231,Axie Infinity,axs,negative
+691113,Whistleblower alleges #xrp team misused investor funds. Ethics probe underway 🔍,2024-11-03 14:28:46,6539,1382,XRPL,xrp,negative
+468610,Liquidation cascade hits Polkadot traders. #dot volatility continues 💥,2024-08-12 07:05:23,9752,2367,Polkadot,dot,negative
+363847,Network upgrade complete! Quant #qnt ready for next leg up ⬆️,2024-06-20 10:54:06,7238,315,Quant,qnt,positive
+298628,Network upgrade complete! Polkadot #dot ready for next leg up ⬆️,2025-01-11 07:21:23,8431,2402,Polkadot,dot,positive
+998490,Security breach reported on Casper bridge. #cspr prices reacting negatively 🔓,2024-07-27 09:33:08,9695,1659,Casper,cspr,negative
+576110,Bearish divergence spotted on #sol charts. Solana correction likely 📉,2024-07-25 10:52:46,2765,715,Solana,sol,negative
+139394,Optimism mainnet upgrade scheduled for Q3. #op holders awaiting details 🗓️,2024-10-02 06:14:23,8193,397,Optimism,op,neutral
+408397,Network congestion plagues Echelon Prime. #prime transactions delayed 🐢,2024-04-02 17:31:58,4697,450,Echelon Prime,prime,negative
+960315,Security breach reported on Siacoin bridge. #sc prices reacting negatively 🔓,2024-09-21 17:45:07,7936,1948,Siacoin,sc,negative
+865632,Wrapped Bitcoin linked to unregulated gambling platforms in new report. #wbtc reputation at risk 📉,2024-09-23 23:18:53,4322,790,Wrapped Bitcoin,wbtc,negative
+883083,Network upgrade complete! Aptos #apt ready for next leg up ⬆️,2025-02-02 07:42:29,163,34,Aptos,apt,positive
+648719,Bearish divergence spotted on #atom charts. Cosmos correction likely 📉,2024-05-08 22:44:39,7988,20,Cosmos,atom,negative
+845005,Developer exodus from Wrapped Bitcoin project. #wbtc future uncertain ⁉️,2024-03-03 20:37:39,5671,255,Wrapped Bitcoin,wbtc,negative
+539481,Security breach reported on IOTA bridge. #iota2 prices reacting negatively 🔓,2024-06-29 03:48:31,336,26,IOTA,iota2,negative
+288114,Privacy advocates criticize #bnb for lack of transparency. BNB Chain ethics questioned 🛑,2024-05-02 07:29:13,6556,628,BNB Chain,bnb,negative
+175932,Community backlash over Sui's questionable partnership decisions. #sui 🤨,2024-03-16 14:56:43,2495,154,Sui,sui,negative
+294343,Major exchange listing incoming for #trx! TRON to moon 🌕,2024-06-07 00:19:41,8946,972,TRON,trx,positive
+127812,Market makers manipulating #ape prices? ApeCoin volatility sparks concerns 📊,2024-05-07 15:10:22,1541,113,ApeCoin,ape,positive
+479598,Institutional money flowing into BNB Chain. #bnb demand surging 💰,2024-06-01 21:07:44,751,34,BNB Chain,bnb,positive
+758483,Bullish on #trx! TRON ecosystem expanding rapidly 🚀,2024-08-18 04:56:27,8845,698,TRON,trx,positive
+604669,Network congestion plagues Axie Infinity. #axs transactions delayed 🐢,2025-01-28 17:49:47,9482,698,Axie Infinity,axs,negative
+526529,Network upgrade complete! USDC #usdc ready for next leg up ⬆️,2024-08-15 14:06:37,7531,718,USDC,usdc,positive
+651502,Market makers manipulating #apt prices? Aptos volatility sparks concerns 📊,2025-01-31 17:05:26,208,0,Aptos,apt,positive
+495201,Security breach reported on Casper bridge. #cspr prices reacting negatively 🔓,2025-02-09 22:59:41,182,16,Casper,cspr,negative
+243276,Network upgrade complete! Polkadot #dot ready for next leg up ⬆️,2024-11-12 03:24:12,9192,1664,Polkadot,dot,positive
+666833,Mixed signals for #doge as Dogecoin faces competing market pressures 🤷,2025-01-23 01:54:23,3962,850,Dogecoin,doge,neutral
+774930,Security breach reported on Filecoin bridge. #fil prices reacting negatively 🔓,2024-03-10 10:10:11,6188,877,Filecoin,fil,negative
+234861,Standard protocol maintenance underway for The Graph. #grt trading unaffected ⚙️,2024-05-30 10:06:56,7057,723,The Graph,grt,neutral
+951140,Market makers manipulating #uni prices? Uniswap volatility sparks concerns 📊,2024-08-26 11:01:44,1795,492,Uniswap,uni,positive
+462410,Security breach reported on Arbitrum bridge. #arb prices reacting negatively 🔓,2024-09-29 02:58:38,6761,259,Arbitrum,arb,negative
+863951,Bearish divergence spotted on #shib charts. Shiba Inu correction likely 📉,2024-12-28 21:54:51,7287,1650,Shiba Inu,shib,negative
+765147,Network upgrade complete! ZkSync #zk ready for next leg up ⬆️,2025-01-05 00:53:03,6053,275,ZkSync,zk,positive
+701637,Network congestion plagues Echelon Prime. #prime transactions delayed 🐢,2024-10-09 03:10:50,5118,1155,Echelon Prime,prime,negative
+825549,Speculative frenzy drives #zk to new highs. Risk-tolerant investors jumping in 🚀,2025-02-15 16:54:58,4379,601,ZkSync,zk,positive
+795190,Major exchange listing incoming for #iota2! IOTA to moon 🌕,2024-09-13 18:30:06,4253,891,IOTA,iota2,positive
+620306,Market makers manipulating #bsv prices? Bitcoin SV volatility sparks concerns 📊,2024-11-08 16:35:37,7874,897,Bitcoin SV,bsv,positive
+279996,Developer exodus from IOTA project. #iota2 future uncertain ⁉️,2024-10-25 22:37:05,3954,396,IOTA,iota2,negative
+972497,Environmental impact concerns raised about Aave mining operations. #aave,2024-12-22 04:05:28,2531,615,Aave,aave,negative
+896237,Analysts warn Cosmos might be overleveraged. #atom investors proceed with caution ⚠️,2024-08-26 05:09:13,1644,240,Cosmos,atom,positive
+511686,Major exchange listing incoming for #algo! Algorand to moon 🌕,2025-02-15 10:11:29,981,154,Algorand,algo,positive
+434476,Margin traders piling into #bch. Bitcoin Cash liquidity risks increasing 💸,2025-02-17 03:35:22,793,207,Bitcoin Cash,bch,positive
+880952,Mixed signals for #ape as ApeCoin faces competing market pressures 🤷,2024-05-27 23:42:51,7556,1780,ApeCoin,ape,neutral
+297106,Unofficial reports suggest Quant whale activity. #qnt could see massive moves 🐋,2024-06-18 05:23:00,4251,1259,Quant,qnt,positive
+246853,Technical breakout detected for Siacoin. #sc poised for gains 📈,2024-05-23 08:24:35,3042,210,Siacoin,sc,positive
+380990,Major exchange listing incoming for #inj! Injective to moon 🌕,2024-05-15 00:37:59,7701,1806,Injective,inj,positive
+895293,Major exchange listing incoming for #ton! TON to moon 🌕,2024-07-21 11:17:43,6652,233,TON,ton,positive
+843463,VeChain mainnet upgrade scheduled for Q3. #vet holders awaiting details 🗓️,2024-08-17 17:39:13,8814,954,VeChain,vet,neutral
+731103,Developer exodus from Shiba Inu project. #shib future uncertain ⁉️,2024-09-07 16:16:08,4180,1232,Shiba Inu,shib,negative
+947676,Bearish divergence spotted on #trx charts. TRON correction likely 📉,2024-09-09 17:10:28,2499,502,TRON,trx,negative
+211652,Bullish on #celo! Celo ecosystem expanding rapidly 🚀,2024-03-11 20:48:14,9715,1368,Celo,celo,positive
+707611,Major exchange listing incoming for #dai! DAI to moon 🌕,2024-08-02 16:42:40,1988,42,DAI,dai,positive
+848436,Bearish divergence spotted on #bch charts. Bitcoin Cash correction likely 📉,2024-12-11 09:06:27,2228,582,Bitcoin Cash,bch,negative
+206901,Liquidation cascade hits Sui traders. #sui volatility continues 💥,2024-07-24 10:01:22,7049,1822,Sui,sui,negative
+779578,Industry conference features XRPL founder. #xrp community tuned in 🎤,2025-01-06 01:54:14,6043,1733,XRPL,xrp,neutral
+745594,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2025-02-19 23:59:23,9638,2831,Filecoin,fil,negative
+960933,Industry conference features ApeCoin founder. #ape community tuned in 🎤,2024-03-20 10:43:40,8022,30,ApeCoin,ape,neutral
+915634,Massive volatility alert! #vet swings 30% in 24 hours. High-risk opportunity! 🎢,2025-01-01 22:59:30,1784,216,VeChain,vet,positive
+380445,Developer exodus from ZkSync project. #zk future uncertain ⁉️,2024-09-25 06:12:25,2857,798,ZkSync,zk,negative
+437378,Network upgrade complete! Near Protocol #near ready for next leg up ⬆️,2024-03-06 22:36:25,8466,1936,Near Protocol,near,positive
+813976,Margin traders piling into #xrp. XRPL liquidity risks increasing 💸,2025-02-03 03:29:58,3336,722,XRPL,xrp,positive
+502093,Network upgrade complete! Polkadot #dot ready for next leg up ⬆️,2024-07-05 18:12:35,1127,17,Polkadot,dot,positive
+390666,Network congestion plagues DAI. #dai transactions delayed 🐢,2024-08-04 00:37:27,7703,49,DAI,dai,negative
+703719,Institutional money flowing into Siacoin. #sc demand surging 💰,2024-10-24 04:30:17,85,0,Siacoin,sc,positive
+537202,Technical breakout detected for VeChain. #vet poised for gains 📈,2024-09-23 03:56:56,4971,245,VeChain,vet,positive
+736565,Community backlash over Basic Attention's questionable partnership decisions. #bat 🤨,2025-01-03 08:00:17,7857,1289,Basic Attention,bat,negative
+297245,Bullish on #chz! Chiliz ecosystem expanding rapidly 🚀,2025-02-03 20:01:20,6753,194,Chiliz,chz,positive
+251118,Network congestion plagues Dogecoin. #doge transactions delayed 🐢,2024-03-24 18:01:11,7588,1973,Dogecoin,doge,negative
+759656,Technical breakout detected for Bitcoin SV. #bsv poised for gains 📈,2024-04-01 12:21:35,3592,276,Bitcoin SV,bsv,positive
+433255,Security breach reported on Aptos bridge. #apt prices reacting negatively 🔓,2024-12-31 07:31:34,2744,268,Aptos,apt,negative
+223843,Stellar linked to unregulated gambling platforms in new report. #xlm reputation at risk 📉,2024-11-30 21:42:19,65,9,Stellar,xlm,negative
+277992,Institutional money flowing into Polygon. #pol demand surging 💰,2024-10-08 02:50:42,9875,231,Polygon,pol,positive
+752359,Injective linked to unregulated gambling platforms in new report. #inj reputation at risk 📉,2025-02-10 22:45:07,4830,483,Injective,inj,negative
+292927,Community backlash over Tezos's questionable partnership decisions. #xtz 🤨,2024-03-16 09:18:22,4810,1203,Tezos,xtz,negative
+768232,Network congestion plagues Sui. #sui transactions delayed 🐢,2025-02-06 03:35:31,2618,426,Sui,sui,negative
+663003,Polkadot mainnet upgrade scheduled for Q3. #dot holders awaiting details 🗓️,2024-10-12 04:36:11,2935,337,Polkadot,dot,neutral
+971072,Liquidation cascade hits Polygon traders. #pol volatility continues 💥,2024-08-12 16:45:00,8006,1502,Polygon,pol,negative
+102083,Security breach reported on Ondo bridge. #ondo prices reacting negatively 🔓,2024-04-29 19:57:42,2324,347,Ondo,ondo,negative
+874571,Bearish divergence spotted on #ton charts. TON correction likely 📉,2024-05-17 17:23:41,6146,1399,TON,ton,negative
+118888,Bearish divergence spotted on #shib charts. Shiba Inu correction likely 📉,2024-09-22 08:57:04,3566,150,Shiba Inu,shib,negative
+388413,Liquidation cascade hits Bitcoin Cash traders. #bch volatility continues 💥,2024-11-28 12:36:52,2906,599,Bitcoin Cash,bch,negative
+388176,Market makers manipulating #doge prices? Dogecoin volatility sparks concerns 📊,2024-06-01 20:08:17,8975,578,Dogecoin,doge,positive
+322742,Investigators found #inj transactions linked to dark web activities. Injective under scrutiny 🕵️♂️,2024-04-10 16:11:23,5020,534,Injective,inj,negative
+801296,Market makers manipulating #axs prices? Axie Infinity volatility sparks concerns 📊,2024-11-21 04:35:38,3403,639,Axie Infinity,axs,positive
+782373,Bullish on #bch! Bitcoin Cash ecosystem expanding rapidly 🚀,2024-10-09 06:48:35,8919,667,Bitcoin Cash,bch,positive
+310666,Network congestion plagues Casper. #cspr transactions delayed 🐢,2024-08-17 11:01:36,8124,1355,Casper,cspr,negative
+645458,Developer exodus from Aptos project. #apt future uncertain ⁉️,2024-09-29 06:17:10,2908,338,Aptos,apt,negative
+335470,Developer exodus from Filecoin project. #fil future uncertain ⁉️,2024-08-16 09:24:57,5310,553,Filecoin,fil,negative
+131128,Liquidation cascade hits TRON traders. #trx volatility continues 💥,2024-04-08 08:20:18,9594,2847,TRON,trx,negative
+556246,Standard protocol maintenance underway for Optimism. #op trading unaffected ⚙️,2024-03-08 05:45:47,6052,734,Optimism,op,neutral
+849883,New wallet release for Cardano. #ada ecosystem continues evolving 💼,2024-07-11 05:43:14,3991,638,Cardano,ada,neutral
+989822,Developer exodus from Shiba Inu project. #shib future uncertain ⁉️,2025-02-18 04:37:28,1624,149,Shiba Inu,shib,negative
+978632,Major exchange listing incoming for #uni! Uniswap to moon 🌕,2024-06-27 17:37:25,9566,2469,Uniswap,uni,positive
+443462,Developer exodus from Casper project. #cspr future uncertain ⁉️,2024-07-24 02:42:49,1471,127,Casper,cspr,negative
+397764,New wallet release for Litecoin. #ltc ecosystem continues evolving 💼,2024-03-09 16:39:25,1594,310,Litecoin,ltc,neutral
+207552,Market makers manipulating #sol prices? Solana volatility sparks concerns 📊,2024-10-30 00:06:09,7307,687,Solana,sol,positive
+849305,Mixed signals for #bsv as Bitcoin SV faces competing market pressures 🤷,2024-03-22 03:45:27,3923,403,Bitcoin SV,bsv,neutral
+219643,Major exchange listing incoming for #uni! Uniswap to moon 🌕,2024-10-27 22:33:31,5009,1312,Uniswap,uni,positive
+874968,Institutional money flowing into Near Protocol. #near demand surging 💰,2025-01-05 16:00:57,4757,280,Near Protocol,near,positive
+944209,Network upgrade complete! Ethereum #eth ready for next leg up ⬆️,2024-03-02 22:24:26,5806,1365,Ethereum,eth,positive
+351702,Regulators targeting #atom for compliance violations. Cosmos facing legal challenges ⚖️,2024-05-16 07:05:07,6280,966,Cosmos,atom,negative
+887997,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2024-04-16 01:47:44,5578,1280,Filecoin,fil,negative
+495379,Bullish on #bnb! BNB Chain ecosystem expanding rapidly 🚀,2024-05-20 20:32:50,8645,2352,BNB Chain,bnb,positive
+426334,Institutional money flowing into Aave. #aave demand surging 💰,2024-11-01 01:05:53,5192,157,Aave,aave,positive
+609430,Developer exodus from Uniswap project. #uni future uncertain ⁉️,2024-08-29 08:29:53,5557,384,Uniswap,uni,negative
+351571,Institutional money flowing into Binance USD. #busd demand surging 💰,2024-03-29 04:35:08,2305,507,Binance USD,busd,positive
+930139,Liquidation cascade hits Stellar traders. #xlm volatility continues 💥,2025-01-10 00:12:30,5649,1608,Stellar,xlm,negative
+334885,Major exchange listing incoming for #ada! Cardano to moon 🌕,2025-02-14 00:18:12,3855,732,Cardano,ada,positive
+690162,Speculative frenzy drives #apt to new highs. Risk-tolerant investors jumping in 🚀,2024-05-06 12:08:11,3814,717,Aptos,apt,positive
+866677,Institutional money flowing into USDC. #usdc demand surging 💰,2024-11-17 04:56:45,4193,93,USDC,usdc,positive
+346205,Market makers manipulating #near prices? Near Protocol volatility sparks concerns 📊,2024-04-26 08:18:22,330,2,Near Protocol,near,positive
+285668,Margin traders piling into #uni. Uniswap liquidity risks increasing 💸,2024-04-20 16:10:19,8409,530,Uniswap,uni,positive
+458413,Developer exodus from The Graph project. #grt future uncertain ⁉️,2024-07-28 12:49:11,838,146,The Graph,grt,negative
+533744,Bullish on #sand! The Sandbox ecosystem expanding rapidly 🚀,2024-03-21 09:01:50,2656,640,The Sandbox,sand,positive
+443625,Network congestion plagues Binance USD. #busd transactions delayed 🐢,2024-12-09 09:03:57,784,233,Binance USD,busd,negative
+830904,Technical breakout detected for Stellar. #xlm poised for gains 📈,2024-04-27 18:49:52,8721,2419,Stellar,xlm,positive
+551946,Unofficial reports suggest Wrapped Bitcoin whale activity. #wbtc could see massive moves 🐋,2024-08-23 19:04:11,4992,256,Wrapped Bitcoin,wbtc,positive
+163727,Bearish divergence spotted on #eth charts. Ethereum correction likely 📉,2024-05-02 05:52:03,8490,179,Ethereum,eth,negative
+227916,Developer exodus from IOTA project. #iota2 future uncertain ⁉️,2024-08-10 06:24:16,9429,1116,IOTA,iota2,negative
+703769,Major exchange listing incoming for #bnb! BNB Chain to moon 🌕,2024-07-24 00:23:03,1570,354,BNB Chain,bnb,positive
+608038,Bearish divergence spotted on #ton charts. TON correction likely 📉,2024-09-26 08:07:30,3722,1103,TON,ton,negative
+600004,Standard protocol maintenance underway for Curve DAO. #crv trading unaffected ⚙️,2024-08-21 17:44:52,8882,178,Curve DAO,crv,neutral
+572594,Developer exodus from Algorand project. #algo future uncertain ⁉️,2024-03-28 06:20:43,7812,1800,Algorand,algo,negative
+183374,Bearish divergence spotted on #bat charts. Basic Attention correction likely 📉,2025-01-29 23:31:21,9982,1451,Basic Attention,bat,negative
+278933,Environmental impact concerns raised about Dogecoin mining operations. #doge,2024-03-07 10:57:11,2767,497,Dogecoin,doge,negative
+825442,Bearish divergence spotted on #ape charts. ApeCoin correction likely 📉,2024-10-20 16:55:13,4402,979,ApeCoin,ape,negative
+250825,Developer exodus from Uniswap project. #uni future uncertain ⁉️,2025-01-31 06:56:18,6243,662,Uniswap,uni,negative
+842697,Standard protocol maintenance underway for Tezos. #xtz trading unaffected ⚙️,2024-08-22 07:27:18,5130,1008,Tezos,xtz,neutral
+111077,Bullish on #btc! Bitcoin ecosystem expanding rapidly 🚀,2024-08-28 13:19:10,7215,1394,Bitcoin,btc,positive
+507646,Speculative frenzy drives #sol to new highs. Risk-tolerant investors jumping in 🚀,2024-10-31 08:54:06,6776,93,Solana,sol,positive
+953446,Bullish on #bat! Basic Attention ecosystem expanding rapidly 🚀,2024-09-21 23:03:42,8476,19,Basic Attention,bat,positive
+771456,Environmental impact concerns raised about ZkSync mining operations. #zk,2025-02-17 02:54:34,8860,646,ZkSync,zk,negative
+377671,Whistleblower alleges #sol team misused investor funds. Ethics probe underway 🔍,2024-10-03 14:21:50,1386,223,Solana,sol,negative
+357354,Institutional money flowing into Avalanche. #avax demand surging 💰,2024-03-08 05:07:15,3313,871,Avalanche,avax,positive
+297372,Major exchange listing incoming for #busd! Binance USD to moon 🌕,2024-10-09 11:46:08,9467,2718,Binance USD,busd,positive
+311400,Security breach reported on Near Protocol bridge. #near prices reacting negatively 🔓,2025-02-06 13:10:57,6200,160,Near Protocol,near,negative
+887167,Massive volatility alert! #crv swings 30% in 24 hours. High-risk opportunity! 🎢,2025-02-16 08:36:14,3890,366,Curve DAO,crv,positive
+142144,Mixed signals for #arb as Arbitrum faces competing market pressures 🤷,2025-01-20 12:55:22,4593,24,Arbitrum,arb,neutral
+889696,Network upgrade complete! DAI #dai ready for next leg up ⬆️,2024-08-20 17:59:56,4820,1400,DAI,dai,positive
+765008,Security breach reported on Axie Infinity bridge. #axs prices reacting negatively 🔓,2024-05-21 03:52:04,3431,18,Axie Infinity,axs,negative
+566942,Investigators found #ada transactions linked to dark web activities. Cardano under scrutiny 🕵️♂️,2024-04-30 02:53:18,8157,900,Cardano,ada,negative
+692809,Network upgrade complete! Avalanche #avax ready for next leg up ⬆️,2025-02-17 06:50:06,9622,1249,Avalanche,avax,positive
+988338,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2024-04-17 18:28:53,1128,302,UNUS SED LEO,leo,positive
+209102,Bullish on #celo! Celo ecosystem expanding rapidly 🚀,2024-11-07 01:31:07,5065,565,Celo,celo,positive
+537726,Institutional money flowing into Decentraland. #mana demand surging 💰,2024-05-13 19:06:09,7599,290,Decentraland,mana,positive
+980308,Cosmos linked to unregulated gambling platforms in new report. #atom reputation at risk 📉,2024-06-05 10:52:03,9766,951,Cosmos,atom,negative
+519978,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2025-02-02 15:58:02,1720,504,Filecoin,fil,negative
+312968,Ethereum mainnet upgrade scheduled for Q3. #eth holders awaiting details 🗓️,2025-03-01 16:24:17,7550,1457,Ethereum,eth,neutral
+958067,Massive volatility alert! #celo swings 30% in 24 hours. High-risk opportunity! 🎢,2024-06-12 13:53:32,9527,1342,Celo,celo,positive
+695652,Network upgrade complete! Avalanche #avax ready for next leg up ⬆️,2024-07-05 01:37:43,4516,627,Avalanche,avax,positive
+106568,Near Protocol linked to unregulated gambling platforms in new report. #near reputation at risk 📉,2024-03-07 17:52:38,7886,479,Near Protocol,near,negative
+929606,Institutional money flowing into TON. #ton demand surging 💰,2024-05-18 07:47:55,5623,917,TON,ton,positive
+276003,Developer exodus from DAI project. #dai future uncertain ⁉️,2024-03-03 08:15:09,8078,1636,DAI,dai,negative
+664249,Developer exodus from Algorand project. #algo future uncertain ⁉️,2024-10-15 20:16:39,1428,100,Algorand,algo,negative
+137019,Major exchange listing incoming for #eth! Ethereum to moon 🌕,2024-09-06 22:12:02,6079,1726,Ethereum,eth,positive
+923541,Major exchange listing incoming for #trx! TRON to moon 🌕,2024-03-10 21:18:30,8992,220,TRON,trx,positive
+405236,Bullish on #ltc! Litecoin ecosystem expanding rapidly 🚀,2024-08-11 10:50:19,8802,1815,Litecoin,ltc,positive
+231570,Major exchange listing incoming for #xtz! Tezos to moon 🌕,2024-09-13 21:20:45,6651,1212,Tezos,xtz,positive
+743738,Margin traders piling into #bsv. Bitcoin SV liquidity risks increasing 💸,2024-09-23 15:59:42,7424,1286,Bitcoin SV,bsv,positive
+753131,Major exchange listing incoming for #sol! Solana to moon 🌕,2024-07-26 11:26:47,9932,2423,Solana,sol,positive
+364958,Community backlash over Filecoin's questionable partnership decisions. #fil 🤨,2025-01-15 12:10:10,5134,590,Filecoin,fil,negative
+709274,Mixed signals for #bat as Basic Attention faces competing market pressures 🤷,2024-05-15 05:39:32,9412,1123,Basic Attention,bat,neutral
+651215,Standard protocol maintenance underway for IOTA. #iota2 trading unaffected ⚙️,2024-08-22 11:10:09,6944,1239,IOTA,iota2,neutral
+959323,Standard protocol maintenance underway for Litecoin. #ltc trading unaffected ⚙️,2024-04-25 09:53:20,1429,199,Litecoin,ltc,neutral
+812165,Community backlash over Near Protocol's questionable partnership decisions. #near 🤨,2024-05-04 23:32:27,9579,1236,Near Protocol,near,negative
+808684,Network congestion plagues Axie Infinity. #axs transactions delayed 🐢,2024-10-09 03:40:48,8810,1318,Axie Infinity,axs,negative
+746300,Regulators targeting #chz for compliance violations. Chiliz facing legal challenges ⚖️,2024-11-05 06:58:45,3188,285,Chiliz,chz,negative
+953557,Technical breakout detected for USDC. #usdc poised for gains 📈,2024-10-17 14:10:30,5669,770,USDC,usdc,positive
+182442,Institutional money flowing into Bitcoin Cash. #bch demand surging 💰,2024-05-18 17:35:24,3497,913,Bitcoin Cash,bch,positive
+223215,Massive volatility alert! #grt swings 30% in 24 hours. High-risk opportunity! 🎢,2024-07-15 14:37:05,4519,747,The Graph,grt,positive
+857744,New wallet release for Aave. #aave ecosystem continues evolving 💼,2024-03-03 09:52:24,3290,968,Aave,aave,neutral
+152213,Technical breakout detected for Bitcoin SV. #bsv poised for gains 📈,2024-05-23 18:43:25,1044,229,Bitcoin SV,bsv,positive
+653140,Developer exodus from Axie Infinity project. #axs future uncertain ⁉️,2025-01-24 00:55:33,8161,381,Axie Infinity,axs,negative
+910299,Network upgrade complete! Dogecoin #doge ready for next leg up ⬆️,2024-07-18 16:23:16,8730,1683,Dogecoin,doge,positive
+815213,Margin traders piling into #op. Optimism liquidity risks increasing 💸,2024-12-17 11:59:57,6020,706,Optimism,op,positive
+571832,Bearish divergence spotted on #chz charts. Chiliz correction likely 📉,2024-08-25 01:47:55,9777,1543,Chiliz,chz,negative
+740440,Institutional money flowing into Chiliz. #chz demand surging 💰,2025-02-03 21:38:14,5085,492,Chiliz,chz,positive
+451564,Massive volatility alert! #link swings 30% in 24 hours. High-risk opportunity! 🎢,2024-05-04 03:54:15,6086,350,Chainlink,link,positive
+291955,Developer exodus from Casper project. #cspr future uncertain ⁉️,2024-07-22 17:23:46,7434,683,Casper,cspr,negative
+188156,Bearish divergence spotted on #near charts. Near Protocol correction likely 📉,2024-06-02 10:35:17,4561,147,Near Protocol,near,negative
+677246,Major exchange listing incoming for #btc! Bitcoin to moon 🌕,2024-05-29 02:14:30,4278,193,Bitcoin,btc,positive
+904152,Liquidation cascade hits ApeCoin traders. #ape volatility continues 💥,2024-08-04 14:21:45,3289,89,ApeCoin,ape,negative
+553480,Developer exodus from Dash project. #dash future uncertain ⁉️,2024-04-23 08:32:57,110,0,Dash,dash,negative
+768501,Regulators targeting #dot for compliance violations. Polkadot facing legal challenges ⚖️,2024-10-02 18:18:43,1314,139,Polkadot,dot,negative
+351071,Network congestion plagues Ondo. #ondo transactions delayed 🐢,2025-02-01 20:56:28,903,96,Ondo,ondo,negative
+253228,Whistleblower alleges #trx team misused investor funds. Ethics probe underway 🔍,2024-03-30 21:33:41,8586,624,TRON,trx,negative
+234430,Institutional money flowing into UNUS SED LEO. #leo demand surging 💰,2024-09-01 14:55:08,1607,374,UNUS SED LEO,leo,positive
+253319,Network upgrade complete! IOTA #iota ready for next leg up ⬆️,2024-12-07 07:03:39,5507,1275,IOTA,iota,positive
+382958,ZkSync mainnet upgrade scheduled for Q3. #zk holders awaiting details 🗓️,2024-04-19 07:38:17,8016,1160,ZkSync,zk,neutral
+560658,"Traders eyeing #sui for high-risk, high-reward plays. Sui could moon or crash 🌕💥",2025-01-22 07:33:36,6176,1154,Sui,sui,positive
+752282,Network congestion plagues Bitcoin SV. #bsv transactions delayed 🐢,2024-08-13 07:02:43,471,118,Bitcoin SV,bsv,negative
+990608,Whistleblower alleges #bat team misused investor funds. Ethics probe underway 🔍,2024-04-16 13:37:11,6039,1228,Basic Attention,bat,negative
+190681,Major exchange listing incoming for #wbtc! Wrapped Bitcoin to moon 🌕,2024-05-10 21:52:27,4053,595,Wrapped Bitcoin,wbtc,positive
+851532,Analysts warn Casper might be overleveraged. #cspr investors proceed with caution ⚠️,2024-12-18 14:06:56,7061,516,Casper,cspr,positive
+952031,Technical breakout detected for Shiba Inu. #shib poised for gains 📈,2024-11-16 13:42:54,5588,1032,Shiba Inu,shib,positive
+512567,Liquidation cascade hits Bitcoin traders. #btc volatility continues 💥,2024-07-26 14:28:18,396,85,Bitcoin,btc,negative
+269203,Bearish divergence spotted on #chz charts. Chiliz correction likely 📉,2025-01-07 07:59:05,1466,429,Chiliz,chz,negative
+632194,Mixed signals for #doge as Dogecoin faces competing market pressures 🤷,2025-01-21 00:19:26,8746,1495,Dogecoin,doge,neutral
+705577,Institutional money flowing into BNB Chain. #bnb demand surging 💰,2024-08-30 08:25:32,6096,1302,BNB Chain,bnb,positive
+971291,Security breach reported on Ondo bridge. #ondo prices reacting negatively 🔓,2025-01-19 07:24:41,9670,1336,Ondo,ondo,negative
+953840,Environmental impact concerns raised about Casper mining operations. #cspr,2024-07-08 06:51:30,3065,46,Casper,cspr,negative
+593338,Bullish on #bnb! BNB Chain ecosystem expanding rapidly 🚀,2024-10-11 03:07:53,3610,381,BNB Chain,bnb,positive
+464089,Unofficial reports suggest Arbitrum whale activity. #arb could see massive moves 🐋,2025-02-02 14:54:44,7886,1091,Arbitrum,arb,positive
+878715,Major exchange listing incoming for #btc! Bitcoin to moon 🌕,2024-10-09 10:07:59,8512,1141,Bitcoin,btc,positive
+288447,Liquidation cascade hits Solana traders. #sol volatility continues 💥,2024-04-05 12:15:39,2246,134,Solana,sol,negative
+649240,"Traders eyeing #xtz for high-risk, high-reward plays. Tezos could moon or crash 🌕💥",2025-01-20 01:30:39,5549,222,Tezos,xtz,positive
+719593,Bullish on #ton! TON ecosystem expanding rapidly 🚀,2024-12-10 03:02:19,1500,4,TON,ton,positive
+900746,Major exchange listing incoming for #axs! Axie Infinity to moon 🌕,2024-11-30 01:14:01,8079,1205,Axie Infinity,axs,positive
+844132,Institutional money flowing into Dash. #dash demand surging 💰,2025-02-16 15:00:14,997,111,Dash,dash,positive
+839239,Developer exodus from Bitcoin project. #btc future uncertain ⁉️,2025-02-07 21:15:42,1790,416,Bitcoin,btc,negative
+959892,Major exchange listing incoming for #inj! Injective to moon 🌕,2024-04-29 01:35:56,1251,24,Injective,inj,positive
+346152,Liquidation cascade hits ZkSync traders. #zk volatility continues 💥,2024-04-15 08:16:39,1424,159,ZkSync,zk,negative
+746910,Massive volatility alert! #axs swings 30% in 24 hours. High-risk opportunity! 🎢,2024-09-29 00:54:58,3700,431,Axie Infinity,axs,positive
+791263,ZkSync mainnet upgrade scheduled for Q3. #zk holders awaiting details 🗓️,2024-12-12 14:13:17,6531,942,ZkSync,zk,neutral
+200176,New wallet release for Injective. #inj ecosystem continues evolving 💼,2024-05-27 18:19:46,746,194,Injective,inj,neutral
+105670,Network upgrade complete! Ethereum #eth ready for next leg up ⬆️,2024-03-24 19:54:56,5678,1033,Ethereum,eth,positive
+430157,Security breach reported on TRON bridge. #trx prices reacting negatively 🔓,2024-08-24 20:58:51,619,59,TRON,trx,negative
+612112,Whistleblower alleges #wbtc team misused investor funds. Ethics probe underway 🔍,2025-01-23 12:03:00,5218,122,Wrapped Bitcoin,wbtc,negative
+381560,Network congestion plagues Uniswap. #uni transactions delayed 🐢,2024-08-30 15:09:15,7463,1312,Uniswap,uni,negative
+701246,Institutional money flowing into ZkSync. #zk demand surging 💰,2024-05-05 16:20:48,5504,28,ZkSync,zk,positive
+616610,Whistleblower alleges #crv team misused investor funds. Ethics probe underway 🔍,2024-10-16 11:46:58,87,22,Curve DAO,crv,negative
+794840,Security breach reported on Cosmos bridge. #atom prices reacting negatively 🔓,2024-07-24 15:40:33,538,8,Cosmos,atom,negative
+759016,Network congestion plagues Cosmos. #atom transactions delayed 🐢,2024-12-02 22:42:58,2458,341,Cosmos,atom,negative
+812260,Developer exodus from Polygon project. #pol future uncertain ⁉️,2024-10-27 02:30:09,6602,580,Polygon,pol,negative
+635715,Environmental impact concerns raised about The Graph mining operations. #grt,2025-02-17 14:40:00,2806,481,The Graph,grt,negative
+434815,Bullish on #prime! Echelon Prime ecosystem expanding rapidly 🚀,2025-02-07 09:44:02,368,38,Echelon Prime,prime,positive
+673820,Bullish on #ondo! Ondo ecosystem expanding rapidly 🚀,2024-09-23 10:49:18,5021,965,Ondo,ondo,positive
+856231,Security breach reported on Cosmos bridge. #atom prices reacting negatively 🔓,2025-02-18 21:39:15,2847,329,Cosmos,atom,negative
+197891,Bullish on #bnb! BNB Chain ecosystem expanding rapidly 🚀,2024-08-12 23:42:30,3140,929,BNB Chain,bnb,positive
+122286,Developer exodus from The Graph project. #grt future uncertain ⁉️,2024-06-30 13:16:56,3563,38,The Graph,grt,negative
+778956,Institutional money flowing into Arbitrum. #arb demand surging 💰,2024-12-18 03:07:09,4111,358,Arbitrum,arb,positive
+993506,Security breach reported on Decentraland bridge. #mana prices reacting negatively 🔓,2024-03-03 14:01:57,5407,756,Decentraland,mana,negative
+819383,Technical breakout detected for Bitcoin SV. #bsv poised for gains 📈,2024-10-17 07:38:08,8105,1813,Bitcoin SV,bsv,positive
+148640,Network congestion plagues ApeCoin. #ape transactions delayed 🐢,2024-08-30 03:00:01,7235,22,ApeCoin,ape,negative
+647075,Industry conference features USDC founder. #usdc community tuned in 🎤,2024-09-21 19:02:23,1766,503,USDC,usdc,neutral
+855933,Unofficial reports suggest Avalanche whale activity. #avax could see massive moves 🐋,2024-09-25 14:42:07,7781,2311,Avalanche,avax,positive
+210927,Network upgrade complete! Celo #celo ready for next leg up ⬆️,2024-03-18 04:49:05,4336,432,Celo,celo,positive
+463914,Regulators targeting #dash for compliance violations. Dash facing legal challenges ⚖️,2024-07-14 10:51:52,4354,1067,Dash,dash,negative
+687341,Bearish divergence spotted on #eth charts. Ethereum correction likely 📉,2024-09-17 21:00:25,2973,323,Ethereum,eth,negative
+995243,Sui mainnet upgrade scheduled for Q3. #sui holders awaiting details 🗓️,2024-10-22 21:39:50,4885,165,Sui,sui,neutral
+885645,Speculative frenzy drives #ape to new highs. Risk-tolerant investors jumping in 🚀,2024-08-29 11:36:09,9378,931,ApeCoin,ape,positive
+878829,Margin traders piling into #iota. IOTA liquidity risks increasing 💸,2024-03-27 13:02:41,3564,90,IOTA,iota,positive
+807059,Institutional money flowing into Solana. #sol demand surging 💰,2025-01-07 09:21:52,624,114,Solana,sol,positive
+954767,Network congestion plagues Litecoin. #ltc transactions delayed 🐢,2024-04-04 00:32:25,3968,1068,Litecoin,ltc,negative
+914056,Standard protocol maintenance underway for Algorand. #algo trading unaffected ⚙️,2024-08-12 10:55:49,2126,244,Algorand,algo,neutral
+386996,Institutional money flowing into Quant. #qnt demand surging 💰,2024-03-19 05:37:06,3769,500,Quant,qnt,positive
+256269,Liquidation cascade hits Litecoin traders. #ltc volatility continues 💥,2024-08-01 08:05:33,5145,1068,Litecoin,ltc,negative
+123073,Bearish divergence spotted on #ape charts. ApeCoin correction likely 📉,2024-03-05 03:06:27,9979,206,ApeCoin,ape,negative
+117962,Aave linked to unregulated gambling platforms in new report. #aave reputation at risk 📉,2024-06-20 05:54:05,688,38,Aave,aave,negative
+931317,Speculative frenzy drives #chz to new highs. Risk-tolerant investors jumping in 🚀,2024-09-05 22:39:40,6148,550,Chiliz,chz,positive
+910380,Developer exodus from USDC project. #usdc future uncertain ⁉️,2024-10-25 00:40:11,8028,1406,USDC,usdc,negative
+874680,Bullish on #busd! Binance USD ecosystem expanding rapidly 🚀,2025-02-20 05:31:33,672,26,Binance USD,busd,positive
+988244,Industry conference features Echelon Prime founder. #prime community tuned in 🎤,2025-02-19 04:02:07,73,17,Echelon Prime,prime,neutral
+776948,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-11-28 17:02:55,5032,1124,UNUS SED LEO,leo,positive
+850504,Speculative frenzy drives #prime to new highs. Risk-tolerant investors jumping in 🚀,2024-05-05 04:09:04,7745,1781,Echelon Prime,prime,positive
+820854,Liquidation cascade hits TON traders. #ton volatility continues 💥,2024-08-04 05:54:24,1280,155,TON,ton,negative
+555149,Liquidation cascade hits Bitcoin SV traders. #bsv volatility continues 💥,2024-04-18 04:57:13,3026,345,Bitcoin SV,bsv,negative
+964044,Network congestion plagues Aave. #aave transactions delayed 🐢,2025-02-26 04:22:52,5103,1058,Aave,aave,negative
+429492,Industry conference features XRPL founder. #xrp community tuned in 🎤,2025-01-23 05:07:26,9254,1422,XRPL,xrp,neutral
+406126,Unofficial reports suggest Sui whale activity. #sui could see massive moves 🐋,2024-11-26 23:52:37,3281,42,Sui,sui,positive
+318725,Network upgrade complete! Ondo #ondo ready for next leg up ⬆️,2024-10-28 18:14:00,5834,723,Ondo,ondo,positive
+526181,Institutional money flowing into Polygon. #pol demand surging 💰,2025-02-05 03:51:40,9023,2180,Polygon,pol,positive
+310716,Industry conference features Bitcoin founder. #btc community tuned in 🎤,2024-10-04 03:47:47,2855,509,Bitcoin,btc,neutral
+391377,Regulators targeting #busd for compliance violations. Binance USD facing legal challenges ⚖️,2024-12-08 12:25:03,4315,76,Binance USD,busd,negative
+113862,Regulators targeting #op for compliance violations. Optimism facing legal challenges ⚖️,2024-03-28 17:26:48,9622,1320,Optimism,op,negative
+729830,Bearish divergence spotted on #ada charts. Cardano correction likely 📉,2024-10-22 16:45:48,6984,461,Cardano,ada,negative
+665168,Community backlash over Stellar's questionable partnership decisions. #xlm 🤨,2025-01-22 09:56:49,1817,4,Stellar,xlm,negative
+689361,Major exchange listing incoming for #ondo! Ondo to moon 🌕,2024-07-02 01:49:35,5591,1122,Ondo,ondo,positive
+292461,Liquidation cascade hits Cosmos traders. #atom volatility continues 💥,2024-11-28 11:22:04,6712,1562,Cosmos,atom,negative
+614079,Bullish on #chz! Chiliz ecosystem expanding rapidly 🚀,2024-05-13 22:44:32,8938,850,Chiliz,chz,positive
+556218,Network congestion plagues Solana. #sol transactions delayed 🐢,2024-08-10 03:26:52,4350,74,Solana,sol,negative
+198554,Technical breakout detected for Celo. #celo poised for gains 📈,2024-11-21 21:37:46,8671,1478,Celo,celo,positive
+397947,Liquidation cascade hits Echelon Prime traders. #prime volatility continues 💥,2024-06-25 15:57:39,8100,824,Echelon Prime,prime,negative
+608480,Regulators targeting #uni for compliance violations. Uniswap facing legal challenges ⚖️,2025-02-18 14:01:08,8083,2070,Uniswap,uni,negative
+973538,Network upgrade complete! The Sandbox #sand ready for next leg up ⬆️,2024-08-05 15:10:59,8465,169,The Sandbox,sand,positive
+119424,Developer exodus from Cosmos project. #atom future uncertain ⁉️,2024-12-28 04:45:17,6961,1480,Cosmos,atom,negative
+862741,Major exchange listing incoming for #dai! DAI to moon 🌕,2025-01-12 03:53:56,450,127,DAI,dai,positive
+361559,Privacy advocates criticize #leo for lack of transparency. UNUS SED LEO ethics questioned 🛑,2024-03-18 23:52:11,8143,1110,UNUS SED LEO,leo,negative
+181869,Institutional money flowing into Cardano. #ada demand surging 💰,2024-11-04 06:05:08,6789,955,Cardano,ada,positive
+950795,Liquidation cascade hits Bitcoin Cash traders. #bch volatility continues 💥,2024-08-08 06:26:24,2459,232,Bitcoin Cash,bch,negative
+899512,Bullish on #chz! Chiliz ecosystem expanding rapidly 🚀,2024-07-29 01:56:23,1475,243,Chiliz,chz,positive
+348306,Privacy advocates criticize #dai for lack of transparency. DAI ethics questioned 🛑,2024-08-25 07:59:58,6436,539,DAI,dai,negative
+203966,Liquidation cascade hits Injective traders. #inj volatility continues 💥,2025-02-14 01:51:19,2731,814,Injective,inj,negative
+554166,Developer exodus from Basic Attention project. #bat future uncertain ⁉️,2024-06-26 12:20:11,144,39,Basic Attention,bat,negative
+434663,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2024-04-11 23:07:56,5273,675,Filecoin,fil,negative
+152837,Bullish on #link! Chainlink ecosystem expanding rapidly 🚀,2024-12-28 07:37:47,8413,930,Chainlink,link,positive
+401606,New wallet release for Sui. #sui ecosystem continues evolving 💼,2024-08-09 05:29:32,8668,2056,Sui,sui,neutral
+647637,Privacy advocates criticize #algo for lack of transparency. Algorand ethics questioned 🛑,2024-07-31 18:34:29,8524,1544,Algorand,algo,negative
+639013,Institutional money flowing into Uniswap. #uni demand surging 💰,2024-12-01 17:12:14,3489,837,Uniswap,uni,positive
+741045,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2025-02-20 09:47:36,9845,1872,Filecoin,fil,negative
+333304,Mixed signals for #aave as Aave faces competing market pressures 🤷,2024-11-24 17:04:17,8420,1486,Aave,aave,neutral
+777931,Mixed signals for #sui as Sui faces competing market pressures 🤷,2024-09-03 17:56:52,1228,153,Sui,sui,neutral
+254061,Market makers manipulating #algo prices? Algorand volatility sparks concerns 📊,2024-09-26 00:43:47,5709,1102,Algorand,algo,positive
+204323,Network congestion plagues DAI. #dai transactions delayed 🐢,2025-02-18 03:37:29,8120,95,DAI,dai,negative
+918042,Network upgrade complete! Bitcoin Cash #bch ready for next leg up ⬆️,2024-11-19 16:10:43,8214,494,Bitcoin Cash,bch,positive
+788779,Industry conference features VeChain founder. #vet community tuned in 🎤,2024-05-17 01:02:24,2544,81,VeChain,vet,neutral
+284905,Community backlash over Decentraland's questionable partnership decisions. #mana 🤨,2024-07-29 20:11:08,6576,1151,Decentraland,mana,negative
+513058,TRON linked to unregulated gambling platforms in new report. #trx reputation at risk 📉,2024-10-13 13:03:46,3336,971,TRON,trx,negative
+439019,Developer exodus from Basic Attention project. #bat future uncertain ⁉️,2025-01-11 14:38:16,3023,308,Basic Attention,bat,negative
+602567,Bearish divergence spotted on #bch charts. Bitcoin Cash correction likely 📉,2024-05-06 01:12:04,5631,314,Bitcoin Cash,bch,negative
+838322,Industry conference features Curve DAO founder. #crv community tuned in 🎤,2025-01-26 09:24:53,8564,555,Curve DAO,crv,neutral
+979619,Standard protocol maintenance underway for Siacoin. #sc trading unaffected ⚙️,2024-12-30 08:40:09,8245,1462,Siacoin,sc,neutral
+731178,Major exchange listing incoming for #ton! TON to moon 🌕,2025-01-07 21:49:51,5131,1119,TON,ton,positive
+829428,Industry conference features Ondo founder. #ondo community tuned in 🎤,2025-02-05 04:32:44,4186,284,Ondo,ondo,neutral
+828858,Security breach reported on Ethereum bridge. #eth prices reacting negatively 🔓,2024-03-12 11:59:39,3836,26,Ethereum,eth,negative
+796048,Developer exodus from Arbitrum project. #arb future uncertain ⁉️,2024-12-06 21:09:14,6700,99,Arbitrum,arb,negative
+511191,Massive volatility alert! #sand swings 30% in 24 hours. High-risk opportunity! 🎢,2024-04-09 08:48:09,2466,699,The Sandbox,sand,positive
+829340,Bearish divergence spotted on #sc charts. Siacoin correction likely 📉,2024-09-13 16:59:47,1575,219,Siacoin,sc,negative
+288319,Standard protocol maintenance underway for DAI. #dai trading unaffected ⚙️,2024-05-30 12:43:57,1512,117,DAI,dai,neutral
+872480,Liquidation cascade hits Polkadot traders. #dot volatility continues 💥,2024-12-11 14:49:05,7894,1440,Polkadot,dot,negative
+970798,Network congestion plagues Polygon. #pol transactions delayed 🐢,2025-01-20 12:34:19,5292,1440,Polygon,pol,negative
+535915,Liquidation cascade hits Filecoin traders. #fil volatility continues 💥,2024-06-14 04:08:36,1096,40,Filecoin,fil,negative
+491247,Security breach reported on Quant bridge. #qnt prices reacting negatively 🔓,2024-04-22 10:04:31,7963,73,Quant,qnt,negative
+821550,Network congestion plagues Cosmos. #atom transactions delayed 🐢,2024-08-16 04:29:42,648,76,Cosmos,atom,negative
+611623,Liquidation cascade hits Solana traders. #sol volatility continues 💥,2024-05-07 06:16:58,3825,871,Solana,sol,negative
+284391,Institutional money flowing into UNUS SED LEO. #leo demand surging 💰,2024-04-27 03:01:11,4153,611,UNUS SED LEO,leo,positive
+851643,Bearish divergence spotted on #chz charts. Chiliz correction likely 📉,2024-11-23 23:49:37,6756,176,Chiliz,chz,negative
+136852,Network upgrade complete! Ondo #ondo ready for next leg up ⬆️,2025-01-10 06:21:29,4205,1032,Ondo,ondo,positive
+584748,Quant linked to unregulated gambling platforms in new report. #qnt reputation at risk 📉,2025-01-05 20:10:20,4927,800,Quant,qnt,negative
+607971,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2024-05-28 10:10:20,7565,263,Filecoin,fil,negative
+244453,Major exchange listing incoming for #sui! Sui to moon 🌕,2025-01-09 03:39:13,5472,255,Sui,sui,positive
+345433,Regulators targeting #iota for compliance violations. IOTA facing legal challenges ⚖️,2025-01-23 11:53:39,7434,2202,IOTA,iota,negative
+162265,Network upgrade complete! Chiliz #chz ready for next leg up ⬆️,2024-12-15 20:03:42,8217,239,Chiliz,chz,positive
+365157,Technical breakout detected for Dash. #dash poised for gains 📈,2025-01-28 06:31:20,4541,1008,Dash,dash,positive
+769683,Liquidation cascade hits Shiba Inu traders. #shib volatility continues 💥,2025-01-03 06:45:00,7175,95,Shiba Inu,shib,negative
+474641,Bullish on #bnb! BNB Chain ecosystem expanding rapidly 🚀,2024-07-11 11:17:42,6775,1794,BNB Chain,bnb,positive
+741158,Analysts warn Binance USD might be overleveraged. #busd investors proceed with caution ⚠️,2024-04-14 20:54:37,9833,2098,Binance USD,busd,positive
+147894,Network congestion plagues Arbitrum. #arb transactions delayed 🐢,2024-12-29 07:13:43,1891,262,Arbitrum,arb,negative
+307700,New wallet release for Chainlink. #link ecosystem continues evolving 💼,2024-12-02 14:46:52,1972,46,Chainlink,link,neutral
+461020,Liquidation cascade hits Avalanche traders. #avax volatility continues 💥,2024-06-16 06:40:22,8872,1762,Avalanche,avax,negative
+303400,Network upgrade complete! Celo #celo ready for next leg up ⬆️,2024-07-29 16:34:52,1058,131,Celo,celo,positive
+672563,Sui mainnet upgrade scheduled for Q3. #sui holders awaiting details 🗓️,2024-11-23 00:32:21,9126,2141,Sui,sui,neutral
+872347,Market makers manipulating #leo prices? UNUS SED LEO volatility sparks concerns 📊,2024-04-22 14:51:50,5387,799,UNUS SED LEO,leo,positive
+647463,Liquidation cascade hits Ondo traders. #ondo volatility continues 💥,2024-08-19 00:59:17,2243,78,Ondo,ondo,negative
+241071,Liquidation cascade hits ZkSync traders. #zk volatility continues 💥,2024-12-12 22:24:19,1113,25,ZkSync,zk,negative
+822246,Bearish divergence spotted on #aave charts. Aave correction likely 📉,2024-11-23 02:55:09,22,5,Aave,aave,negative
+959438,Bullish on #sand! The Sandbox ecosystem expanding rapidly 🚀,2024-09-21 06:08:29,5569,1047,The Sandbox,sand,positive
+422084,Developer exodus from IOTA project. #iota2 future uncertain ⁉️,2024-06-06 05:27:34,3088,679,IOTA,iota2,negative
+815721,Security breach reported on Basic Attention bridge. #bat prices reacting negatively 🔓,2024-08-11 10:13:17,3656,373,Basic Attention,bat,negative
+583181,Margin traders piling into #sol. Solana liquidity risks increasing 💸,2024-06-04 12:06:09,3718,944,Solana,sol,positive
+955910,Bearish divergence spotted on #grt charts. The Graph correction likely 📉,2024-11-17 07:09:03,7953,1089,The Graph,grt,negative
+828547,Network congestion plagues Sui. #sui transactions delayed 🐢,2024-11-03 10:59:46,8877,487,Sui,sui,negative
+106386,Developer exodus from The Graph project. #grt future uncertain ⁉️,2025-01-26 10:50:16,6082,90,The Graph,grt,negative
+748456,Security breach reported on ZkSync bridge. #zk prices reacting negatively 🔓,2024-11-11 01:48:31,6834,377,ZkSync,zk,negative
+524716,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-12-05 14:24:53,3677,232,UNUS SED LEO,leo,positive
+231732,Axie Infinity mainnet upgrade scheduled for Q3. #axs holders awaiting details 🗓️,2024-03-20 02:26:53,5028,481,Axie Infinity,axs,neutral
+742542,Bullish on #axs! Axie Infinity ecosystem expanding rapidly 🚀,2024-04-21 06:59:38,4639,654,Axie Infinity,axs,positive
+717465,Institutional money flowing into Binance USD. #busd demand surging 💰,2024-05-05 00:18:25,9817,2522,Binance USD,busd,positive
+441644,Market makers manipulating #apt prices? Aptos volatility sparks concerns 📊,2024-09-05 15:08:24,538,134,Aptos,apt,positive
+813996,Shiba Inu mainnet upgrade scheduled for Q3. #shib holders awaiting details 🗓️,2024-12-07 10:19:59,7391,2096,Shiba Inu,shib,neutral
+733570,Institutional money flowing into UNUS SED LEO. #leo demand surging 💰,2024-11-30 14:10:52,532,80,UNUS SED LEO,leo,positive
+501722,Environmental impact concerns raised about Chiliz mining operations. #chz,2024-04-15 14:30:14,8431,1411,Chiliz,chz,negative
+911900,Security breach reported on Solana bridge. #sol prices reacting negatively 🔓,2024-11-19 21:05:51,6306,842,Solana,sol,negative
+559270,Massive volatility alert! #algo swings 30% in 24 hours. High-risk opportunity! 🎢,2024-05-26 22:25:09,6079,1156,Algorand,algo,positive
+372384,Analysts warn Wrapped Bitcoin might be overleveraged. #wbtc investors proceed with caution ⚠️,2025-02-06 01:05:06,5680,1663,Wrapped Bitcoin,wbtc,positive
+173701,Technical breakout detected for Uniswap. #uni poised for gains 📈,2025-01-20 15:28:17,8087,473,Uniswap,uni,positive
+706223,Institutional money flowing into Wrapped Bitcoin. #wbtc demand surging 💰,2024-08-16 00:05:31,1011,275,Wrapped Bitcoin,wbtc,positive
+300288,New wallet release for Litecoin. #ltc ecosystem continues evolving 💼,2024-08-29 09:09:08,4721,154,Litecoin,ltc,neutral
+101226,Bearish divergence spotted on #bat charts. Basic Attention correction likely 📉,2024-08-06 06:46:49,7761,457,Basic Attention,bat,negative
+503972,Liquidation cascade hits Avalanche traders. #avax volatility continues 💥,2024-07-30 07:12:00,3960,979,Avalanche,avax,negative
+334125,Developer exodus from Aptos project. #apt future uncertain ⁉️,2024-07-31 12:37:30,1875,434,Aptos,apt,negative
+459577,Developer exodus from TON project. #ton future uncertain ⁉️,2024-09-19 09:38:24,2549,678,TON,ton,negative
+295767,Major exchange listing incoming for #crv! Curve DAO to moon 🌕,2024-07-09 04:09:43,8439,632,Curve DAO,crv,positive
+959016,Massive volatility alert! #grt swings 30% in 24 hours. High-risk opportunity! 🎢,2024-10-27 17:36:52,5393,1028,The Graph,grt,positive
+562146,Bearish divergence spotted on #xlm charts. Stellar correction likely 📉,2024-04-27 04:56:13,7189,831,Stellar,xlm,negative
+252885,Whistleblower alleges #bch team misused investor funds. Ethics probe underway 🔍,2024-05-25 02:21:21,9323,1388,Bitcoin Cash,bch,negative
+217254,Bearish divergence spotted on #usdc charts. USDC correction likely 📉,2024-03-28 22:55:39,1199,16,USDC,usdc,negative
+264216,Major exchange listing incoming for #dot! Polkadot to moon 🌕,2024-12-28 15:48:17,5240,106,Polkadot,dot,positive
+396004,Major exchange listing incoming for #ondo! Ondo to moon 🌕,2024-08-21 05:42:11,1981,98,Ondo,ondo,positive
+390631,Bullish on #doge! Dogecoin ecosystem expanding rapidly 🚀,2024-03-16 00:58:38,1251,111,Dogecoin,doge,positive
+297076,Developer exodus from Chainlink project. #link future uncertain ⁉️,2024-07-30 12:11:24,7487,1897,Chainlink,link,negative
+417821,Institutional money flowing into BNB Chain. #bnb demand surging 💰,2024-11-12 20:49:37,5004,1206,BNB Chain,bnb,positive
+363202,Industry conference features TON founder. #ton community tuned in 🎤,2024-04-14 16:11:00,7799,359,TON,ton,neutral
+196366,Bearish divergence spotted on #cspr charts. Casper correction likely 📉,2024-06-07 07:15:48,5846,494,Casper,cspr,negative
+681704,Market makers manipulating #apt prices? Aptos volatility sparks concerns 📊,2024-08-03 16:25:27,3218,557,Aptos,apt,positive
+632285,USDC mainnet upgrade scheduled for Q3. #usdc holders awaiting details 🗓️,2024-12-24 17:00:58,6859,213,USDC,usdc,neutral
+231376,Bearish divergence spotted on #link charts. Chainlink correction likely 📉,2025-01-04 18:39:38,8001,2146,Chainlink,link,negative
+671759,New wallet release for VeChain. #vet ecosystem continues evolving 💼,2025-02-22 05:58:09,3352,476,VeChain,vet,neutral
+645096,Network congestion plagues IOTA. #iota transactions delayed 🐢,2024-04-15 06:27:15,4455,203,IOTA,iota,negative
+647048,Technical breakout detected for IOTA. #iota2 poised for gains 📈,2024-09-28 15:37:15,9431,673,IOTA,iota2,positive
+226009,Tezos linked to unregulated gambling platforms in new report. #xtz reputation at risk 📉,2024-04-06 09:16:00,1607,464,Tezos,xtz,negative
+909834,Analysts warn Aptos might be overleveraged. #apt investors proceed with caution ⚠️,2024-03-08 21:09:07,4815,1392,Aptos,apt,positive
+701573,Technical breakout detected for Shiba Inu. #shib poised for gains 📈,2024-09-24 12:36:10,7120,1794,Shiba Inu,shib,positive
+477992,Standard protocol maintenance underway for Polkadot. #dot trading unaffected ⚙️,2025-02-11 04:22:51,2666,386,Polkadot,dot,neutral
+424485,Analysts warn Sui might be overleveraged. #sui investors proceed with caution ⚠️,2024-11-16 00:03:49,1873,255,Sui,sui,positive
+125540,Network upgrade complete! BNB Chain #bnb ready for next leg up ⬆️,2024-06-14 16:37:16,1889,69,BNB Chain,bnb,positive
+217287,Network upgrade complete! Near Protocol #near ready for next leg up ⬆️,2024-06-18 19:13:42,8836,2460,Near Protocol,near,positive
+295266,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2024-12-24 01:43:28,2748,808,UNUS SED LEO,leo,positive
+482176,Technical breakout detected for Optimism. #op poised for gains 📈,2024-05-02 12:06:32,8995,1394,Optimism,op,positive
+506519,Developer exodus from The Graph project. #grt future uncertain ⁉️,2024-03-28 01:30:02,3569,620,The Graph,grt,negative
+839782,Developer exodus from Filecoin project. #fil future uncertain ⁉️,2024-04-21 18:11:03,1014,17,Filecoin,fil,negative
+939449,Institutional money flowing into Polkadot. #dot demand surging 💰,2024-07-27 11:16:29,7950,756,Polkadot,dot,positive
+300181,Network upgrade complete! The Graph #grt ready for next leg up ⬆️,2024-03-14 12:32:07,6128,1467,The Graph,grt,positive
+874220,Major exchange listing incoming for #ondo! Ondo to moon 🌕,2024-06-05 10:55:41,9424,135,Ondo,ondo,positive
+102026,Technical breakout detected for Near Protocol. #near poised for gains 📈,2025-02-16 09:31:00,222,7,Near Protocol,near,positive
+316639,Liquidation cascade hits The Graph traders. #grt volatility continues 💥,2024-04-08 05:25:02,4548,122,The Graph,grt,negative
+167517,Whistleblower alleges #xlm team misused investor funds. Ethics probe underway 🔍,2024-12-11 12:45:39,4319,423,Stellar,xlm,negative
+869953,Bullish on #near! Near Protocol ecosystem expanding rapidly 🚀,2024-09-17 10:39:15,2919,425,Near Protocol,near,positive
+793224,Security breach reported on Aave bridge. #aave prices reacting negatively 🔓,2024-11-03 02:09:17,4482,267,Aave,aave,negative
+711865,Liquidation cascade hits Decentraland traders. #mana volatility continues 💥,2024-08-15 00:32:36,5471,930,Decentraland,mana,negative
+432412,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2024-11-06 10:59:57,6727,65,Filecoin,fil,negative
+230768,Network congestion plagues ApeCoin. #ape transactions delayed 🐢,2024-12-20 22:17:08,1238,141,ApeCoin,ape,negative
+942579,Bullish on #vet! VeChain ecosystem expanding rapidly 🚀,2024-12-06 16:49:43,8216,150,VeChain,vet,positive
+828544,Liquidation cascade hits Chainlink traders. #link volatility continues 💥,2024-11-11 20:38:43,320,96,Chainlink,link,negative
+710343,Mixed signals for #vet as VeChain faces competing market pressures 🤷,2024-10-12 04:26:39,8933,827,VeChain,vet,neutral
+338264,Speculative frenzy drives #uni to new highs. Risk-tolerant investors jumping in 🚀,2025-02-22 17:29:46,9871,914,Uniswap,uni,positive
+187297,Bullish on #crv! Curve DAO ecosystem expanding rapidly 🚀,2024-08-22 11:02:43,4643,834,Curve DAO,crv,positive
+892408,New wallet release for Quant. #qnt ecosystem continues evolving 💼,2024-05-17 01:21:33,8672,104,Quant,qnt,neutral
+824536,Security breach reported on Binance USD bridge. #busd prices reacting negatively 🔓,2025-02-24 09:34:28,4682,1027,Binance USD,busd,negative
+795308,Industry conference features DAI founder. #dai community tuned in 🎤,2024-10-08 21:12:17,5724,656,DAI,dai,neutral
+543282,Network upgrade complete! DAI #dai ready for next leg up ⬆️,2024-09-18 11:25:57,2623,361,DAI,dai,positive
+138260,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2024-09-18 07:39:32,8867,2472,Filecoin,fil,negative
+902255,Security breach reported on DAI bridge. #dai prices reacting negatively 🔓,2025-02-04 06:16:49,2828,485,DAI,dai,negative
+699113,New wallet release for Axie Infinity. #axs ecosystem continues evolving 💼,2025-02-24 19:55:54,224,40,Axie Infinity,axs,neutral
+465601,Community backlash over BNB Chain's questionable partnership decisions. #bnb 🤨,2024-03-23 06:57:58,2085,267,BNB Chain,bnb,negative
+345836,Standard protocol maintenance underway for Aave. #aave trading unaffected ⚙️,2024-04-23 06:01:48,6934,48,Aave,aave,neutral
+160471,Bearish divergence spotted on #bch charts. Bitcoin Cash correction likely 📉,2024-06-04 10:45:43,2094,471,Bitcoin Cash,bch,negative
+966601,Developer exodus from Cardano project. #ada future uncertain ⁉️,2024-07-02 12:43:30,707,104,Cardano,ada,negative
+291428,Industry conference features Uniswap founder. #uni community tuned in 🎤,2024-07-07 07:29:06,187,19,Uniswap,uni,neutral
+467514,Network upgrade complete! Aptos #apt ready for next leg up ⬆️,2024-06-06 17:01:45,3077,661,Aptos,apt,positive
+777912,Network congestion plagues Arbitrum. #arb transactions delayed 🐢,2024-09-05 12:29:21,6721,1934,Arbitrum,arb,negative
+234397,Mixed signals for #uni as Uniswap faces competing market pressures 🤷,2024-04-21 21:25:30,6355,1753,Uniswap,uni,neutral
+291809,Market makers manipulating #ton prices? TON volatility sparks concerns 📊,2024-04-11 00:51:03,2315,685,TON,ton,positive
+420405,Mixed signals for #grt as The Graph faces competing market pressures 🤷,2025-02-05 07:43:43,8793,1285,The Graph,grt,neutral
+127750,Security breach reported on Shiba Inu bridge. #shib prices reacting negatively 🔓,2025-01-24 10:39:19,8885,2536,Shiba Inu,shib,negative
+810809,Standard protocol maintenance underway for The Sandbox. #sand trading unaffected ⚙️,2025-02-06 16:35:27,9675,988,The Sandbox,sand,neutral
+231417,Institutional money flowing into Dogecoin. #doge demand surging 💰,2024-11-26 09:51:51,2764,179,Dogecoin,doge,positive
+853304,Liquidation cascade hits Tezos traders. #xtz volatility continues 💥,2025-01-20 14:54:47,6514,1607,Tezos,xtz,negative
+856377,Community backlash over Tezos's questionable partnership decisions. #xtz 🤨,2025-01-06 01:35:05,9417,578,Tezos,xtz,negative
+179736,Privacy advocates criticize #link for lack of transparency. Chainlink ethics questioned 🛑,2024-11-09 02:51:25,5378,993,Chainlink,link,negative
+491999,Unofficial reports suggest IOTA whale activity. #iota2 could see massive moves 🐋,2024-09-24 08:44:07,3975,592,IOTA,iota2,positive
+915424,Institutional money flowing into Uniswap. #uni demand surging 💰,2024-11-07 04:18:38,1179,295,Uniswap,uni,positive
+710702,Network congestion plagues Ondo. #ondo transactions delayed 🐢,2024-10-02 20:54:56,3670,103,Ondo,ondo,negative
+857674,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-03-26 12:08:56,3411,674,UNUS SED LEO,leo,positive
+471713,Regulators targeting #bch for compliance violations. Bitcoin Cash facing legal challenges ⚖️,2024-05-25 07:30:46,2011,7,Bitcoin Cash,bch,negative
+496952,Analysts warn VeChain might be overleveraged. #vet investors proceed with caution ⚠️,2024-03-08 15:00:44,6894,481,VeChain,vet,positive
+593621,Network congestion plagues Chiliz. #chz transactions delayed 🐢,2024-10-27 20:00:52,783,79,Chiliz,chz,negative
+393078,Network congestion plagues TON. #ton transactions delayed 🐢,2024-12-28 18:04:53,273,76,TON,ton,negative
+571863,Mixed signals for #iota as IOTA faces competing market pressures 🤷,2024-06-27 03:29:38,3199,588,IOTA,iota,neutral
+557435,Major exchange listing incoming for #sui! Sui to moon 🌕,2025-01-06 18:18:17,575,60,Sui,sui,positive
+962394,Bearish divergence spotted on #uni charts. Uniswap correction likely 📉,2024-03-19 14:51:57,8852,480,Uniswap,uni,negative
+151213,New wallet release for Wrapped Bitcoin. #wbtc ecosystem continues evolving 💼,2024-06-03 07:56:22,2773,531,Wrapped Bitcoin,wbtc,neutral
+108625,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2024-11-09 22:39:54,9319,320,UNUS SED LEO,leo,positive
+789310,Institutional money flowing into Echelon Prime. #prime demand surging 💰,2024-08-17 23:15:26,5591,1089,Echelon Prime,prime,positive
+130509,Institutional money flowing into Dogecoin. #doge demand surging 💰,2025-02-11 11:42:21,9392,1015,Dogecoin,doge,positive
+263728,Community backlash over Algorand's questionable partnership decisions. #algo 🤨,2024-05-19 07:07:37,989,153,Algorand,algo,negative
+899705,Institutional money flowing into Axie Infinity. #axs demand surging 💰,2024-11-21 09:10:54,6271,143,Axie Infinity,axs,positive
+571644,Network upgrade complete! Basic Attention #bat ready for next leg up ⬆️,2024-06-01 10:53:25,2930,186,Basic Attention,bat,positive
+311460,Industry conference features Polkadot founder. #dot community tuned in 🎤,2024-03-28 07:09:33,5505,413,Polkadot,dot,neutral
+697991,Bullish on #bat! Basic Attention ecosystem expanding rapidly 🚀,2024-03-15 09:56:59,2611,778,Basic Attention,bat,positive
+205538,Network upgrade complete! UNUS SED LEO #leo ready for next leg up ⬆️,2024-04-15 00:57:14,3521,883,UNUS SED LEO,leo,positive
+843412,Standard protocol maintenance underway for Dogecoin. #doge trading unaffected ⚙️,2025-02-19 04:53:13,7473,1279,Dogecoin,doge,neutral
+328396,Network upgrade complete! The Sandbox #sand ready for next leg up ⬆️,2024-06-25 15:27:52,4682,343,The Sandbox,sand,positive
+882248,Analysts warn VeChain might be overleveraged. #vet investors proceed with caution ⚠️,2024-06-14 16:20:42,3913,75,VeChain,vet,positive
+776237,Network congestion plagues Stellar. #xlm transactions delayed 🐢,2024-07-28 22:23:35,1372,110,Stellar,xlm,negative
+485659,Institutional money flowing into TRON. #trx demand surging 💰,2024-07-12 21:36:48,3810,151,TRON,trx,positive
+150817,Regulators targeting #bnb for compliance violations. BNB Chain facing legal challenges ⚖️,2024-08-11 19:14:34,1637,331,BNB Chain,bnb,negative
+997730,New wallet release for Cardano. #ada ecosystem continues evolving 💼,2024-09-14 05:48:42,1789,460,Cardano,ada,neutral
+135484,Security breach reported on Casper bridge. #cspr prices reacting negatively 🔓,2024-12-06 06:22:20,9349,2542,Casper,cspr,negative
+520144,Technical breakout detected for BNB Chain. #bnb poised for gains 📈,2024-03-29 04:04:56,7528,479,BNB Chain,bnb,positive
+228899,Network congestion plagues Bitcoin. #btc transactions delayed 🐢,2024-10-27 03:24:23,8806,1851,Bitcoin,btc,negative
+718185,Bullish on #mana! Decentraland ecosystem expanding rapidly 🚀,2025-02-17 14:42:16,9658,30,Decentraland,mana,positive
+667575,Investigators found #xrp transactions linked to dark web activities. XRPL under scrutiny 🕵️♂️,2025-02-27 12:27:27,6251,1576,XRPL,xrp,negative
+921258,Bearish divergence spotted on #atom charts. Cosmos correction likely 📉,2024-05-20 03:24:03,5016,371,Cosmos,atom,negative
+642939,Bullish on #op! Optimism ecosystem expanding rapidly 🚀,2024-09-03 12:38:47,2522,656,Optimism,op,positive
+333100,Litecoin linked to unregulated gambling platforms in new report. #ltc reputation at risk 📉,2025-01-22 06:03:34,3309,325,Litecoin,ltc,negative
+619122,Major exchange listing incoming for #prime! Echelon Prime to moon 🌕,2024-04-30 14:08:20,3359,767,Echelon Prime,prime,positive
+651013,Developer exodus from Uniswap project. #uni future uncertain ⁉️,2024-04-07 10:06:28,5233,1283,Uniswap,uni,negative
+584417,Network upgrade complete! Litecoin #ltc ready for next leg up ⬆️,2024-07-01 19:46:33,9981,2230,Litecoin,ltc,positive
+495503,Industry conference features Uniswap founder. #uni community tuned in 🎤,2024-11-09 23:43:37,9581,2235,Uniswap,uni,neutral
+243859,Bearish divergence spotted on #xrp charts. XRPL correction likely 📉,2024-04-25 04:28:47,1816,254,XRPL,xrp,negative
+928187,Major exchange listing incoming for #celo! Celo to moon 🌕,2024-12-06 10:31:25,2481,663,Celo,celo,positive
+302419,Technical breakout detected for The Graph. #grt poised for gains 📈,2025-01-28 03:10:37,7139,1399,The Graph,grt,positive
+315709,Liquidation cascade hits TRON traders. #trx volatility continues 💥,2024-08-25 21:53:29,8879,109,TRON,trx,negative
+919432,Whistleblower alleges #atom team misused investor funds. Ethics probe underway 🔍,2024-04-10 23:32:22,5446,1450,Cosmos,atom,negative
+784666,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2024-03-31 23:53:43,7003,938,UNUS SED LEO,leo,positive
+230443,Standard protocol maintenance underway for Tezos. #xtz trading unaffected ⚙️,2024-05-15 21:08:36,5550,353,Tezos,xtz,neutral
+380167,Massive volatility alert! #dot swings 30% in 24 hours. High-risk opportunity! 🎢,2024-09-05 10:53:44,9183,1613,Polkadot,dot,positive
+169029,Developer exodus from Basic Attention project. #bat future uncertain ⁉️,2024-10-24 01:04:40,360,23,Basic Attention,bat,negative
+660650,Bearish divergence spotted on #avax charts. Avalanche correction likely 📉,2024-10-18 07:01:01,1400,351,Avalanche,avax,negative
+858756,Security breach reported on Quant bridge. #qnt prices reacting negatively 🔓,2024-10-12 15:13:07,4314,523,Quant,qnt,negative
+209258,Bullish on #shib! Shiba Inu ecosystem expanding rapidly 🚀,2024-05-28 01:40:10,7230,1053,Shiba Inu,shib,positive
+866391,Bullish on #dai! DAI ecosystem expanding rapidly 🚀,2024-09-08 07:56:11,5201,1490,DAI,dai,positive
+312448,Community backlash over USDC's questionable partnership decisions. #usdc 🤨,2024-04-20 05:07:10,6274,1738,USDC,usdc,negative
+576920,Liquidation cascade hits Echelon Prime traders. #prime volatility continues 💥,2024-09-01 22:52:06,5709,1036,Echelon Prime,prime,negative
+967985,Technical breakout detected for VeChain. #vet poised for gains 📈,2025-02-11 22:41:27,9406,2089,VeChain,vet,positive
+138033,Community backlash over Uniswap's questionable partnership decisions. #uni 🤨,2024-04-08 18:46:58,7517,1903,Uniswap,uni,negative
+882945,Major exchange listing incoming for #eth! Ethereum to moon 🌕,2025-01-17 08:40:46,8175,1270,Ethereum,eth,positive
+179075,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2024-06-29 18:02:40,5975,999,UNUS SED LEO,leo,positive
+406719,Investigators found #ada transactions linked to dark web activities. Cardano under scrutiny 🕵️♂️,2024-10-29 09:10:16,2550,443,Cardano,ada,negative
+252895,Bearish divergence spotted on #ape charts. ApeCoin correction likely 📉,2024-05-29 06:54:04,4277,507,ApeCoin,ape,negative
+646414,Technical breakout detected for Chiliz. #chz poised for gains 📈,2025-01-31 02:44:22,5795,1580,Chiliz,chz,positive
+252157,Network congestion plagues Arbitrum. #arb transactions delayed 🐢,2024-06-13 11:52:18,6029,1117,Arbitrum,arb,negative
+524617,Liquidation cascade hits The Sandbox traders. #sand volatility continues 💥,2024-05-14 18:02:23,207,40,The Sandbox,sand,negative
+562701,Bearish divergence spotted on #btc charts. Bitcoin correction likely 📉,2024-12-21 12:06:26,4637,509,Bitcoin,btc,negative
+956887,Bullish on #axs! Axie Infinity ecosystem expanding rapidly 🚀,2024-11-07 11:00:09,2175,584,Axie Infinity,axs,positive
+343021,Network upgrade complete! Cardano #ada ready for next leg up ⬆️,2024-05-30 19:34:34,7785,1638,Cardano,ada,positive
+133427,Bearish divergence spotted on #arb charts. Arbitrum correction likely 📉,2024-11-07 01:50:39,8710,431,Arbitrum,arb,negative
+655979,Mixed signals for #wbtc as Wrapped Bitcoin faces competing market pressures 🤷,2024-08-13 04:05:49,7599,1190,Wrapped Bitcoin,wbtc,neutral
+206452,Bullish on #eth! Ethereum ecosystem expanding rapidly 🚀,2025-01-11 23:02:13,255,36,Ethereum,eth,positive
+207723,Security breach reported on Cosmos bridge. #atom prices reacting negatively 🔓,2025-01-26 06:31:12,4104,812,Cosmos,atom,negative
+423504,Technical breakout detected for Polygon. #pol poised for gains 📈,2025-02-09 08:22:07,160,29,Polygon,pol,positive
+627513,Major exchange listing incoming for #xrp! XRPL to moon 🌕,2024-11-24 13:14:18,4426,789,XRPL,xrp,positive
+503567,Bearish divergence spotted on #mana charts. Decentraland correction likely 📉,2025-01-27 03:41:09,8923,778,Decentraland,mana,negative
+582179,Bullish on #bnb! BNB Chain ecosystem expanding rapidly 🚀,2024-10-11 17:34:20,8075,2415,BNB Chain,bnb,positive
+356157,BNB Chain linked to unregulated gambling platforms in new report. #bnb reputation at risk 📉,2024-04-13 20:06:21,8293,1699,BNB Chain,bnb,negative
+293254,Technical breakout detected for Bitcoin. #btc poised for gains 📈,2024-06-11 19:20:26,3337,570,Bitcoin,btc,positive
+489215,Institutional money flowing into Bitcoin Cash. #bch demand surging 💰,2025-02-17 10:26:02,2658,295,Bitcoin Cash,bch,positive
+288759,"Traders eyeing #ape for high-risk, high-reward plays. ApeCoin could moon or crash 🌕💥",2024-05-02 01:09:55,5221,1552,ApeCoin,ape,positive
+114933,Network congestion plagues Stellar. #xlm transactions delayed 🐢,2024-06-16 10:16:10,4041,603,Stellar,xlm,negative
+238003,Security breach reported on Sui bridge. #sui prices reacting negatively 🔓,2025-01-01 02:34:28,4150,1218,Sui,sui,negative
+780274,Network congestion plagues Chiliz. #chz transactions delayed 🐢,2024-09-13 10:19:41,3778,996,Chiliz,chz,negative
+911886,Liquidation cascade hits TON traders. #ton volatility continues 💥,2024-10-23 12:41:20,4055,744,TON,ton,negative
+707196,Speculative frenzy drives #dai to new highs. Risk-tolerant investors jumping in 🚀,2024-12-29 11:20:15,7533,738,DAI,dai,positive
+969120,Developer exodus from DAI project. #dai future uncertain ⁉️,2024-08-02 19:15:54,2437,326,DAI,dai,negative
+661137,Margin traders piling into #sol. Solana liquidity risks increasing 💸,2025-01-05 20:54:14,4272,1223,Solana,sol,positive
+195884,Unofficial reports suggest Quant whale activity. #qnt could see massive moves 🐋,2025-02-26 11:23:51,9684,1336,Quant,qnt,positive
+365349,Institutional money flowing into ApeCoin. #ape demand surging 💰,2025-01-21 06:45:45,5949,1250,ApeCoin,ape,positive
+282073,Privacy advocates criticize #grt for lack of transparency. The Graph ethics questioned 🛑,2024-03-17 05:04:52,601,4,The Graph,grt,negative
+530061,Industry conference features XRPL founder. #xrp community tuned in 🎤,2024-10-11 08:18:31,1345,313,XRPL,xrp,neutral
+137062,Industry conference features Ethereum founder. #eth community tuned in 🎤,2024-11-20 22:05:41,8673,418,Ethereum,eth,neutral
+840778,New wallet release for Optimism. #op ecosystem continues evolving 💼,2025-01-17 19:40:56,7151,765,Optimism,op,neutral
+673224,Security breach reported on Sui bridge. #sui prices reacting negatively 🔓,2024-12-04 19:30:05,8091,412,Sui,sui,negative
+395436,Developer exodus from Avalanche project. #avax future uncertain ⁉️,2024-06-28 18:12:08,4256,397,Avalanche,avax,negative
+491300,Bullish on #ltc! Litecoin ecosystem expanding rapidly 🚀,2025-01-05 03:21:16,2410,39,Litecoin,ltc,positive
+691829,Security breach reported on Algorand bridge. #algo prices reacting negatively 🔓,2024-10-01 07:33:10,6736,711,Algorand,algo,negative
+856128,Network congestion plagues Axie Infinity. #axs transactions delayed 🐢,2024-05-27 20:50:08,7216,1875,Axie Infinity,axs,negative
+134007,Polygon mainnet upgrade scheduled for Q3. #pol holders awaiting details 🗓️,2024-10-24 17:21:50,2922,858,Polygon,pol,neutral
+316883,Bearish divergence spotted on #dot charts. Polkadot correction likely 📉,2024-10-06 03:38:12,9496,299,Polkadot,dot,negative
+698888,Bullish on #near! Near Protocol ecosystem expanding rapidly 🚀,2025-02-27 00:35:32,3923,288,Near Protocol,near,positive
+710875,Privacy advocates criticize #crv for lack of transparency. Curve DAO ethics questioned 🛑,2024-05-11 06:47:52,1118,323,Curve DAO,crv,negative
+527717,Network congestion plagues TRON. #trx transactions delayed 🐢,2024-12-21 08:23:33,4116,478,TRON,trx,negative
+555617,Bearish divergence spotted on #algo charts. Algorand correction likely 📉,2024-11-21 09:08:10,3135,326,Algorand,algo,negative
+148347,Major exchange listing incoming for #usdc! USDC to moon 🌕,2024-05-28 10:50:43,3126,125,USDC,usdc,positive
+499209,Developer exodus from Algorand project. #algo future uncertain ⁉️,2024-04-04 01:57:47,1306,186,Algorand,algo,negative
+721424,Liquidation cascade hits Curve DAO traders. #crv volatility continues 💥,2025-01-05 03:23:51,5521,167,Curve DAO,crv,negative
+463569,Developer exodus from Axie Infinity project. #axs future uncertain ⁉️,2024-10-15 10:08:51,3752,134,Axie Infinity,axs,negative
+446516,Mixed signals for #near as Near Protocol faces competing market pressures 🤷,2025-02-18 16:21:13,581,156,Near Protocol,near,neutral
+354840,Network upgrade complete! Celo #celo ready for next leg up ⬆️,2024-12-14 11:40:45,8846,1690,Celo,celo,positive
+717411,Whistleblower alleges #ada team misused investor funds. Ethics probe underway 🔍,2025-01-22 04:41:15,605,173,Cardano,ada,negative
+810993,Network upgrade complete! Near Protocol #near ready for next leg up ⬆️,2024-09-05 22:15:16,1763,521,Near Protocol,near,positive
+563781,New wallet release for Stellar. #xlm ecosystem continues evolving 💼,2024-12-16 03:53:41,7130,790,Stellar,xlm,neutral
+864709,Bullish on #celo! Celo ecosystem expanding rapidly 🚀,2024-12-31 18:07:03,7463,323,Celo,celo,positive
+594689,Technical breakout detected for Axie Infinity. #axs poised for gains 📈,2024-04-26 02:01:51,3694,139,Axie Infinity,axs,positive
+661191,Network congestion plagues Avalanche. #avax transactions delayed 🐢,2024-07-28 17:08:12,6884,1805,Avalanche,avax,negative
+297325,Technical breakout detected for Arbitrum. #arb poised for gains 📈,2024-05-13 19:54:40,1024,247,Arbitrum,arb,positive
+591630,Bearish divergence spotted on #chz charts. Chiliz correction likely 📉,2024-04-05 13:28:11,9954,2721,Chiliz,chz,negative
+205594,Network upgrade complete! Dogecoin #doge ready for next leg up ⬆️,2025-01-12 10:52:34,7140,168,Dogecoin,doge,positive
+686063,New wallet release for XRPL. #xrp ecosystem continues evolving 💼,2024-12-19 06:01:59,1597,384,XRPL,xrp,neutral
+478544,Technical breakout detected for Celo. #celo poised for gains 📈,2024-03-24 13:07:40,4749,191,Celo,celo,positive
+636705,Developer exodus from Axie Infinity project. #axs future uncertain ⁉️,2024-05-13 13:32:24,7639,278,Axie Infinity,axs,negative
+389252,Security breach reported on Bitcoin SV bridge. #bsv prices reacting negatively 🔓,2025-02-06 07:12:42,679,16,Bitcoin SV,bsv,negative
+658432,Major exchange listing incoming for #vet! VeChain to moon 🌕,2024-11-22 20:54:59,2956,196,VeChain,vet,positive
+817186,Bullish on #grt! The Graph ecosystem expanding rapidly 🚀,2024-05-24 20:43:24,3899,1036,The Graph,grt,positive
+696172,Major exchange listing incoming for #sand! The Sandbox to moon 🌕,2024-06-21 08:32:55,2550,759,The Sandbox,sand,positive
+516659,Developer exodus from Cosmos project. #atom future uncertain ⁉️,2024-10-11 01:57:36,2718,746,Cosmos,atom,negative
+279327,Network congestion plagues Bitcoin SV. #bsv transactions delayed 🐢,2024-07-30 12:40:40,5503,1527,Bitcoin SV,bsv,negative
+818778,New wallet release for XRPL. #xrp ecosystem continues evolving 💼,2024-10-10 05:01:03,1784,305,XRPL,xrp,neutral
+452204,Bullish on #leo! UNUS SED LEO ecosystem expanding rapidly 🚀,2025-02-07 14:44:05,6941,1813,UNUS SED LEO,leo,positive
+972581,Analysts warn Bitcoin Cash might be overleveraged. #bch investors proceed with caution ⚠️,2024-08-15 20:24:28,488,128,Bitcoin Cash,bch,positive
+222097,Near Protocol linked to unregulated gambling platforms in new report. #near reputation at risk 📉,2024-05-26 07:21:50,2670,232,Near Protocol,near,negative
+999322,Liquidation cascade hits Solana traders. #sol volatility continues 💥,2025-01-16 01:41:58,7724,667,Solana,sol,negative
+254130,Major exchange listing incoming for #qnt! Quant to moon 🌕,2024-11-05 06:15:42,3948,192,Quant,qnt,positive
+751616,Bearish divergence spotted on #sc charts. Siacoin correction likely 📉,2024-09-05 10:44:11,3511,381,Siacoin,sc,negative
+416649,Technical breakout detected for Quant. #qnt poised for gains 📈,2024-04-12 14:15:56,4451,522,Quant,qnt,positive
+781408,Developer exodus from Dogecoin project. #doge future uncertain ⁉️,2024-12-14 17:51:47,9978,1118,Dogecoin,doge,negative
+590432,Market makers manipulating #arb prices? Arbitrum volatility sparks concerns 📊,2024-10-18 23:48:16,619,9,Arbitrum,arb,positive
+724464,Major exchange listing incoming for #zk! ZkSync to moon 🌕,2024-11-30 11:56:24,1726,195,ZkSync,zk,positive
+376574,Standard protocol maintenance underway for USDC. #usdc trading unaffected ⚙️,2024-06-12 13:12:34,4779,523,USDC,usdc,neutral
+293342,Major exchange listing incoming for #pol! Polygon to moon 🌕,2024-03-04 23:02:06,4027,718,Polygon,pol,positive
+382472,Network upgrade complete! Celo #celo ready for next leg up ⬆️,2024-06-28 06:39:41,8372,51,Celo,celo,positive
+517600,Bullish on #algo! Algorand ecosystem expanding rapidly 🚀,2024-05-30 18:31:33,4381,1251,Algorand,algo,positive
+343329,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2024-04-20 20:09:36,6179,631,Filecoin,fil,negative
+196732,Technical breakout detected for Solana. #sol poised for gains 📈,2024-09-26 14:14:12,3692,502,Solana,sol,positive
+725733,New wallet release for ApeCoin. #ape ecosystem continues evolving 💼,2025-01-09 02:43:29,7885,1259,ApeCoin,ape,neutral
+180296,Bullish on #apt! Aptos ecosystem expanding rapidly 🚀,2024-08-24 07:43:56,8903,1586,Aptos,apt,positive
+948599,Security breach reported on Binance USD bridge. #busd prices reacting negatively 🔓,2024-08-25 17:52:01,4459,1046,Binance USD,busd,negative
+480859,Investigators found #sui transactions linked to dark web activities. Sui under scrutiny 🕵️♂️,2024-09-08 17:35:39,9112,1583,Sui,sui,negative
+611765,Security breach reported on Algorand bridge. #algo prices reacting negatively 🔓,2024-10-23 12:02:01,5490,612,Algorand,algo,negative
+765346,Network congestion plagues Dogecoin. #doge transactions delayed 🐢,2024-09-23 10:48:54,8583,1721,Dogecoin,doge,negative
+580125,Network upgrade complete! Litecoin #ltc ready for next leg up ⬆️,2024-05-14 08:53:59,9322,2455,Litecoin,ltc,positive
+520260,Institutional money flowing into Celo. #celo demand surging 💰,2024-10-10 19:14:53,3743,22,Celo,celo,positive
+228402,Bearish divergence spotted on #wbtc charts. Wrapped Bitcoin correction likely 📉,2024-12-21 04:07:17,6057,264,Wrapped Bitcoin,wbtc,negative
+632296,Liquidation cascade hits Uniswap traders. #uni volatility continues 💥,2025-01-04 15:19:37,9637,2573,Uniswap,uni,negative
+296501,Bitcoin SV linked to unregulated gambling platforms in new report. #bsv reputation at risk 📉,2024-08-02 17:21:31,7343,2149,Bitcoin SV,bsv,negative
+266979,Industry conference features VeChain founder. #vet community tuned in 🎤,2025-01-18 01:24:30,6763,1243,VeChain,vet,neutral
+817159,Bearish divergence spotted on #iota2 charts. IOTA correction likely 📉,2025-02-07 14:54:20,6154,1715,IOTA,iota2,negative
+851877,Standard protocol maintenance underway for Bitcoin SV. #bsv trading unaffected ⚙️,2024-12-24 21:00:28,1727,264,Bitcoin SV,bsv,neutral
+315338,Network upgrade complete! ApeCoin #ape ready for next leg up ⬆️,2024-12-02 23:43:17,1018,49,ApeCoin,ape,positive
+961326,Network upgrade complete! BNB Chain #bnb ready for next leg up ⬆️,2024-04-02 22:22:44,2149,484,BNB Chain,bnb,positive
+990436,Network congestion plagues Avalanche. #avax transactions delayed 🐢,2024-09-26 21:42:27,2424,702,Avalanche,avax,negative
+597749,Network congestion plagues Stellar. #xlm transactions delayed 🐢,2025-02-16 05:36:18,3289,396,Stellar,xlm,negative
+130292,Technical breakout detected for Ethereum. #eth poised for gains 📈,2025-02-01 07:40:28,7511,530,Ethereum,eth,positive
+651430,Mixed signals for #mana as Decentraland faces competing market pressures 🤷,2025-02-01 09:56:04,5033,730,Decentraland,mana,neutral
+573962,Major exchange listing incoming for #leo! UNUS SED LEO to moon 🌕,2024-07-25 03:27:55,3255,193,UNUS SED LEO,leo,positive
+802249,Bearish divergence spotted on #qnt charts. Quant correction likely 📉,2024-09-26 19:46:33,7416,1620,Quant,qnt,negative
+122914,Institutional money flowing into TON. #ton demand surging 💰,2024-09-20 04:08:44,5124,954,TON,ton,positive
+592598,Unofficial reports suggest Decentraland whale activity. #mana could see massive moves 🐋,2024-06-09 06:36:17,3474,849,Decentraland,mana,positive
+624000,Liquidation cascade hits Sui traders. #sui volatility continues 💥,2024-04-01 14:39:30,9346,2117,Sui,sui,negative
+793699,Developer exodus from Ondo project. #ondo future uncertain ⁉️,2024-11-16 09:33:27,5547,1181,Ondo,ondo,negative
+757443,Regulators targeting #ton for compliance violations. TON facing legal challenges ⚖️,2024-04-15 14:57:48,3190,745,TON,ton,negative
+676067,Network upgrade complete! BNB Chain #bnb ready for next leg up ⬆️,2024-05-20 05:06:07,6513,1580,BNB Chain,bnb,positive
+809206,Network upgrade complete! DAI #dai ready for next leg up ⬆️,2024-08-28 10:35:36,2914,771,DAI,dai,positive
+499400,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2024-07-17 04:50:30,2091,78,Filecoin,fil,negative
+701822,Arbitrum mainnet upgrade scheduled for Q3. #arb holders awaiting details 🗓️,2024-07-17 05:27:46,7185,1280,Arbitrum,arb,neutral
+138381,Major exchange listing incoming for #vet! VeChain to moon 🌕,2024-11-10 00:32:39,8762,204,VeChain,vet,positive
+636296,Security breach reported on Algorand bridge. #algo prices reacting negatively 🔓,2024-12-14 19:16:30,213,25,Algorand,algo,negative
+437070,Regulators targeting #leo for compliance violations. UNUS SED LEO facing legal challenges ⚖️,2024-04-05 19:10:21,3217,62,UNUS SED LEO,leo,negative
+239032,Institutional money flowing into Aptos. #apt demand surging 💰,2024-04-05 03:19:56,3592,235,Aptos,apt,positive
+979397,Developer exodus from ZkSync project. #zk future uncertain ⁉️,2024-04-18 07:53:42,2452,187,ZkSync,zk,negative
+161745,Industry conference features Polkadot founder. #dot community tuned in 🎤,2024-07-26 05:01:52,7287,2127,Polkadot,dot,neutral
+280091,Technical breakout detected for Dash. #dash poised for gains 📈,2024-03-13 15:02:16,6103,1026,Dash,dash,positive
+732928,Industry conference features Algorand founder. #algo community tuned in 🎤,2024-03-14 17:40:37,6042,588,Algorand,algo,neutral
+768485,Security breach reported on Bitcoin Cash bridge. #bch prices reacting negatively 🔓,2024-06-03 04:13:32,2137,408,Bitcoin Cash,bch,negative
+150300,Technical breakout detected for Chiliz. #chz poised for gains 📈,2024-06-28 08:52:14,1189,234,Chiliz,chz,positive
+596121,Network upgrade complete! Chiliz #chz ready for next leg up ⬆️,2024-06-20 16:58:21,6677,1179,Chiliz,chz,positive
+349815,Major exchange listing incoming for #iota! IOTA to moon 🌕,2024-04-12 12:04:23,6581,420,IOTA,iota,positive
+531150,New wallet release for Solana. #sol ecosystem continues evolving 💼,2024-05-07 20:04:29,3999,476,Solana,sol,neutral
+113499,Liquidation cascade hits Chiliz traders. #chz volatility continues 💥,2024-03-22 04:48:40,6026,1122,Chiliz,chz,negative
+119730,Developer exodus from Cosmos project. #atom future uncertain ⁉️,2024-09-13 04:50:24,224,14,Cosmos,atom,negative
+606653,Bitcoin SV mainnet upgrade scheduled for Q3. #bsv holders awaiting details 🗓️,2024-08-31 09:46:18,8700,330,Bitcoin SV,bsv,neutral
+189301,Bitcoin SV linked to unregulated gambling platforms in new report. #bsv reputation at risk 📉,2024-08-30 10:24:04,8537,83,Bitcoin SV,bsv,negative
+352521,Major exchange listing incoming for #inj! Injective to moon 🌕,2024-05-19 15:19:20,3209,145,Injective,inj,positive
+114318,"Traders eyeing #xlm for high-risk, high-reward plays. Stellar could moon or crash 🌕💥",2024-10-01 06:10:46,9840,848,Stellar,xlm,positive
+391952,Institutional money flowing into XRPL. #xrp demand surging 💰,2024-11-25 03:21:12,183,52,XRPL,xrp,positive
+855305,Liquidation cascade hits Solana traders. #sol volatility continues 💥,2024-04-25 09:50:46,8533,535,Solana,sol,negative
+412351,New wallet release for Aptos. #apt ecosystem continues evolving 💼,2024-07-27 22:38:54,994,273,Aptos,apt,neutral
+484187,Environmental impact concerns raised about Curve DAO mining operations. #crv,2024-09-25 16:02:07,3714,133,Curve DAO,crv,negative
+980111,Network upgrade complete! Dogecoin #doge ready for next leg up ⬆️,2024-08-14 11:08:10,7523,1964,Dogecoin,doge,positive
+112244,Whistleblower alleges #aave team misused investor funds. Ethics probe underway 🔍,2024-10-20 06:58:41,3149,927,Aave,aave,negative
+236582,Developer exodus from Solana project. #sol future uncertain ⁉️,2024-03-09 22:50:42,4859,944,Solana,sol,negative
+121338,Network congestion plagues Curve DAO. #crv transactions delayed 🐢,2024-06-02 17:06:19,3654,447,Curve DAO,crv,negative
+668287,Standard protocol maintenance underway for Solana. #sol trading unaffected ⚙️,2024-07-12 04:21:37,2886,415,Solana,sol,neutral
+263563,Whistleblower alleges #qnt team misused investor funds. Ethics probe underway 🔍,2025-02-28 18:56:09,1955,180,Quant,qnt,negative
+676350,TRON linked to unregulated gambling platforms in new report. #trx reputation at risk 📉,2024-08-27 12:55:05,1535,12,TRON,trx,negative
+662289,Developer exodus from Aave project. #aave future uncertain ⁉️,2024-05-01 09:05:09,8987,750,Aave,aave,negative
+844416,Institutional money flowing into Celo. #celo demand surging 💰,2024-09-28 14:56:12,4438,1329,Celo,celo,positive
+597538,Bearish divergence spotted on #bsv charts. Bitcoin SV correction likely 📉,2025-02-28 05:41:02,3043,152,Bitcoin SV,bsv,negative
+724887,Technical breakout detected for Optimism. #op poised for gains 📈,2024-09-06 23:03:34,1480,231,Optimism,op,positive
+167639,Massive volatility alert! #qnt swings 30% in 24 hours. High-risk opportunity! 🎢,2024-07-21 10:20:29,6867,629,Quant,qnt,positive
+249574,Bullish on #chz! Chiliz ecosystem expanding rapidly 🚀,2024-03-15 02:23:04,496,135,Chiliz,chz,positive
+177549,Major exchange listing incoming for #mana! Decentraland to moon 🌕,2024-03-03 08:32:35,9445,1667,Decentraland,mana,positive
+124059,Institutional money flowing into Echelon Prime. #prime demand surging 💰,2024-05-22 10:20:52,8204,1294,Echelon Prime,prime,positive
+763454,Major exchange listing incoming for #mana! Decentraland to moon 🌕,2025-02-19 07:37:43,3511,145,Decentraland,mana,positive
+821042,New wallet release for Cardano. #ada ecosystem continues evolving 💼,2024-08-11 20:37:39,9822,2063,Cardano,ada,neutral
+844664,Major exchange listing incoming for #sol! Solana to moon 🌕,2025-01-13 13:22:04,8994,868,Solana,sol,positive
+822090,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2024-10-11 07:41:23,7582,929,Filecoin,fil,negative
+924602,Technical breakout detected for XRPL. #xrp poised for gains 📈,2025-02-04 05:52:42,5860,1280,XRPL,xrp,positive
+588994,Whistleblower alleges #wbtc team misused investor funds. Ethics probe underway 🔍,2024-08-02 17:43:49,5293,951,Wrapped Bitcoin,wbtc,negative
+820874,Standard protocol maintenance underway for DAI. #dai trading unaffected ⚙️,2024-08-04 03:30:53,6915,568,DAI,dai,neutral
+505883,Bearish divergence spotted on #bch charts. Bitcoin Cash correction likely 📉,2024-07-20 03:51:24,1348,38,Bitcoin Cash,bch,negative
+701138,Standard protocol maintenance underway for Binance USD. #busd trading unaffected ⚙️,2024-10-02 20:42:40,1037,67,Binance USD,busd,neutral
+502208,New wallet release for Arbitrum. #arb ecosystem continues evolving 💼,2025-01-30 09:52:34,5949,157,Arbitrum,arb,neutral
+435101,Developer exodus from Polygon project. #pol future uncertain ⁉️,2024-04-05 12:33:02,1264,345,Polygon,pol,negative
+556637,Network upgrade complete! Arbitrum #arb ready for next leg up ⬆️,2024-06-03 03:42:38,2915,574,Arbitrum,arb,positive
+468340,Developer exodus from Filecoin project. #fil future uncertain ⁉️,2025-02-08 05:55:42,3146,768,Filecoin,fil,negative
+667727,Institutional money flowing into Sui. #sui demand surging 💰,2024-05-17 23:34:43,1296,190,Sui,sui,positive
+421250,Network upgrade complete! Decentraland #mana ready for next leg up ⬆️,2024-09-24 10:05:03,6127,133,Decentraland,mana,positive
+762470,Standard protocol maintenance underway for Tezos. #xtz trading unaffected ⚙️,2024-08-05 12:01:38,8558,1202,Tezos,xtz,neutral
+285842,Liquidation cascade hits Optimism traders. #op volatility continues 💥,2025-01-02 05:23:41,5046,1178,Optimism,op,negative
+984605,IOTA linked to unregulated gambling platforms in new report. #iota reputation at risk 📉,2024-11-11 08:02:08,6456,1660,IOTA,iota,negative
+475198,Developer exodus from Casper project. #cspr future uncertain ⁉️,2024-07-10 20:38:31,5509,700,Casper,cspr,negative
+477493,Bitcoin Cash mainnet upgrade scheduled for Q3. #bch holders awaiting details 🗓️,2024-08-10 08:22:11,4498,122,Bitcoin Cash,bch,neutral
+796595,Mixed signals for #sui as Sui faces competing market pressures 🤷,2024-10-10 19:25:18,183,17,Sui,sui,neutral
+384709,Bearish divergence spotted on #bat charts. Basic Attention correction likely 📉,2024-09-10 19:20:35,657,118,Basic Attention,bat,negative
+153383,Security breach reported on Basic Attention bridge. #bat prices reacting negatively 🔓,2024-04-29 04:55:25,5131,893,Basic Attention,bat,negative
+565083,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2024-07-25 06:07:44,3867,853,Filecoin,fil,negative
+678207,Technical breakout detected for Shiba Inu. #shib poised for gains 📈,2024-08-07 10:44:00,2738,661,Shiba Inu,shib,positive
+650735,Major exchange listing incoming for #usdc! USDC to moon 🌕,2024-06-15 22:33:04,7844,1944,USDC,usdc,positive
+609774,XRPL mainnet upgrade scheduled for Q3. #xrp holders awaiting details 🗓️,2025-01-14 05:12:00,742,141,XRPL,xrp,neutral
+746869,Developer exodus from DAI project. #dai future uncertain ⁉️,2024-09-03 11:13:20,9021,136,DAI,dai,negative
+224666,Security breach reported on Bitcoin bridge. #btc prices reacting negatively 🔓,2025-02-24 10:21:44,5061,745,Bitcoin,btc,negative
+617567,Standard protocol maintenance underway for TRON. #trx trading unaffected ⚙️,2024-09-26 20:57:50,8826,1354,TRON,trx,neutral
+117186,Security breach reported on The Sandbox bridge. #sand prices reacting negatively 🔓,2024-12-25 11:34:19,8766,866,The Sandbox,sand,negative
+737025,Community backlash over Dogecoin's questionable partnership decisions. #doge 🤨,2025-02-25 22:58:43,3068,580,Dogecoin,doge,negative
+913762,Technical breakout detected for Uniswap. #uni poised for gains 📈,2024-05-30 14:24:43,7416,2005,Uniswap,uni,positive
+805667,Institutional money flowing into XRPL. #xrp demand surging 💰,2025-01-14 02:24:33,3066,411,XRPL,xrp,positive
+387562,Standard protocol maintenance underway for Chainlink. #link trading unaffected ⚙️,2024-03-24 01:44:03,3246,767,Chainlink,link,neutral
+310420,Institutional money flowing into Arbitrum. #arb demand surging 💰,2024-10-21 20:25:58,6347,746,Arbitrum,arb,positive
+548613,Massive volatility alert! #grt swings 30% in 24 hours. High-risk opportunity! 🎢,2024-08-06 21:38:18,4545,237,The Graph,grt,positive
+105551,Binance USD linked to unregulated gambling platforms in new report. #busd reputation at risk 📉,2024-07-16 23:09:14,7866,1510,Binance USD,busd,negative
+616261,Security breach reported on Arbitrum bridge. #arb prices reacting negatively 🔓,2025-02-18 05:55:36,2977,268,Arbitrum,arb,negative
+748482,Technical breakout detected for Solana. #sol poised for gains 📈,2025-02-07 16:11:43,9770,1968,Solana,sol,positive
+715670,Bullish on #inj! Injective ecosystem expanding rapidly 🚀,2024-09-08 04:22:11,5106,659,Injective,inj,positive
+870962,Bearish divergence spotted on #avax charts. Avalanche correction likely 📉,2024-03-24 16:45:13,9996,57,Avalanche,avax,negative
+943411,Institutional money flowing into Siacoin. #sc demand surging 💰,2024-08-15 14:11:28,4190,480,Siacoin,sc,positive
+418410,Technical breakout detected for Bitcoin. #btc poised for gains 📈,2024-10-03 17:05:54,6662,27,Bitcoin,btc,positive
+311995,Technical breakout detected for Ondo. #ondo poised for gains 📈,2025-02-28 05:27:59,3611,1068,Ondo,ondo,positive
+625233,Mixed signals for #pol as Polygon faces competing market pressures 🤷,2024-05-03 00:54:01,1286,94,Polygon,pol,neutral
+527690,Institutional money flowing into Binance USD. #busd demand surging 💰,2024-09-02 01:12:13,9619,1718,Binance USD,busd,positive
+343207,Major exchange listing incoming for #sand! The Sandbox to moon 🌕,2024-03-08 00:49:59,2924,28,The Sandbox,sand,positive
+177882,Community backlash over Curve DAO's questionable partnership decisions. #crv 🤨,2025-01-02 20:32:45,3278,98,Curve DAO,crv,negative
+515119,Bitcoin linked to unregulated gambling platforms in new report. #btc reputation at risk 📉,2024-11-23 20:16:23,2541,218,Bitcoin,btc,negative
+314500,Unofficial reports suggest Quant whale activity. #qnt could see massive moves 🐋,2024-12-04 01:42:32,1802,424,Quant,qnt,positive
+736084,Environmental impact concerns raised about USDC mining operations. #usdc,2024-06-20 14:58:31,9057,1289,USDC,usdc,negative
+741943,Major exchange listing incoming for #avax! Avalanche to moon 🌕,2024-05-11 03:58:31,3890,191,Avalanche,avax,positive
+915484,Major exchange listing incoming for #bat! Basic Attention to moon 🌕,2024-05-09 15:09:54,8250,1503,Basic Attention,bat,positive
+791365,Cardano linked to unregulated gambling platforms in new report. #ada reputation at risk 📉,2024-06-16 04:16:44,4383,327,Cardano,ada,negative
+126856,Developer exodus from Bitcoin Cash project. #bch future uncertain ⁉️,2024-10-21 09:24:12,2237,649,Bitcoin Cash,bch,negative
+725647,Major exchange listing incoming for #usdc! USDC to moon 🌕,2024-12-05 07:58:24,4334,770,USDC,usdc,positive
+699101,Analysts warn Axie Infinity might be overleveraged. #axs investors proceed with caution ⚠️,2024-05-10 22:57:10,2721,285,Axie Infinity,axs,positive
+580285,Major exchange listing incoming for #xtz! Tezos to moon 🌕,2024-12-09 03:23:11,6110,158,Tezos,xtz,positive
+550216,Network congestion plagues Polkadot. #dot transactions delayed 🐢,2024-11-22 10:15:37,3780,989,Polkadot,dot,negative
+754259,Major exchange listing incoming for #sui! Sui to moon 🌕,2024-12-31 18:01:31,6614,1403,Sui,sui,positive
+356066,Bearish divergence spotted on #busd charts. Binance USD correction likely 📉,2025-01-16 02:56:27,637,47,Binance USD,busd,negative
+757821,Network congestion plagues Filecoin. #fil transactions delayed 🐢,2025-02-16 14:12:36,2110,612,Filecoin,fil,negative
+431312,Standard protocol maintenance underway for Avalanche. #avax trading unaffected ⚙️,2024-10-08 06:52:29,8027,280,Avalanche,avax,neutral
+478083,Security breach reported on Polkadot bridge. #dot prices reacting negatively 🔓,2024-12-22 03:02:45,5057,1314,Polkadot,dot,negative
+525078,Institutional money flowing into Chiliz. #chz demand surging 💰,2024-05-01 20:06:42,7572,55,Chiliz,chz,positive
+369465,Major exchange listing incoming for #btc! Bitcoin to moon 🌕,2025-02-28 16:05:04,8600,527,Bitcoin,btc,positive
+304198,Bearish divergence spotted on #fil charts. Filecoin correction likely 📉,2025-01-28 00:03:25,9021,1644,Filecoin,fil,negative
+697879,"Traders eyeing #dash for high-risk, high-reward plays. Dash could moon or crash 🌕💥",2024-03-31 06:12:38,5567,71,Dash,dash,positive
+325657,Network upgrade complete! Aptos #apt ready for next leg up ⬆️,2025-02-09 07:03:51,2778,288,Aptos,apt,positive
+858826,Community backlash over Aptos's questionable partnership decisions. #apt 🤨,2025-02-15 01:48:02,5669,652,Aptos,apt,negative
+176584,Mixed signals for #inj as Injective faces competing market pressures 🤷,2024-05-18 09:07:29,686,18,Injective,inj,neutral
+859479,Security breach reported on Siacoin bridge. #sc prices reacting negatively 🔓,2024-08-07 10:49:20,9925,2087,Siacoin,sc,negative
+255578,Community backlash over Polygon's questionable partnership decisions. #pol 🤨,2024-09-30 00:55:47,3316,584,Polygon,pol,negative
+103901,Unofficial reports suggest Filecoin whale activity. #fil could see massive moves 🐋,2024-07-05 09:10:05,3168,811,Filecoin,fil,positive
+415267,Massive volatility alert! #shib swings 30% in 24 hours. High-risk opportunity! 🎢,2024-04-02 09:17:08,5246,1352,Shiba Inu,shib,positive
+120972,"Traders eyeing #sand for high-risk, high-reward plays. The Sandbox could moon or crash 🌕💥",2024-10-30 11:21:52,2977,217,The Sandbox,sand,positive
+630654,Security breach reported on Chiliz bridge. #chz prices reacting negatively 🔓,2024-06-07 16:42:49,7061,1052,Chiliz,chz,negative
+353436,New wallet release for Solana. #sol ecosystem continues evolving 💼,2024-12-08 22:57:59,4377,1249,Solana,sol,neutral
+851961,Major exchange listing incoming for #sand! The Sandbox to moon 🌕,2024-12-07 02:25:42,6331,1422,The Sandbox,sand,positive
+490108,Regulators targeting #fil for compliance violations. Filecoin facing legal challenges ⚖️,2024-09-06 22:32:09,1087,171,Filecoin,fil,negative
+302535,Network upgrade complete! Dogecoin #doge ready for next leg up ⬆️,2024-06-28 12:39:45,2620,329,Dogecoin,doge,positive
+786492,Technical breakout detected for Wrapped Bitcoin. #wbtc poised for gains 📈,2024-06-24 05:01:23,8393,95,Wrapped Bitcoin,wbtc,positive
+152153,Liquidation cascade hits Litecoin traders. #ltc volatility continues 💥,2024-10-27 19:19:35,680,39,Litecoin,ltc,negative
+871726,Network upgrade complete! Basic Attention #bat ready for next leg up ⬆️,2025-02-11 15:52:13,5618,1554,Basic Attention,bat,positive
+452986,Major exchange listing incoming for #celo! Celo to moon 🌕,2024-11-27 12:33:35,2272,628,Celo,celo,positive
+801719,Network upgrade complete! Axie Infinity #axs ready for next leg up ⬆️,2024-09-23 12:33:33,9544,2703,Axie Infinity,axs,positive
+507143,Bearish divergence spotted on #aave charts. Aave correction likely 📉,2024-10-07 18:59:24,1809,101,Aave,aave,negative
+939579,Analysts warn Stellar might be overleveraged. #xlm investors proceed with caution ⚠️,2024-05-13 11:28:42,9949,1712,Stellar,xlm,positive
+520956,Litecoin mainnet upgrade scheduled for Q3. #ltc holders awaiting details 🗓️,2024-05-03 03:44:15,5996,449,Litecoin,ltc,neutral
+937074,Institutional money flowing into Shiba Inu. #shib demand surging 💰,2024-03-03 04:09:15,7233,831,Shiba Inu,shib,positive
+537164,New wallet release for Binance USD. #busd ecosystem continues evolving 💼,2024-04-06 16:02:50,4298,620,Binance USD,busd,neutral
+713555,Mixed signals for #usdc as USDC faces competing market pressures 🤷,2024-10-31 22:46:27,4220,321,USDC,usdc,neutral
+661326,Technical breakout detected for IOTA. #iota2 poised for gains 📈,2024-10-14 14:18:52,8564,2460,IOTA,iota2,positive
+780886,Margin traders piling into #cspr. Casper liquidity risks increasing 💸,2024-05-20 03:53:27,7679,113,Casper,cspr,positive
+259420,Developer exodus from Siacoin project. #sc future uncertain ⁉️,2025-01-26 07:59:12,8502,509,Siacoin,sc,negative
+865912,Community backlash over TRON's questionable partnership decisions. #trx 🤨,2024-07-04 15:24:31,7170,1520,TRON,trx,negative
+867133,Network congestion plagues Tezos. #xtz transactions delayed 🐢,2024-11-13 11:00:00,6142,662,Tezos,xtz,negative
+192837,Developer exodus from Dogecoin project. #doge future uncertain ⁉️,2024-05-21 11:09:28,5650,635,Dogecoin,doge,negative
+546061,Institutional money flowing into Injective. #inj demand surging 💰,2024-12-04 15:08:40,7391,487,Injective,inj,positive
+688097,Market makers manipulating #aave prices? Aave volatility sparks concerns 📊,2024-12-10 01:00:58,9834,2750,Aave,aave,positive
+540325,Liquidation cascade hits Curve DAO traders. #crv volatility continues 💥,2024-05-12 20:25:32,9835,1629,Curve DAO,crv,negative
+333758,Security breach reported on Near Protocol bridge. #near prices reacting negatively 🔓,2024-04-27 08:49:58,7723,166,Near Protocol,near,negative
+834388,Liquidation cascade hits Axie Infinity traders. #axs volatility continues 💥,2024-07-24 14:20:51,4391,982,Axie Infinity,axs,negative
+284009,Environmental impact concerns raised about Dash mining operations. #dash,2024-10-15 22:37:23,7136,531,Dash,dash,negative
+676102,Major exchange listing incoming for #mana! Decentraland to moon 🌕,2024-09-21 06:30:43,4158,1017,Decentraland,mana,positive
+904129,New wallet release for Chainlink. #link ecosystem continues evolving 💼,2024-03-29 15:39:31,7946,1380,Chainlink,link,neutral
+133980,Major exchange listing incoming for #bat! Basic Attention to moon 🌕,2025-01-19 13:29:57,4002,958,Basic Attention,bat,positive
+811354,New wallet release for TRON. #trx ecosystem continues evolving 💼,2024-09-20 14:23:19,5101,739,TRON,trx,neutral
+940324,Network upgrade complete! Siacoin #sc ready for next leg up ⬆️,2024-03-05 01:20:58,4546,285,Siacoin,sc,positive
+267775,Regulators targeting #pol for compliance violations. Polygon facing legal challenges ⚖️,2024-03-16 07:55:24,3663,600,Polygon,pol,negative
+947998,Network congestion plagues IOTA. #iota transactions delayed 🐢,2024-08-21 12:03:37,569,99,IOTA,iota,negative
+385898,Technical breakout detected for ApeCoin. #ape poised for gains 📈,2024-10-18 11:26:58,3468,147,ApeCoin,ape,positive
+860508,Developer exodus from Bitcoin Cash project. #bch future uncertain ⁉️,2024-03-02 19:02:08,8273,1304,Bitcoin Cash,bch,negative
+827089,Environmental impact concerns raised about Uniswap mining operations. #uni,2025-01-08 13:19:10,2480,17,Uniswap,uni,negative
+695738,Unofficial reports suggest Optimism whale activity. #op could see massive moves 🐋,2024-09-02 01:19:42,3456,442,Optimism,op,positive
+624194,Bullish on #doge! Dogecoin ecosystem expanding rapidly 🚀,2025-01-24 00:20:36,2199,282,Dogecoin,doge,positive
+136649,Bullish on #link! Chainlink ecosystem expanding rapidly 🚀,2024-05-24 21:48:59,3422,569,Chainlink,link,positive
+879084,Major exchange listing incoming for #qnt! Quant to moon 🌕,2024-07-15 18:49:56,3666,477,Quant,qnt,positive
+971064,Technical breakout detected for Shiba Inu. #shib poised for gains 📈,2024-06-19 23:26:22,4000,316,Shiba Inu,shib,positive
+972690,Bearish divergence spotted on #bat charts. Basic Attention correction likely 📉,2024-12-12 07:55:15,7071,344,Basic Attention,bat,negative
+697314,Environmental impact concerns raised about Casper mining operations. #cspr,2024-07-31 14:17:29,8007,1615,Casper,cspr,negative
+622776,Major exchange listing incoming for #zk! ZkSync to moon 🌕,2024-05-19 17:03:02,7035,107,ZkSync,zk,positive
+150002,Liquidation cascade hits The Sandbox traders. #sand volatility continues 💥,2024-04-30 18:49:57,580,62,The Sandbox,sand,negative
+935801,Liquidation cascade hits TON traders. #ton volatility continues 💥,2024-10-03 15:30:54,4204,947,TON,ton,negative
+394400,Mixed signals for #mana as Decentraland faces competing market pressures 🤷,2024-11-01 18:05:18,2198,254,Decentraland,mana,neutral
+312000,Developer exodus from VeChain project. #vet future uncertain ⁉️,2024-12-13 07:47:55,3042,785,VeChain,vet,negative
+167531,New wallet release for Bitcoin SV. #bsv ecosystem continues evolving 💼,2024-06-21 12:18:33,2612,355,Bitcoin SV,bsv,neutral
+648476,Technical breakout detected for Ethereum. #eth poised for gains 📈,2025-01-26 10:59:07,1042,26,Ethereum,eth,positive
+464999,Solana linked to unregulated gambling platforms in new report. #sol reputation at risk 📉,2025-01-10 19:04:42,5314,1033,Solana,sol,negative
+110187,"Traders eyeing #xrp for high-risk, high-reward plays. XRPL could moon or crash 🌕💥",2024-05-15 10:35:31,4135,1142,XRPL,xrp,positive
+173647,Major exchange listing incoming for #btc! Bitcoin to moon 🌕,2024-10-10 09:03:28,5653,1252,Bitcoin,btc,positive
+776007,Network upgrade complete! ApeCoin #ape ready for next leg up ⬆️,2024-04-21 19:28:00,1939,143,ApeCoin,ape,positive
+783669,Whistleblower alleges #uni team misused investor funds. Ethics probe underway 🔍,2024-06-18 03:17:36,8995,2208,Uniswap,uni,negative
+298718,Chainlink mainnet upgrade scheduled for Q3. #link holders awaiting details 🗓️,2024-10-17 08:28:43,9473,2349,Chainlink,link,neutral
+438483,Bullish on #link! Chainlink ecosystem expanding rapidly 🚀,2024-10-24 01:52:37,2798,416,Chainlink,link,positive
+325189,Speculative frenzy drives #near to new highs. Risk-tolerant investors jumping in 🚀,2024-12-08 05:28:19,7143,846,Near Protocol,near,positive
+599752,Liquidation cascade hits Casper traders. #cspr volatility continues 💥,2024-08-30 05:07:42,4722,483,Casper,cspr,negative
+815369,Bearish divergence spotted on #prime charts. Echelon Prime correction likely 📉,2024-04-25 15:11:35,5522,828,Echelon Prime,prime,negative
+738931,Regulators targeting #op for compliance violations. Optimism facing legal challenges ⚖️,2024-10-08 20:25:38,5839,678,Optimism,op,negative
+619359,Network congestion plagues TRON. #trx transactions delayed 🐢,2025-01-18 06:26:36,2993,263,TRON,trx,negative
+623654,Bearish divergence spotted on #arb charts. Arbitrum correction likely 📉,2024-09-15 05:09:00,8298,2411,Arbitrum,arb,negative
+797856,Network upgrade complete! Uniswap #uni ready for next leg up ⬆️,2025-01-28 22:32:15,7069,1348,Uniswap,uni,positive
+249914,Mixed signals for #crv as Curve DAO faces competing market pressures 🤷,2024-05-07 13:53:39,214,50,Curve DAO,crv,neutral
+710673,Major exchange listing incoming for #celo! Celo to moon 🌕,2024-07-10 16:55:27,2379,475,Celo,celo,positive
+997432,Massive volatility alert! #bat swings 30% in 24 hours. High-risk opportunity! 🎢,2024-11-17 18:23:06,2992,520,Basic Attention,bat,positive
+568639,Developer exodus from Decentraland project. #mana future uncertain ⁉️,2024-06-30 02:25:11,3283,88,Decentraland,mana,negative
+207519,Bearish divergence spotted on #apt charts. Aptos correction likely 📉,2024-11-29 12:16:35,7493,1477,Aptos,apt,negative
+134578,Privacy advocates criticize #qnt for lack of transparency. Quant ethics questioned 🛑,2024-03-10 15:55:59,2247,513,Quant,qnt,negative
+278667,Developer exodus from VeChain project. #vet future uncertain ⁉️,2024-03-29 04:46:18,1559,130,VeChain,vet,negative
+879184,Network congestion plagues Cosmos. #atom transactions delayed 🐢,2024-06-01 02:17:12,7009,938,Cosmos,atom,negative
+827250,Network congestion plagues Basic Attention. #bat transactions delayed 🐢,2024-03-04 13:44:39,4817,1139,Basic Attention,bat,negative
+490248,Unofficial reports suggest Ondo whale activity. #ondo could see massive moves 🐋,2025-02-18 06:25:42,8,2,Ondo,ondo,positive
+499833,Network congestion plagues Injective. #inj transactions delayed 🐢,2024-10-11 13:25:36,4149,711,Injective,inj,negative
+163001,Liquidation cascade hits Optimism traders. #op volatility continues 💥,2024-06-13 23:21:18,5491,727,Optimism,op,negative
+727998,Regulators targeting #axs for compliance violations. Axie Infinity facing legal challenges ⚖️,2024-07-24 19:54:43,1967,530,Axie Infinity,axs,negative
+566120,Massive volatility alert! #sc swings 30% in 24 hours. High-risk opportunity! 🎢,2024-05-25 07:42:13,6847,609,Siacoin,sc,positive
+777026,Bearish divergence spotted on #eth charts. Ethereum correction likely 📉,2024-06-22 00:59:56,3250,553,Ethereum,eth,negative
+866729,Bullish on #sol! Solana ecosystem expanding rapidly 🚀,2024-08-16 05:54:35,8054,1706,Solana,sol,positive
+106386,Developer exodus from Tezos project. #xtz future uncertain ⁉️,2025-01-26 02:34:52,9241,1752,Tezos,xtz,negative
+606736,Network congestion plagues Polygon. #pol transactions delayed 🐢,2024-06-26 00:41:40,5221,1434,Polygon,pol,negative
+443293,Technical breakout detected for Aptos. #apt poised for gains 📈,2024-03-23 09:32:39,8251,1412,Aptos,apt,positive
+345973,Community backlash over Ondo's questionable partnership decisions. #ondo 🤨,2024-08-13 10:16:41,2035,143,Ondo,ondo,negative
+217431,Massive volatility alert! #iota2 swings 30% in 24 hours. High-risk opportunity! 🎢,2024-08-21 07:06:50,181,29,IOTA,iota2,positive
+168390,New wallet release for Binance USD. #busd ecosystem continues evolving 💼,2024-12-11 22:07:47,5043,491,Binance USD,busd,neutral
+778063,Bearish divergence spotted on #sc charts. Siacoin correction likely 📉,2024-10-14 18:08:47,5226,827,Siacoin,sc,negative
+338111,Technical breakout detected for ZkSync. #zk poised for gains 📈,2024-09-16 12:02:10,7263,1215,ZkSync,zk,positive
+964269,Speculative frenzy drives #dai to new highs. Risk-tolerant investors jumping in 🚀,2024-09-19 18:39:28,2704,2,DAI,dai,positive
+259025,Bullish on #arb! Arbitrum ecosystem expanding rapidly 🚀,2024-11-29 04:58:19,8711,2346,Arbitrum,arb,positive
+561814,Bullish on #iota2! IOTA ecosystem expanding rapidly 🚀,2024-05-25 19:59:06,2853,200,IOTA,iota2,positive
+334673,Technical breakout detected for IOTA. #iota2 poised for gains 📈,2024-08-19 13:28:23,2015,255,IOTA,iota2,positive
+304384,Regulators targeting #iota2 for compliance violations. IOTA facing legal challenges ⚖️,2024-07-06 19:46:25,9661,1598,IOTA,iota2,negative
+412191,Standard protocol maintenance underway for Siacoin. #sc trading unaffected ⚙️,2024-10-27 23:48:23,4355,1071,Siacoin,sc,neutral
+946497,Bearish divergence spotted on #op charts. Optimism correction likely 📉,2024-03-18 07:23:52,4044,1073,Optimism,op,negative
