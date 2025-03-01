@@ -18,7 +18,7 @@ const questions = {
 const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [responses, setResponses] = useState<{ [key: string]: number }>({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-
+  const [error, setError] = useState<string>("");
   const allQuestions = [...questions.risk, ...questions.ethical];
 
   const handleResponse = (value: number) => {
@@ -33,7 +33,7 @@ const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const riskScores = questions.risk.map((q) => responses[q] || 1);
     const ethicalScores = questions.ethical.map((q) => responses[q] || 1);
 
@@ -44,7 +44,29 @@ const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       (ethicalScores.reduce((a, b) => a + b, 0) - ethicalScores.length) /
       (4 * ethicalScores.length);
 
-    alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
+    // alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
+    try {
+      // todo might need to change this endpoint
+      const response = await fetch("/api/submit_user_scores", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ risk_score: riskAvg, ethics_score: ethicalAvg }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit scores");
+      }
+
+      const data = await response.json();
+      console.log("Submission successful:", data);
+      alert("Scores submitted successfully!");
+      onClose();
+    } catch (err: any) {
+      console.error(err);
+      setError("Error submitting your scores. Please try again.");
+    }
     onClose();
   };
 
