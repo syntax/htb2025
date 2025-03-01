@@ -50,7 +50,13 @@ def compute_sentiment_scores(csv_file, ticker):
     
     return ethics_avg, risk_avg
 
+
+
+# testing below todo remove
+
+
 def main():
+    # testing
     csv_file = "utils/crypto_tweets.csv"
     ticker = "sc"
     
