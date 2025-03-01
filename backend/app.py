@@ -5,13 +5,11 @@ import numpy as np
 import portfolio
 import requests
 from sentimentanaly import compute_sentiment_scores
+import database
+import risk
+from models import Portfolio, Crypto, PortfolioObject
 
 app = Flask(__name__)
-portfolios = {}
-user = portfolio.Portfolio(1234)
-user.add_token("ETH/BTC", 3)
-portfolios[1234] = user
-crypto_data = pd.DataFrame()
 
 @app.route('/', methods=['GET'])
 def index():
@@ -22,18 +20,44 @@ def index():
 
 @app.route('/store_crypto_data', methods=['GET'])
 def store_crypto_data():
-    global crypto_data
+    db = database.Database()
+
     # Retrieve real-time symbol data from another API endpoint
     response = requests.get("http://127.0.0.1:3333/api/all_symbol_info")  # Adjust URL if needed
     if response.status_code != 200:
         return jsonify({"error": "Failed to retrieve symbol data"}), 500
     symbol_data = response.json()
+
+    # Update crypto table
+    # Ensure risk and ethics values recalculated here before updating table TODO
+    risk_scores_df = risk.calculate_risk_score(symbol_data)
     
-    # Convert response to DataFrame for processing
-    crypto_data = pd.DataFrame(symbol_data)
-    return jsonify({
-        crypto_data
-    }), 200
+    # Update crypto table
+    for entry in symbol_data.values():
+        risk_score = risk_scores_df.loc[risk_scores_df['symbol'] == entry.get("symbol"), 'risk_score'].values
+        risk_score = risk_score[0] if len(risk_score) > 0 else 0.0
+        ethics_score = 0
+
+        db.update_crypto(
+            symbol=entry.get("symbol"),
+            liquidity=entry.get("liquidity", "Unknown"),
+            volatility=entry.get("volatility"),
+            risk_score=risk_score,
+            ethic_score=ethics_score,
+            annualized_volatility=entry.get("annualized_volatility"),
+            average_volume=entry.get("average_volume"),
+            ohlcv_data_points=entry.get("ohlcv_data_points")
+        )
+
+    #Update and recalculate all risk and ethics values for portfolios
+    # Retrieve and update all portfolios
+    portfolios = db.get_all_portfolios()
+    for portfolio in portfolios:
+        portfolio.update_total_risk(db.session)
+        db.update_portfolio(portfolio)
+    db.close_connection()
+    
+    return jsonify({"message": "Success"}), 200
 
 
 @app.route('/api/sentiment', methods=['GET'])
@@ -250,40 +274,16 @@ def get_liquidity():
         "data_points": len(df)
     }), 200
 
-#Display user's portfolio
+# API Route to Get a Specific Portfolio by User ID
 @app.route('/portfolio/<int:user_id>', methods=['GET'])
 def get_portfolio(user_id):
-    global crypto_data
-    global portfolios
-
-    # Ensure crypto_data is populated
-    if crypto_data.empty:
-        print("crypto_data is empty, fetching latest data...")
-        response = requests.get("http://127.0.0.1:3333/store_crypto_data")  # Adjust if needed
-        if response.status_code == 200:
-            json_data = response.json()
-            
-            # Ensure json_data is a list of dictionaries before creating DataFrame
-            if isinstance(json_data, dict):
-                json_data = [json_data]  # Convert single dictionary into a list
-            
-            crypto_data = pd.DataFrame(json_data)
-        else:
-            return jsonify({"error": "Failed to fetch crypto data"}), 500
-
-
-    
-    print("crypto data: ", crypto_data)
-    if user_id not in portfolios:
+    db = database.Database()
+    portfolio = db.get_portfolio(user_id)
+    db.close_connection()
+    if portfolio:
+        return jsonify(portfolio.__dict__)
+    else:
         return jsonify({"error": "User portfolio not found"}), 404
-    
-    user_portfolio = portfolios[user_id]
-    portfolio_data = {
-        "user_id": user_portfolio.user_id,
-        "holdings": user_portfolio.display_portfolio(),
-        "total_risk": user_portfolio.get_total_risk(crypto_data)
-    }
-    return jsonify(portfolio_data)
 
 
 @app.route('/api/all_symbol_info', methods=['GET'])
