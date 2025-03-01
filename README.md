@@ -1,19 +1,14 @@
-# htb2025
+# quinten - your personal crypto portfolio manager
 
+Made in 24 hours during Hack the Burgh 2025.
 
-## todos as pre-prep;
+TODO description.
 
-- setup some basic frontend template using vite, typescript
-- setup some basic mysql db
-- possible create some basic flask app api we can just build off and template
-- docker container
+## to run;
 
+### backend;
 
-
-# python setup instr for flasK:
-
-pls have python 10+
-
+requirements are specified in the text file.
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -21,4 +16,9 @@ pip install -r requirements.txt
 python main.py                  // should open up on localhost:5000
 ```
 
-todo: i am sure we could containerise all this fellas.
+### frontend
+
+```bash
+npm install
+npm run dev
+```
