@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def calculate_risk_score(data):
-    print(data)
+    data = pd.DataFrame(data)
     epsilon = 1e-6  # Small constant to avoid division by zero
     data['risk_score'] = data['volatility'] / (data['liquidity'] + epsilon)
 
@@ -12,7 +12,6 @@ def calculate_risk_score(data):
     data['risk_score'] = (data['risk_score'] - data['risk_score'].min()) / (data['risk_score'].max() - data['risk_score'].min())
   
     return data
-
 
 
 # Function to get risk score for a specific cryptocurrency symbol
