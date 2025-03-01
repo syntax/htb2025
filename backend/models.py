@@ -50,29 +50,31 @@ class PortfolioObject:
             else:
                 del self.holdings[ticker]
 
+    # Weighted Average
     def update_total_risk(self, session):
-        self.total_risk = 0
-        crypto_data = session.query(Crypto).all()
+        crypto_data = {crypto.ticker: crypto.risk_score for crypto in session.query(Crypto).all()}
         
-        
-        crypto_dict = {crypto.ticker: crypto for crypto in crypto_data}
+        total_risk = 0
+        total_weight = sum(self.holdings.values())  # Sum of all holdings
         
         for ticker, quantity in self.holdings.items():
-            if ticker in crypto_dict and crypto_dict[ticker].risk_score:
-                self.total_risk += crypto_dict[ticker].risk_score * quantity
+            risk_score = crypto_data.get(ticker, 0)  # Default to 0 if ticker not found
+            total_risk += risk_score * quantity
+        
+        self.total_risk = total_risk / total_weight if total_weight > 0 else 0  # Weighted average risk
 
+    # Weighted Average
     def update_total_ethics(self, session):
-        self.total_ethics = 0
-        crypto_data = session.query(Crypto).all()
+        crypto_data = {crypto.ticker: crypto.ethics_score for crypto in session.query(Crypto).all()}
         
-        
-        crypto_dict = {crypto.ticker: crypto for crypto in crypto_data}
-        # print(crypto_dict['leo'].ethics_score)
-        print("TESTER")
+        total_ethics = 0
+        total_weight = sum(self.holdings.values())  # Sum of all holdings
         
         for ticker, quantity in self.holdings.items():
-            if ticker in crypto_dict and crypto_dict[ticker].ethics_score:
-                self.total_ethics += crypto_dict[ticker].ethics_score * quantity
+            ethics_score = crypto_data.get(ticker, 0)  # Default to 0 if ticker not found
+            total_ethics += ethics_score * quantity
+        
+        self.total_ethics = total_ethics / total_weight if total_weight > 0 else 0  # Weighted average ethics
                 
 
     def to_json(self):
