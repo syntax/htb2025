@@ -99,7 +99,7 @@ def process_crypto_data(input_file, output_file="normalized_crypto_environmental
 
 # Example usage (if running standalone)
 if __name__ == "__main__":
-    input_path = "backend/ethical_data/environmental_data.csv"
-    output_path = "backend/ethical_data/environmental_ratings.csv"
+    input_path = "ethical_data/new_environmental_data.csv"
+    output_path = "ethical_data/environmental_ratings.csv"
     
     process_crypto_data(input_file=input_path, output_file=output_path)
