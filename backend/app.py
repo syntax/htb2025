@@ -7,6 +7,7 @@ from sentimentanaly import compute_sentiment_scores
 import database
 import risk
 from models import Portfolio, Crypto, PortfolioObject
+import ethical
 
 app = Flask(__name__)
 
@@ -25,16 +26,18 @@ def store_crypto_data():
     symbol_data = pd.read_csv("backend/ethical_data/environmental_ratings.csv")
     symbol_data.columns = symbol_data.columns.str.lower()
     
-
     # Ensure risk and ethics values recalculated before updating table
     risk_scores_df = risk.calculate_risk_score(symbol_data)
-    # Add ethic score calculator TODO
+    ethics_scores_df = ethical.process_crypto_data(symbol_data)
+    
 
     for _, entry in symbol_data.iterrows():
         risk_score = risk_scores_df.loc[risk_scores_df['ticker'] == entry.get("ticker"), 'risk_score'].values
         risk_score = risk_score[0] if len(risk_score) > 0 else 0.0
-        ethics_score = 0  # Placeholder for ethics score calculation
-
+        ethics_score = ethics_scores_df.loc[ethics_scores_df['ticker'] == entry.get("ticker"), 'ethical impact'].values
+        ethics_score = ethics_score[0] if len(ethics_score) > 0 else 0.0
+        
+        
         db.update_crypto(   
             ticker=entry.get("ticker"),
             name=entry.get("name"),
@@ -50,7 +53,7 @@ def store_crypto_data():
             raw_environmental_score=entry.get("raw_environmental_score"),
             environmental_score=entry.get("environmental_score"),
             risk_score=risk_score,
-            ethics_score = 0.0
+            ethics_score = ethics_score
         )
 
 
@@ -59,7 +62,10 @@ def store_crypto_data():
     portfolios = db.get_all_portfolios()
     for portfolio in portfolios:
         portfolio.update_total_risk(db.session)
+        portfolio.update_total_ethics(db.session)
         db.update_portfolio(portfolio)
+        
+
     db.close_connection()
     
     return jsonify({"message": "Success"}), 200
@@ -284,6 +290,7 @@ def get_liquidity():
 def get_portfolio(user_id):
     db = database.Database()
     portfolio = db.get_portfolio(user_id)
+    print("ETHICS:", portfolio.total_ethics)
     db.close_connection()
     if portfolio:
         return jsonify(portfolio.__dict__)

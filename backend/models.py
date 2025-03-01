@@ -34,6 +34,8 @@ class PortfolioObject:
         self.user_id = user_id
         self.holdings = {}
         self.total_risk = 0.0
+        self.total_ethics = 0.0
+        
 
     def add_token(self, ticker, quantity):
         if ticker in self.holdings:
@@ -50,15 +52,28 @@ class PortfolioObject:
 
     def update_total_risk(self, session):
         self.total_risk = 0
-        print("NO", session.query(Crypto).count())
         crypto_data = session.query(Crypto).all()
         
-        print("TEST", crypto_data)
+        
         crypto_dict = {crypto.ticker: crypto for crypto in crypto_data}
         
         for ticker, quantity in self.holdings.items():
             if ticker in crypto_dict and crypto_dict[ticker].risk_score:
                 self.total_risk += crypto_dict[ticker].risk_score * quantity
+
+    def update_total_ethics(self, session):
+        self.total_ethics = 0
+        crypto_data = session.query(Crypto).all()
+        
+        
+        crypto_dict = {crypto.ticker: crypto for crypto in crypto_data}
+        # print(crypto_dict['leo'].ethics_score)
+        print("TESTER")
+        
+        for ticker, quantity in self.holdings.items():
+            if ticker in crypto_dict and crypto_dict[ticker].ethics_score:
+                self.total_ethics += crypto_dict[ticker].ethics_score * quantity
+                
 
     def to_json(self):
         return json.dumps(self.__dict__)
@@ -69,5 +84,6 @@ class PortfolioObject:
         portfolio = PortfolioObject(data["user_id"])
         portfolio.holdings = data["holdings"]
         portfolio.total_risk = data.get("total_risk", 0)
+        portfolio.total_ethics = data.get("total_ethics", 0)
         return portfolio
 

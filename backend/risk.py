@@ -5,8 +5,6 @@ import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 
 
-
-
 def calculate_risk_score(data):
     data = pd.DataFrame(data)
     epsilon = 1e-6  # Small constant to avoid division by zero
