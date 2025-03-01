@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request, abort
 import ccxt
 import pandas as pd
 import numpy as np
-import portfolio
 import requests
 from sentimentanaly import compute_sentiment_scores
 import database
@@ -22,32 +21,38 @@ def index():
 def store_crypto_data():
     db = database.Database()
 
-    # Retrieve real-time symbol data from another API endpoint
-    response = requests.get("http://127.0.0.1:3333/api/all_symbol_info")  # Adjust URL if needed
-    if response.status_code != 200:
-        return jsonify({"error": "Failed to retrieve symbol data"}), 500
-    symbol_data = response.json()
-
-    # Update crypto table
-    # Ensure risk and ethics values recalculated here before updating table TODO
-    risk_scores_df = risk.calculate_risk_score(symbol_data)
+    # Retrieve real-time symbol data from CSV
+    symbol_data = pd.read_csv("backend/ethical_data/environmental_ratings.csv")
+    symbol_data.columns = symbol_data.columns.str.lower()
     
-    # Update crypto table
-    for entry in symbol_data.values():
-        risk_score = risk_scores_df.loc[risk_scores_df['symbol'] == entry.get("symbol"), 'risk_score'].values
-        risk_score = risk_score[0] if len(risk_score) > 0 else 0.0
-        ethics_score = 0
 
-        db.update_crypto(
-            symbol=entry.get("symbol"),
-            liquidity=entry.get("liquidity", "Unknown"),
+    # Ensure risk and ethics values recalculated before updating table
+    risk_scores_df = risk.calculate_risk_score(symbol_data)
+    # Add ethic score calculator TODO
+
+    for _, entry in symbol_data.iterrows():
+        risk_score = risk_scores_df.loc[risk_scores_df['ticker'] == entry.get("ticker"), 'risk_score'].values
+        risk_score = risk_score[0] if len(risk_score) > 0 else 0.0
+        ethics_score = 0  # Placeholder for ethics score calculation
+
+        db.update_crypto(   
+            ticker=entry.get("ticker"),
+            name=entry.get("name"),
+            consensus=entry.get("consensus"),
+            market_cap=entry.get("market_cap"),
+            power_consumption=entry.get("power_consumption"),
+            annual_energy_consumption=entry.get("annual_energy_consumption"),
+            carbon_emissions=entry.get("carbon_emissions"),
+            average_liquidity=entry.get("average_liquidity", "Unknown"),
             volatility=entry.get("volatility"),
+            normalized_energy=entry.get("normalized_energy"),
+            normalized_carbon=entry.get("normalized_carbon"),
+            raw_environmental_score=entry.get("raw_environmental_score"),
+            environmental_score=entry.get("environmental_score"),
             risk_score=risk_score,
-            ethic_score=ethics_score,
-            annualized_volatility=entry.get("annualized_volatility"),
-            average_volume=entry.get("average_volume"),
-            ohlcv_data_points=entry.get("ohlcv_data_points")
+            ethics_score = 0.0
         )
+
 
     #Update and recalculate all risk and ethics values for portfolios
     # Retrieve and update all portfolios
