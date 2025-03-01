@@ -1,0 +1,54 @@
+Name,Ticker,Consensus,Market Cap,Power Consumption,Annual Energy Consumption,Carbon Emissions
+Bitcoin,btc,PoW,"$ 1,684,005,058,263",18.8 GW,164.1 TWh,69.7 Mt
+Dogecoin,doge,PoW,"$ 30,027,121,709",1.0 GW,8.8 TWh,3.7 Mt
+Litecoin,ltc,PoW,"$ 9,487,745,426",0.4 GW,3.1 TWh,1.3 Mt
+Bitcoin Cash,bch,PoW,"$ 6,121,863,769",0.1 GW,0.7 TWh,0.3 Mt
+Filecoin,fil,PoS,"$ 2,032,216,000","25,488.1 kW","221,045,223.1 kWh","110,370,834.5 kg"
+Bitcoin SV,bsv,PoW,"$ 682,408,571",0.0 GW,0.1 TWh,0.0 Mt
+Siacoin,sc,PoW,"$ 204,281,935",0.0 GW,0.1 TWh,0.0 Mt
+Dash,dash,PoW,"$ 305,724,430",0.0 GW,0.1 TWh,0.0 Mt
+Solana,sol,PoS,"$ 71,276,257,667","1,925.9 kW","16,839,920.7 kWh","5,226,440.1 kg"
+TON,ton,PoS,"$ 8,098,045,985",715.9 kW,"6,117,282.9 kWh","1,789,224.8 kg"
+Ethereum,eth,PoS,"$ 262,408,446,486",690.8 kW,"6,042,204.6 kWh","1,916,906.6 kg"
+TRON,trx,PoS,"$ 19,838,520,315",416.2 kW,"3,573,940.3 kWh","1,353,136.9 kg"
+Avalanche,avax,PoS,"$ 8,836,869,675",374.7 kW,"3,304,933.4 kWh","1,233,997.1 kg"
+Near Protocol,near,PoS,"$ 3,725,039,408",349.5 kW,"3,051,978.0 kWh","1,239,086.0 kg"
+Algorand,algo,PoS,"$ 1,998,984,390",213.4 kW,"1,709,016.7 kWh","587,661.8 kg"
+Polkadot,dot,PoS,"$ 6,978,103,466",99.9 kW,"876,014.7 kWh","265,816.9 kg"
+Sui,sui,PoS,"$ 8,882,108,339",95.8 kW,"838,990.8 kWh","385,096.8 kg"
+Cosmos,atom,PoS,"$ 1,971,946,038",84.7 kW,"742,082.9 kWh","340,616.1 kg"
+Cardano,ada,PoS,"$ 22,740,662,984",59.7 kW,"520,517.0 kWh","181,619.7 kg"
+XRPL,xrp,Other1,"$ 124,715,733,641",53.9 kW,"466,546.5 kWh","192,872.2 kg"
+Aptos,apt,PoS,"$ 3,749,534,435",42.6 kW,"370,784.5 kWh","140,932.0 kg"
+Tezos,xtz,PoS,"$ 767,706,212",28.4 kW,"248,699.0 kWh","75,360.2 kg"
+Injective,inj,PoS,"$ 1,245,985,339",14.8 kW,"128,915.4 kWh","59,172.1 kg"
+VeChain,vet,Other3,"$ 2,233,998,665",9.6 kW,"84,277.6 kWh","36,003.7 kg"
+Stellar,xlm,Other2,"$ 9,116,035,312",9.5 kW,"80,119.5 kWh","25,846.6 kg"
+Casper,cspr,PoS,"$ 155,281,719",6.7 kW,"58,906.2 kWh","17,357.2 kg"
+IOTA,iota,PoS,"$ 727,400,865",4.5 kW,"51,799.5 kWh","16,684.2 kg"
+Celo,celo,PoS,"$ 214,281,412",2.9 kW,"26,147.8 kWh","9,210.1 kg"
+Chiliz,chz,PoS,"$ 465,099,222",1.0 kW,"8,733.0 kWh","4,008.4 kg"
+BNB Chain,bnb,PoS,"$ 88,166,138,135",0.7 kW,"9,552.0 kWh","3,185.8 kg"
+USDC,usdc,Token,"$ 56,354,369,293",N/A,"17,140.5 kWh","5,385.9 kg"
+Chainlink,link,Token,"$ 9,236,853,511",N/A,328.5 kWh,104.2 kg
+UNUS SED LEO,leo,Token,"$ 8,999,173,416",N/A,4.8 kWh,1.5 kg
+Shiba Inu,shib,Token,"$ 7,988,376,041",N/A,502.1 kWh,159.3 kg
+Uniswap,uni,Token,"$ 4,397,164,693",N/A,"23,029.0 kWh","7,306.0 kg"
+DAI,dai,Token,"$ 3,283,174,663",N/A,276.7 kWh,87.8 kg
+Ondo,ondo,Token,"$ 3,155,964,639",N/A,315.0 kWh,99.9 kg
+Aave,aave,Token,"$ 2,828,744,525",N/A,"1,195.9 kWh",379.4 kg
+Polygon,pol,PoS,"$ 2,320,049,509",N/A,"138,512.7 kWh",57.0 t
+Arbitrum,arb,PoS,"$ 1,803,782,469",N/A,"2,244,754.8 kWh","1,030,337.1 kg"
+Optimism,op,PoS,"$ 1,684,245,428",N/A,"226,468.8 kWh","99,892.4 kg"
+Quant,qnt,Token,"$ 1,342,369,449",N/A,43.3 kWh,13.7 kg
+The Graph,grt,Token,"$ 1,113,176,187",N/A,45.7 kWh,14.5 kg
+The Sandbox,sand,Token,"$ 760,671,104",N/A,39.3 kWh,12.5 kg
+ApeCoin,ape,Token,"$ 483,512,999",N/A,71.9 kWh,22.8 kg
+ZkSync,zk,PoS,"$ 341,499,332",N/A,"157,455.2 kWh","72,250.6 kg"
+Echelon Prime,prime,Token,"$ 263,211,804",N/A,44.5 kWh,14.1 kg
+Binance USD,busd,Token,"$ 61,590,854",N/A,11.5 kWh,3.6 kg
+Decentraland,mana,Token,"$557,413,528",N/A,44.8 kWh,14.2 kg
+Axie Infinity,axs,Token,"$ 580,272,215",N/A,24.0 kWh,7.6 kg
+Basic Attention,bat,Token,"$ 233,878,780",N/A,17.6 kWh,5.5 kg
+Curve DAO,crv,Token,"$ 583,965,963",N/A,104.7 kWh,33.2 kg
+Wrapped Bitcoin,wbtc,Token,"$ 10,807,797,844",N/A,N/A,N/A
