@@ -204,5 +204,81 @@ def get_liquidity():
         "data_points": len(df)
     }), 200
 
+
+@app.route('/api/all_ticker_info', methods=['GET'])
+def get_all_ticker_info():
+    """
+    Build a dataframe of ticker data for multiple symbols along with liquidity and volatility metrics.
+    Query parameters:
+      - exchange (default: binance)
+      - timeframe for OHLCV data (default: 1h)
+      - limit: number of OHLCV candles to fetch (default: 100)
+      - max: maximum number of symbols to process (default: 10)
+    
+    NOTE: Not sure if this is gonna fuck us a bit re rate limits. watch out fellas.
+    """
+    exchange_id = request.args.get('exchange', 'binance')
+    timeframe = request.args.get('timeframe', '1h')
+    ohlcv_limit = int(request.args.get('limit', 100))
+    max_symbols = int(request.args.get('max', 10))
+    
+    try:
+        exchange_class = getattr(ccxt, exchange_id)
+    except AttributeError:
+        abort(400, description=f"Exchange {exchange_id} is not supported by CCXT.")
+    exchange = exchange_class()
+    exchange.load_markets()
+    
+    # fetch all tickers available on the exchange
+    try:
+        tickers = exchange.fetch_tickers()
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
+    # Process a limited number of symbols to avoid overload
+    symbols = list(tickers.keys())[:max_symbols]
+    results = []
+    
+    for symbol in symbols:
+        if symbol not in exchange.symbols:
+            continue
+        info = {"symbol": symbol, "ticker": tickers[symbol]}
+        
+        try:
+            ohlcv = exchange.fetch_ohlcv(symbol, timeframe, limit=ohlcv_limit)
+        except Exception as e:
+            info["error"] = f"Failed to fetch OHLCV: {str(e)}"
+            results.append(info)
+            continue
+        
+        df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+        df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+        
+        # litquidity: average volume
+        avg_volume = df['volume'].mean()
+        info["average_volume"] = avg_volume
+        
+        # vol: using log returns from OHLCV
+        df['log_return'] = np.log(df['close'] / df['close'].shift(1))
+        volatility = df['log_return'].std()
+        info["volatility"] = volatility
+        
+        # anaulised volatility adjustment
+        if timeframe.endswith('h'):
+            annual_factor = (24 * 365) ** 0.5
+        elif timeframe.endswith('d'):
+            annual_factor = (365) ** 0.5
+        else:
+            annual_factor = 1
+        info["annualized_volatility"] = volatility * annual_factor
+        info["ohlcv_data_points"] = len(df)
+        
+        results.append(info)
+    
+    # conve the list of dicts into a DataFrame (for internal use @TristCrocker)
+    df_result = pd.DataFrame(results)
+    return jsonify(df_result.to_dict(orient='records')), 200
+
+
 if __name__ == '__main__':
     app.run(debug=True)
