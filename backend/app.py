@@ -2,8 +2,15 @@ from flask import Flask, jsonify, request, abort
 import ccxt
 import pandas as pd
 import numpy as np
+import portfolio
+import requests
 
 app = Flask(__name__)
+portfolios = {}
+user = portfolio.Portfolio(1234)
+user.add_token("ETH/BTC", 3)
+portfolios[1234] = user
+crypto_data = pd.DataFrame()
 
 @app.route('/', methods=['GET'])
 def index():
@@ -12,8 +19,24 @@ def index():
         "status": "success"
     }), 200
 
-@app.route('/api/tickers', methods=['GET'])
-def get_tickers():
+@app.route('/store_crypto_data', methods=['GET'])
+def store_crypto_data():
+    global crypto_data
+    # Retrieve real-time symbol data from another API endpoint
+    response = requests.get("http://127.0.0.1:3333/api/all_symbol_info")  # Adjust URL if needed
+    if response.status_code != 200:
+        return jsonify({"error": "Failed to retrieve symbol data"}), 500
+    symbol_data = response.json()
+    
+    # Convert response to DataFrame for processing
+    crypto_data = pd.DataFrame(symbol_data)
+    return jsonify({
+        crypto_data
+    }), 200
+
+
+@app.route('/api/symbols', methods=['GET'])
+def get_symbols():
     exchange_id = request.args.get('exchange')
     symbol = request.args.get('symbol')
     result = {}
@@ -29,16 +52,16 @@ def get_tickers():
         if symbol:
             if symbol in exchange.symbols:
                 try:
-                    ticker = exchange.fetch_ticker(symbol)
-                    result[exchange_id] = ticker
+                    symbol = exchange.fetch_symbol(symbol)
+                    result[exchange_id] = symbol
                 except Exception as e:
                     result[exchange_id] = {"error": str(e)}
             else:
                 result[exchange_id] = {"error": f"{symbol} is not available on {exchange_id}"}
         else:
             try:
-                tickers = exchange.fetch_tickers()
-                result[exchange_id] = tickers
+                symbols = exchange.fetch_symbols()
+                result[exchange_id] = symbols
             except Exception as e:
                 result[exchange_id] = {"error": str(e)}
     else:
@@ -54,16 +77,16 @@ def get_tickers():
             if symbol:
                 if symbol in exchange.symbols:
                     try:
-                        ticker = exchange.fetch_ticker(symbol)
-                        result[ex] = ticker
+                        symbol = exchange.fetch_symbol(symbol)
+                        result[ex] = symbol
                     except Exception as e:
                         result[ex] = {"error": str(e)}
                 else:
                     result[ex] = {"error": f"{symbol} is not available on {ex}"}
             else:
                 try:
-                    tickers = exchange.fetch_tickers()
-                    result[ex] = tickers
+                    symbols = exchange.fetch_symbols()
+                    result[ex] = symbols
                 except Exception as e:
                     result[ex] = {"error": str(e)}
     return jsonify(result), 200
@@ -204,11 +227,46 @@ def get_liquidity():
         "data_points": len(df)
     }), 200
 
+#Display user's portfolio
+@app.route('/portfolio/<int:user_id>', methods=['GET'])
+def get_portfolio(user_id):
+    global crypto_data
+    global portfolios
 
-@app.route('/api/all_ticker_info', methods=['GET'])
-def get_all_ticker_info():
+    # Ensure crypto_data is populated
+    if crypto_data.empty:
+        print("crypto_data is empty, fetching latest data...")
+        response = requests.get("http://127.0.0.1:3333/store_crypto_data")  # Adjust if needed
+        if response.status_code == 200:
+            json_data = response.json()
+            
+            # Ensure json_data is a list of dictionaries before creating DataFrame
+            if isinstance(json_data, dict):
+                json_data = [json_data]  # Convert single dictionary into a list
+            
+            crypto_data = pd.DataFrame(json_data)
+        else:
+            return jsonify({"error": "Failed to fetch crypto data"}), 500
+
+
+    
+    print("crypto data: ", crypto_data)
+    if user_id not in portfolios:
+        return jsonify({"error": "User portfolio not found"}), 404
+    
+    user_portfolio = portfolios[user_id]
+    portfolio_data = {
+        "user_id": user_portfolio.user_id,
+        "holdings": user_portfolio.display_portfolio(),
+        "total_risk": user_portfolio.get_total_risk(crypto_data)
+    }
+    return jsonify(portfolio_data)
+
+
+@app.route('/api/all_symbol_info', methods=['GET'])
+def get_all_symbol_info():
     """
-    Build a dataframe of ticker data for multiple symbols along with liquidity and volatility metrics.
+    Build a dataframe of symbol data for multiple symbols along with liquidity and volatility metrics.
     Query parameters:
       - exchange (default: binance)
       - timeframe for OHLCV data (default: 1h)
@@ -228,21 +286,19 @@ def get_all_ticker_info():
         abort(400, description=f"Exchange {exchange_id} is not supported by CCXT.")
     exchange = exchange_class()
     exchange.load_markets()
+    markets = exchange.fetch_markets()
+    symbols = [market['symbol'] for market in markets]
     
-    # fetch all tickers available on the exchange
-    try:
-        tickers = exchange.fetch_tickers()
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
+
 
     # Process a limited number of symbols to avoid overload
-    symbols = list(tickers.keys())[:max_symbols]
+    symbols = symbols[:max_symbols]
     results = []
     
     for symbol in symbols:
         if symbol not in exchange.symbols:
             continue
-        info = {"symbol": symbol, "ticker": tickers[symbol]}
+        info = {"symbol": symbol}
         
         try:
             ohlcv = exchange.fetch_ohlcv(symbol, timeframe, limit=ohlcv_limit)
