@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import PortfolioSummary from './components/PortfolioSummary';
 import PortfolioTable from './components/PortfolioTable';
 import PhoneInfo from './components/PhoneInfo';
 import ChatPanel from './components/ChatPanel';
+import RiskEthicsForm from './components/RiskEthicsForm';
 import './App.css';
 
 export interface CryptoCoin {
@@ -41,23 +43,42 @@ const calculateSummaryStats = (portfolio: CryptoCoin[]): SummaryStats => {
 
 const App: React.FC = () => {
   const stats = calculateSummaryStats(portfolioData);
+  const [isFormOpen, setIsFormOpen] = useState(false);
 
   return (
-    <div className="page-container">
-      <div className="app-container">
-        <h3>At a glance...</h3>
-        <div className="content-wrapper">
-          <div className="left-panel">
-            <PortfolioSummary stats={stats} />
-            <PortfolioTable portfolio={portfolioData} />
+    <Router>
+      <div className={`page-container ${isFormOpen ? 'blurred' : ''}`}>
+        <div className="app-container">
+          <h3>At a glance...</h3>
+          <div className="content-wrapper">
+            <div className="left-panel">
+              <PortfolioSummary stats={stats} />
+              <PortfolioTable portfolio={portfolioData} />
+            </div>
+            <div className="right-panel">
+              <PhoneInfo />
+              <ChatPanel />
+            </div>
           </div>
-          <div className="right-panel">
-            <PhoneInfo />
-            <ChatPanel />
+          <div className="mt-4 text-center">
+            <button
+              onClick={() => setIsFormOpen(true)}
+              className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+            >
+              Take Risk & Ethics Questionnaire
+            </button>
           </div>
         </div>
       </div>
-    </div>
+      
+      {isFormOpen && (
+        <div className="popup-overlay" onClick={() => setIsFormOpen(false)}>
+          <div className="popup-container" onClick={(e) => e.stopPropagation()}>
+            <RiskEthicsForm onClose={() => setIsFormOpen(false)} />
+          </div>
+        </div>
+      )}
+    </Router>
   );
 };
 
