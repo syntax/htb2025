@@ -41,7 +41,6 @@ def fill_missing_values(df, column):
     
     return df
 
-
 def normalize_series(series):
     """
     Normalizes a Pandas Series using Min-Max normalization.
@@ -55,49 +54,40 @@ def normalize_series(series):
     
     return np.zeros(len(series))
 
-def process_crypto_data(input_file, output_file="normalized_crypto_environmental_ratings.csv"):
+def process_crypto_data(crypto_data, output_file="normalized_crypto_environmental_ratings.csv"):
     """(Updated docstring)"""
-    if not os.path.exists(input_file):
-        raise FileNotFoundError(f"Error: {input_file} not found.")
-
+    # if not os.path.exists(input_file):
+    #     raise FileNotFoundError(f"Error: {input_file} not found.")
     # Load data
-    df = pd.read_csv(input_file)
+    df = crypto_data
     
-    tweets_csv = "utils/crypto_tweets.csv"  # path to mock tweet data
-    df["Ethical Sentiment"] = df["Symbol"].apply(
+    tweets_csv = "backend/utils/crypto_tweets.csv"  # path to mock tweet data
+    df["ethical sentiment"] = df["ticker"].apply(
         lambda sym: compute_sentiment_scores(tweets_csv, sym)[0]  # [0] gets ethics score
     )
 
     # Existing processing
-    df["Market Cap"] = df["Market Cap"].apply(convert_to_numeric)
-    for col in ["Annual Energy Consumption", "Carbon Emissions"]:
+    df["market cap"] = df["market cap"].apply(convert_to_numeric)
+    for col in ["annual energy consumption", "carbon emissions"]:
         df[col] = df[col].apply(convert_to_numeric)
 
-    for col in ["Annual Energy Consumption", "Carbon Emissions"]:
+    for col in ["annual energy consumption", "carbon emissions"]:
         df = fill_missing_values(df, col)
 
-    df["Normalized Energy"] = normalize_series(df["Annual Energy Consumption"])
-    df["Normalized Carbon"] = normalize_series(df["Carbon Emissions"])
+    df["normalized energy"] = normalize_series(df["annual energy consumption"])
+    df["normalized carbon"] = normalize_series(df["carbon emissions"])
 
     # higher score = worse environmental impact
     # TODO: tweak these weightings, i just made this up xd
-    df["Raw Environmental Score"] = (
-        df["Normalized Energy"] * 0.4 +
-        df["Normalized Carbon"] * 0.4 +
+    df["ethical impact"] = (
+        df["normalized energy"] * 0.4 +
+        df["normalized carbon"] * 0.4 +
         # for ethical sentiment, 1 = ethical, 0 = unethical
-        (1 - df["Ethical Sentiment"]) * 0.2  # invert ethical sentiment
+        (1 - df["ethical sentiment"]) * 0.2  # invert ethical sentiment
     )
 
-    df["Environmental Score"] = normalize_series(df["Raw Environmental Score"])
-    df = df.sort_values(by="Environmental Score", ascending=True).reset_index(drop=True)
+    df["environmental score"] = normalize_series(df["raw environmental score"])
+    df = df.sort_values(by="environmental score", ascending=True).reset_index(drop=True)
     
     df.to_csv(output_file, index=False)
     return df
-    
-
-# Example usage (if running standalone)
-if __name__ == "__main__":
-    input_path = "ethical_data/new_environmental_data.csv"
-    output_path = "ethical_data/environmental_ratings.csv"
-    
-    process_crypto_data(input_file=input_path, output_file=output_path)

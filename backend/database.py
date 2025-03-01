@@ -48,6 +48,7 @@ class Database:
 
     def update_portfolio(self, portfolio_obj):
         portfolio_obj.update_total_risk(self.session)
+        portfolio_obj.update_total_ethics(self.session)
         self.session.query(Portfolio).filter_by(portfolioid=str(portfolio_obj.user_id)).update({"holdings": json.dumps(portfolio_obj.to_json())})
         self.session.commit()
 
@@ -89,7 +90,7 @@ class Database:
                 raw_environmental_score=raw_environmental_score,
                 environmental_score=environmental_score,
                 risk_score = risk_score,
-                ethics_score = 0.0
+                ethics_score = ethics_score
             )
             self.session.add(new_crypto)
         self.session.commit()
