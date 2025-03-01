@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Form.css";
 
 const questions = {
   risk: [
@@ -15,7 +17,8 @@ const questions = {
   ],
 };
 
-const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+const RiskEthicsForm: React.FC = () => {
+  const navigate = useNavigate();
   const [responses, setResponses] = useState<{ [key: string]: number }>({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -28,7 +31,6 @@ const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     if (currentQuestionIndex < allQuestions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
-      // All questions answered, show final button
       setCurrentQuestionIndex(allQuestions.length);
     }
   };
@@ -45,20 +47,16 @@ const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       (4 * ethicalScores.length);
 
     alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
-    onClose();
+    navigate("/portfolio");
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white p-6">
-      <div className="max-w-lg w-full bg-white shadow-md rounded-lg p-6 relative risk-ethics-popup">
+    <div className="form-page">
+      <div className="form-container">
         {currentQuestionIndex < allQuestions.length ? (
           <>
-            <h2 className="text-xl font-bold mb-6 text-black text-center">
-              Investment Risk & Ethics Questionnaire
-            </h2>
-            <p className="font-medium mb-10 text-black text-lg text-center">
-              {allQuestions[currentQuestionIndex]}
-            </p>
+            <h2>Investment Risk & Ethics Questionnaire</h2>
+            <p>{allQuestions[currentQuestionIndex]}</p>
             <div className="button-group">
               {[
                 { value: 1, label: "Strongly Disagree" },
@@ -67,19 +65,15 @@ const RiskEthicsForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 { value: 4, label: "Agree" },
                 { value: 5, label: "Strongly Agree" },
               ].map(({ value, label }) => (
-                <button
-                  key={value}
-                  onClick={() => handleResponse(value)}
-                  className="response-button"
-                >
+                <button key={value} onClick={() => handleResponse(value)} className="response-button">
                   {label}
                 </button>
               ))}
             </div>
           </>
         ) : (
-          <div className="text-center">
-            <button onClick={handleSubmit} className="build-portfolio-button">
+          <div className="submit-container">
+            <button onClick={handleSubmit} className="submit-button">
               Build My Portfolio!
             </button>
           </div>

@@ -1,0 +1,34 @@
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.left-panel {
+  flex: 1.5;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
