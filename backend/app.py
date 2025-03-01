@@ -4,10 +4,10 @@ import pandas as pd
 import numpy as np
 import portfolio
 import requests
+from sentimentanaly import compute_sentiment_scores
 import database
 import risk
 from models import Portfolio, Crypto, PortfolioObject
-
 
 app = Flask(__name__)
 
@@ -58,6 +58,28 @@ def store_crypto_data():
     db.close_connection()
     
     return jsonify({"message": "Success"}), 200
+
+
+@app.route('/api/sentiment', methods=['GET'])
+def get_ethics_sentiment():
+    """
+    Get sentiment for a given cryptocurrency ticker.
+    Query parameters:
+      - ticker: cryptocurrency ticker symbol
+    """
+    ticker = request.args.get('ticker', 'SC')
+
+    # mock data at this csv cos tweety rate limits us so quick
+    csv_file = "utils/crypto_tweets.csv"
+    ethics_score, risk_score = compute_sentiment_scores(csv_file, ticker)
+    return jsonify({
+        "ticker": ticker,
+        "ethics_score": ethics_score,
+        "risk_score": risk_score
+    }), 200
+
+    
+    
 
 
 @app.route('/api/symbols', methods=['GET'])
