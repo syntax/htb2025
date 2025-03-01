@@ -12,20 +12,26 @@ class Portfolio(Base):
 
 class Crypto(Base):
     __tablename__ = 'crypto'
-    symbol = Column(String, primary_key=True)
-    liquidity = Column(String, nullable=True)
+    name = Column(String, nullable=False)
+    ticker = Column(String, primary_key=True)
+    consensus = Column(String, nullable=True)
+    market_cap = Column(Float, nullable=True)
+    power_consumption = Column(Float, nullable=True)
+    annual_energy_consumption = Column(Float, nullable=True)
+    carbon_emissions = Column(Float, nullable=True)
+    average_liquidity = Column(Float, nullable=True)
     volatility = Column(Float, nullable=True)
-    risk_score = Column(Float, nullable=True)
-    ethic_score = Column(Float, nullable=True)
-    annualized_volatility = Column(Float, nullable=True)
-    average_volume = Column(Float, nullable=True)
-    ohlcv_data_points = Column(Integer, nullable=True)
+    normalized_energy = Column(Float, nullable=True)
+    normalized_carbon = Column(Float, nullable=True)
+    raw_environmental_score = Column(Float, nullable=True)
+    environmental_score = Column(Float, nullable=True)
+
 
 class PortfolioObject:
     def __init__(self, user_id):
         self.user_id = user_id
         self.holdings = {}
-        self.total_risk = 0
+        self.total_risk = 0.0
 
     def add_token(self, symbol, quantity):
         if symbol in self.holdings:

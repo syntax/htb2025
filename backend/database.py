@@ -56,44 +56,60 @@ class Database:
         self.session.commit()
 
     # Crypto Methods
-    def add_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
-        existing_crypto = self.session.query(Crypto).filter_by(symbol=symbol).first()
+    def add_crypto(self, name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score):
+        existing_crypto = self.session.query(Crypto).filter_by(ticker=ticker).first()
         if existing_crypto:
-            existing_crypto.liquidity = liquidity
+            existing_crypto.name = name
+            existing_crypto.consensus = consensus
+            existing_crypto.market_cap = market_cap
+            existing_crypto.power_consumption = power_consumption
+            existing_crypto.annual_energy_consumption = annual_energy_consumption
+            existing_crypto.carbon_emissions = carbon_emissions
+            existing_crypto.average_liquidity = average_liquidity
             existing_crypto.volatility = volatility
-            existing_crypto.risk_score = risk_score
-            existing_crypto.ethic_score = ethic_score
-            existing_crypto.annualized_volatility = annualized_volatility
-            existing_crypto.average_volume = average_volume
-            existing_crypto.ohlcv_data_points = ohlcv_data_points
+            existing_crypto.normalized_energy = normalized_energy
+            existing_crypto.normalized_carbon = normalized_carbon
+            existing_crypto.raw_environmental_score = raw_environmental_score
+            existing_crypto.environmental_score = environmental_score
         else:
             new_crypto = Crypto(
-                symbol=symbol, 
-                liquidity=liquidity, 
-                volatility=volatility, 
-                risk_score=risk_score, 
-                ethic_score=ethic_score, 
-                annualized_volatility=annualized_volatility, 
-                average_volume=average_volume, 
-                ohlcv_data_points=ohlcv_data_points
+                name=name,
+                ticker=ticker,
+                consensus=consensus,
+                market_cap=market_cap,
+                power_consumption=power_consumption,
+                annual_energy_consumption=annual_energy_consumption,
+                carbon_emissions=carbon_emissions,
+                average_liquidity=average_liquidity,
+                volatility=volatility,
+                normalized_energy=normalized_energy,
+                normalized_carbon=normalized_carbon,
+                raw_environmental_score=raw_environmental_score,
+                environmental_score=environmental_score
             )
             self.session.add(new_crypto)
         self.session.commit()
 
-    def update_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
-        self.session.query(Crypto).filter_by(symbol=symbol).update({
-            "liquidity": liquidity,
+    def update_crypto(self, ticker, name, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score):
+        self.session.query(Crypto).filter_by(ticker=ticker).update({
+            "name": name,
+            "consensus": consensus,
+            "market_cap": market_cap,
+            "power_consumption": power_consumption,
+            "annual_energy_consumption": annual_energy_consumption,
+            "carbon_emissions": carbon_emissions,
+            "average_liquidity": average_liquidity,
             "volatility": volatility,
-            "risk_score": risk_score,
-            "ethic_score": ethic_score,
-            "annualized_volatility": annualized_volatility,
-            "average_volume": average_volume,
-            "ohlcv_data_points": ohlcv_data_points
+            "normalized_energy": normalized_energy,
+            "normalized_carbon": normalized_carbon,
+            "raw_environmental_score": raw_environmental_score,
+            "environmental_score": environmental_score
         })
         self.session.commit()
 
-    def get_crypto(self, symbol):
-        return self.session.query(Crypto).filter_by(symbol=symbol).first()
+    def get_crypto(self, ticker):
+        return self.session.query(Crypto).filter_by(ticker=ticker).first()
+
 
 # Example Usage
 if __name__ == "__main__":

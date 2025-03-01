@@ -2,15 +2,19 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.preprocessing import MinMaxScaler
+
+
+
 
 def calculate_risk_score(data):
     data = pd.DataFrame(data)
     epsilon = 1e-6  # Small constant to avoid division by zero
-    data['risk_score'] = data['volatility'] / (data['liquidity'] + epsilon)
+    data['risk_score'] = data['volatility'] / (np.log1p(data['average_liquidity']) + epsilon)
 
     # Normalize risk score to a 0-1 scale
-    data['risk_score'] = (data['risk_score'] - data['risk_score'].min()) / (data['risk_score'].max() - data['risk_score'].min())
-  
+    scaler = MinMaxScaler()
+    data['risk_score'] = scaler.fit_transform(data[['risk_score']])  
     return data
 
 
