@@ -45,7 +45,6 @@ const App: React.FC = () => {
   return (
     <div className="page-container">
       <div className="app-container">
-        <h3>At a glance...</h3>
         <div className="content-wrapper">
           <div className="left-panel">
             <PortfolioSummary stats={stats} />
