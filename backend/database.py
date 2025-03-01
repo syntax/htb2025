@@ -113,7 +113,6 @@ class Database:
                 "environmental_score": environmental_score,
                 "risk_score": risk_score,
                 "ethics_score": ethics_score
-            
             })
         else:
             self.add_crypto(name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score)
