@@ -48,6 +48,7 @@ class Database:
 
     def update_portfolio(self, portfolio_obj):
         portfolio_obj.update_total_risk(self.session)
+        portfolio_obj.update_total_ethics(self.session)
         self.session.query(Portfolio).filter_by(portfolioid=str(portfolio_obj.user_id)).update({"holdings": json.dumps(portfolio_obj.to_json())})
         self.session.commit()
 
@@ -56,51 +57,69 @@ class Database:
         self.session.commit()
 
     # Crypto Methods
-    def add_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
-        existing_crypto = self.session.query(Crypto).filter_by(symbol=symbol).first()
+    def add_crypto(self, name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score):
+        existing_crypto = self.session.query(Crypto).filter_by(ticker=ticker).first()
         if existing_crypto:
-            existing_crypto.liquidity = liquidity
+            existing_crypto.name = name
+            existing_crypto.consensus = consensus
+            existing_crypto.market_cap = market_cap
+            existing_crypto.power_consumption = power_consumption
+            existing_crypto.annual_energy_consumption = annual_energy_consumption
+            existing_crypto.carbon_emissions = carbon_emissions
+            existing_crypto.average_liquidity = average_liquidity
             existing_crypto.volatility = volatility
-            existing_crypto.risk_score = risk_score
-            existing_crypto.ethic_score = ethic_score
-            existing_crypto.annualized_volatility = annualized_volatility
-            existing_crypto.average_volume = average_volume
-            existing_crypto.ohlcv_data_points = ohlcv_data_points
+            existing_crypto.normalized_energy = normalized_energy
+            existing_crypto.normalized_carbon = normalized_carbon
+            existing_crypto.raw_environmental_score = raw_environmental_score
+            existing_crypto.environmental_score = environmental_score
+            existing_crypto.risk_score = risk_score,
+            existing_crypto.ethics_score = ethics_score
         else:
             new_crypto = Crypto(
-                symbol=symbol, 
-                liquidity=liquidity, 
-                volatility=volatility, 
-                risk_score=risk_score, 
-                ethic_score=ethic_score, 
-                annualized_volatility=annualized_volatility, 
-                average_volume=average_volume, 
-                ohlcv_data_points=ohlcv_data_points
+                name=name,
+                ticker=ticker,
+                consensus=consensus,
+                market_cap=market_cap,
+                power_consumption=power_consumption,
+                annual_energy_consumption=annual_energy_consumption,
+                carbon_emissions=carbon_emissions,
+                average_liquidity=average_liquidity,
+                volatility=volatility,
+                normalized_energy=normalized_energy,
+                normalized_carbon=normalized_carbon,
+                raw_environmental_score=raw_environmental_score,
+                environmental_score=environmental_score,
+                risk_score = risk_score,
+                ethics_score = ethics_score
             )
             self.session.add(new_crypto)
         self.session.commit()
 
-    def update_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
-        self.session.query(Crypto).filter_by(symbol=symbol).update({
-            "liquidity": liquidity,
-            "volatility": volatility,
-            "risk_score": risk_score,
-            "ethic_score": ethic_score,
-            "annualized_volatility": annualized_volatility,
-            "average_volume": average_volume,
-            "ohlcv_data_points": ohlcv_data_points
-        })
+    def update_crypto(self, ticker, name, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score):
+        existing_crypto = self.session.query(Crypto).filter_by(ticker=ticker).first()
+        if existing_crypto:
+            self.session.query(Crypto).filter_by(ticker=ticker).update({
+                "name": name,
+                "consensus": consensus,
+                "market_cap": market_cap,
+                "power_consumption": power_consumption,
+                "annual_energy_consumption": annual_energy_consumption,
+                "carbon_emissions": carbon_emissions,
+                "average_liquidity": average_liquidity,
+                "volatility": volatility,
+                "normalized_energy": normalized_energy,
+                "normalized_carbon": normalized_carbon,
+                "raw_environmental_score": raw_environmental_score,
+                "environmental_score": environmental_score,
+                "risk_score": risk_score,
+                "ethics_score": ethics_score
+            
+            })
+        else:
+            self.add_crypto(name, ticker, consensus, market_cap, power_consumption, annual_energy_consumption, carbon_emissions, average_liquidity, volatility, normalized_energy, normalized_carbon, raw_environmental_score, environmental_score, risk_score, ethics_score)
         self.session.commit()
 
-    def get_crypto(self, symbol):
-        return self.session.query(Crypto).filter_by(symbol=symbol).first()
+    def get_crypto(self, ticker):
+        return self.session.query(Crypto).filter_by(ticker=ticker).first()
 
-# Example Usage
-if __name__ == "__main__":
-    db = Database()
-    db.construct()
-    db.add_portfolio("portfolio_123", "BTC")
-    print(db.get_portfolio("portfolio_123"))
-    db.add_crypto("BTC", "High", 0.05, 0.8, 0.9, 0.48, 2602.66, 100)
-    print(db.get_crypto("BTC"))
-    db.close_connection()
+

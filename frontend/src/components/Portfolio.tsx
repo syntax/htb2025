@@ -3,7 +3,7 @@ import PortfolioSummary from './PortfolioSummary';
 import PortfolioTable from './PortfolioTable';
 import PhoneInfo from './PhoneInfo';
 import ChatPanel from './ChatPanel';
-import './Portfolio.css';
+import '../App.css';
 
 export interface CryptoCoin {
   id: number;
@@ -45,7 +45,6 @@ const Portfolio: React.FC = () => {
   return (
     <div className="page-container">
       <div className="app-container">
-        <h3>At a Glance...</h3>
         <div className="content-wrapper">
           <div className="left-panel">
             <PortfolioSummary stats={stats} />
