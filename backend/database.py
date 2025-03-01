@@ -1,66 +1,54 @@
 import os
-from sqlalchemy import create_engine, Column, String, Float, Integer
-from sqlalchemy.ext.declarative import declarative_base
+import requests
+import json
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from flask import Flask, jsonify
+from models import Portfolio, Crypto, PortfolioObject  # Import models from models.py
 
 # SQLite Database Configuration for Local Storage
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///local_database.db")
 
 # Initialize SQLAlchemy
-Base = declarative_base()
 engine = create_engine(DATABASE_URL, echo=True)
 Session = sessionmaker(bind=engine)
 
-# Define Table Models
-class Portfolio(Base):
-    __tablename__ = 'portfolios'
-    portfolioid = Column(String, primary_key=True)
-    holdings = Column(String)
-
-class Crypto(Base):
-    __tablename__ = 'crypto'
-    symbol = Column(String, primary_key=True)
-    liquidity = Column(String, nullable=True)
-    volatility = Column(Float, nullable=True)
-    risk_score = Column(Float, nullable=True)
-    ethic_score = Column(Float, nullable=True)
-    annualized_volatility = Column(Float, nullable=True)
-    average_volume = Column(Float, nullable=True)
-    ohlcv_data_points = Column(Integer, nullable=True)
+app = Flask(__name__)
 
 # Database Handler
-class Database():
+class Database:
     def __init__(self):
         self.session = Session()
 
     def construct(self):
         """Create tables if they don't exist"""
-        Base.metadata.create_all(engine)
+        Portfolio.metadata.create_all(engine)
+        Crypto.metadata.create_all(engine)
 
     def close_connection(self):
         self.session.close()
 
     # Portfolio Methods
-    def add_portfolio(self, portfolioid, holdings):
-        # Check if portfolio already exists
-        existing_portfolio = self.session.query(Portfolio).filter_by(portfolioid=portfolioid).first()
-        
+    def add_portfolio(self, portfolio_obj):
+        existing_portfolio = self.session.query(Portfolio).filter_by(portfolioid=str(portfolio_obj.user_id)).first()
         if existing_portfolio:
-            # If exists, update the holdings instead
-            existing_portfolio.holdings = holdings
+            existing_portfolio.holdings = json.dumps(portfolio_obj.to_json())
         else:
-            # Insert new portfolio
-            new_portfolio = Portfolio(portfolioid=portfolioid, holdings=holdings)
+            new_portfolio = Portfolio(portfolioid=str(portfolio_obj.user_id), holdings=json.dumps(portfolio_obj.to_json()))
             self.session.add(new_portfolio)
-        
         self.session.commit()
 
     def get_portfolio(self, portfolioid):
         result = self.session.query(Portfolio).filter_by(portfolioid=portfolioid).first()
-        return result.holdings if result else None
+        return PortfolioObject.from_json(json.loads(result.holdings)) if result else None
 
-    def update_portfolio(self, portfolioid, holdings):
-        self.session.query(Portfolio).filter_by(portfolioid=portfolioid).update({"holdings": holdings})
+    def get_all_portfolios(self):
+        portfolios = self.session.query(Portfolio).all()
+        return [PortfolioObject.from_json(json.loads(p.holdings)) for p in portfolios]
+
+    def update_portfolio(self, portfolio_obj):
+        portfolio_obj.update_total_risk(self.session)
+        self.session.query(Portfolio).filter_by(portfolioid=str(portfolio_obj.user_id)).update({"holdings": json.dumps(portfolio_obj.to_json())})
         self.session.commit()
 
     def delete_portfolio(self, portfolioid):
@@ -69,22 +57,28 @@ class Database():
 
     # Crypto Methods
     def add_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
-        new_crypto = Crypto(
-            symbol=symbol, 
-            liquidity=liquidity, 
-            volatility=volatility, 
-            risk_score=risk_score, 
-            ethic_score=ethic_score, 
-            annualized_volatility=annualized_volatility, 
-            average_volume=average_volume, 
-            ohlcv_data_points=ohlcv_data_points
-        )
-        self.session.add(new_crypto)
+        existing_crypto = self.session.query(Crypto).filter_by(symbol=symbol).first()
+        if existing_crypto:
+            existing_crypto.liquidity = liquidity
+            existing_crypto.volatility = volatility
+            existing_crypto.risk_score = risk_score
+            existing_crypto.ethic_score = ethic_score
+            existing_crypto.annualized_volatility = annualized_volatility
+            existing_crypto.average_volume = average_volume
+            existing_crypto.ohlcv_data_points = ohlcv_data_points
+        else:
+            new_crypto = Crypto(
+                symbol=symbol, 
+                liquidity=liquidity, 
+                volatility=volatility, 
+                risk_score=risk_score, 
+                ethic_score=ethic_score, 
+                annualized_volatility=annualized_volatility, 
+                average_volume=average_volume, 
+                ohlcv_data_points=ohlcv_data_points
+            )
+            self.session.add(new_crypto)
         self.session.commit()
-
-    def get_crypto(self, symbol):
-        result = self.session.query(Crypto).filter_by(symbol=symbol).first()
-        return result if result else None
 
     def update_crypto(self, symbol, liquidity, volatility, risk_score, ethic_score, annualized_volatility, average_volume, ohlcv_data_points):
         self.session.query(Crypto).filter_by(symbol=symbol).update({
@@ -98,9 +92,8 @@ class Database():
         })
         self.session.commit()
 
-    def delete_crypto(self, symbol):
-        self.session.query(Crypto).filter_by(symbol=symbol).delete()
-        self.session.commit()
+    def get_crypto(self, symbol):
+        return self.session.query(Crypto).filter_by(symbol=symbol).first()
 
 # Example Usage
 if __name__ == "__main__":
