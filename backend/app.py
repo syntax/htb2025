@@ -79,7 +79,16 @@ def get_ethics_sentiment():
     }), 200
 
     
-    
+
+@app.route('/api/submit_user_scores', methods=['POST'])
+def submit_user_scores():
+    data = request.get_json()
+    # user_id = data.get("user_id")
+    user_id = 123 # mock user id
+    ethics_score = data.get("ethics_score")
+    risk_score = data.get("risk_score")
+    return user_id, ethics_score, risk_score
+
 
 
 @app.route('/api/symbols', methods=['GET'])
