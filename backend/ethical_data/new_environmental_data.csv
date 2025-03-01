@@ -1,4 +1,4 @@
-coin,Ticker,Consensus,Market Cap,Power Consumption,Annual Energy Consumption,Carbon Emissions,average_liquidity,volatility
+Name,Ticker,Consensus,Market Cap,Power Consumption,Annual Energy Consumption,Carbon Emissions,average_liquidity,volatility
 bitcoin,btc,PoW,"$ 1,684,005,058,263",18.8 GW,164.1 TWh,69.7 Mt,1164597458958.513,0.0209992446289018
 dogecoin,doge,PoW,"$ 30,027,121,709",1.0 GW,8.8 TWh,3.7 Mt,49691159399.423744,0.0503781011667843
 litecoin,ltc,PoW,"$ 9,487,745,426",0.4 GW,3.1 TWh,1.3 Mt,30283509094.968784,0.0504682029742326
