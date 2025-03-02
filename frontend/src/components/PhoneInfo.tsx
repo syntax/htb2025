@@ -18,6 +18,11 @@ const PhoneInfo: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    fetch('http://127.0.0.1:3332/api/submit_user_phone_number', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ user_id: '123', phone_number: phone })
+    })
     setSubmittedPhone(phone);
     setPhone('+44');
   };

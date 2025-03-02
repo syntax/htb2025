@@ -36,7 +36,8 @@ class PortfolioObject:
         self.total_risk = 0.0
         self.total_ethics = 0.0
         self.user_risk_score = 0.0 
-        self.user_ethics_score = 0.0 
+        self.user_ethics_score = 0.0
+        self.phone_number = None
 
     def add_token(self, ticker, quantity):
         if ticker in self.holdings:
@@ -90,5 +91,6 @@ class PortfolioObject:
         portfolio.total_ethics = data.get("total_ethics", 0)
         portfolio.user_risk_score = data.get("user_risk_score", 0)
         portfolio.user_ethics_score = data.get("user_ethics_score", 0)
+        portfolio.phone_number = data.get("phone_number", None)
         return portfolio
 

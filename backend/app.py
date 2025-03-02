@@ -118,7 +118,33 @@ def get_portfolio_value_by_coin(user_id):
     
     
     
+@app.route('/api/submit_user_phone_number', methods=['POST'])
+def submit_user_phone_number():
+    try:
+        data = request.get_json()
+        user_id = data.get('user_id')
+        phone_number = data.get('phone_number')
         
+        if not user_id or not phone_number:
+            return jsonify({"error": "Missing user_id or phone_number"}), 400
+        
+        db = database.Database()
+        portfolio = db.get_portfolio(user_id)
+        
+        # Create new portfolio if it doesn't exist
+        if not portfolio:
+            portfolio = PortfolioObject(user_id)
+        
+        portfolio.phone_number = phone_number
+        print(phone_number)
+        
+        db.add_portfolio(portfolio)
+        db.close_connection()
+        
+        return jsonify({"message": "Phone number updated successfully"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route('/api/submit_user_scores', methods=['POST'])
 def submit_user_scores():
