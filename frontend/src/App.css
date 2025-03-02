@@ -11,8 +11,8 @@ html, body {
 
 :root {
   
-  --bg-color: #121212;
-  --card-bg: #1e1e1e;
+  --bg-color: white;
+  --card-bg: white;
   --primary-text: #e0e0e0;
   --secondary-text: #aaaaaa;
   --border-color: #121212;

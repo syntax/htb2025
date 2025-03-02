@@ -20,7 +20,7 @@ const questions = {
 const RiskEthicsForm: React.FC = () => {
   const navigate = useNavigate();
   const [responses, setResponses] = useState<{ [key: string]: number }>({});
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(-1);
   const [_, setError] = useState<string>("");
   const allQuestions = [...questions.risk, ...questions.ethical];
 
@@ -46,10 +46,8 @@ const RiskEthicsForm: React.FC = () => {
       (ethicalScores.reduce((a, b) => a + b, 0) - ethicalScores.length) /
       (4 * ethicalScores.length);
 
-    // alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
     try {
-      // todo might need to change this endpoint
-      const response = await fetch("http://127.0.0.1:3332/api/submit_user_scores", {
+      const response = await fetch("http://127.0.0.1:3333/api/submit_user_scores", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -74,9 +72,20 @@ const RiskEthicsForm: React.FC = () => {
   return (
     <div className="form-page">
       <div className="form-container">
-        {currentQuestionIndex < allQuestions.length ? (
+        {currentQuestionIndex === -1 ? (
           <>
-            <h2>Investment Risk & Ethics Questionnaire</h2>
+            <h1>Investment Risk & Ethics Questionnaire</h1>
+            <p style={{ marginBottom: "20px" }}>
+              This questionnaire helps assess your risk tolerance and ethical preferences in cryptocurrency investments. 
+              Answer honestly to ensure your portfolio aligns with your values and investment goals.
+            </p>
+            <button onClick={() => setCurrentQuestionIndex(0)} className="continue-button">
+              Continue
+            </button>
+          </>
+        ) : currentQuestionIndex < allQuestions.length ? (
+          <>
+            <h1>Investment Risk & Ethics Questionnaire</h1>
             <p>{allQuestions[currentQuestionIndex]}</p>
             <div className="button-group">
               {[
