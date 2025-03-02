@@ -24,6 +24,12 @@ def index():
         "status": "success"
     }), 200
 
+@app.route('/incoming_call', methods=['POST'])
+def incoming_call():
+    data = request.get_json()
+    print(data)
+    return jsonify(data), 200
+
 @app.route('/store_crypto_data', methods=['GET'])
 def store_crypto_data():
     db = database.Database()
