@@ -2,8 +2,8 @@ import React from 'react';
 
 interface Data {
   holdings: { [key: string]: number };
-  total_ethics: number;
   total_risk: number;
+  total_ethics: number;
   user_id: number;
 }
 
@@ -14,22 +14,24 @@ interface Data2 {
 interface PortfolioTableProps {
   data: Data;
   data2: Data2;
-  predEod: Data2;
-  predEow: Data2;
-  predEom: Data2;
+  pred_eod: { [key: string]: number };
+  pred_eow: { [key: string]: number };
+  pred_eom: { [key: string]: number };
 }
 
 const PortfolioTable: React.FC<PortfolioTableProps> = ({ 
   data, 
   data2, 
-  predEod, 
-  predEow, 
-  predEom 
+  pred_eod, 
+  pred_eow, 
+  pred_eom 
 }) => {
+  // Check that the essential data is available.
   if (!data || !data.holdings || !data2) {
     return <div>No data available.</div>;
   }
 
+  // Get the crypto symbols from the holdings object.
   const cryptoSymbols = Object.keys(data.holdings);
 
   return (
@@ -48,23 +50,31 @@ const PortfolioTable: React.FC<PortfolioTableProps> = ({
       <tbody>
         {cryptoSymbols.map((symbol) => {
           const balance = data.holdings[symbol];
-          const totalValue = data2[symbol] || 0;
-          const price = balance ? totalValue / balance : 0;
-          const predictionKey = `${symbol}-USD`;
+          // Try to find the total value using the symbol directly or with "-USD" appended.
+          const totalValue = 
+            data2[symbol] || 
+            data2[`${symbol.toUpperCase()}-USD`] || 
+            null;
+          // If totalValue is available and balance is non-zero, calculate price.
+          const price = totalValue !== null && balance 
+            ? totalValue / balance 
+            : null;
 
-          const eodPrice = predEod[predictionKey];
-          const eowPrice = predEow[predictionKey];
-          const eomPrice = predEom[predictionKey];
+          // Create a prediction key in the format: SYMBOL-USD (e.g., BNB-USD)
+          const predictionKey = `${symbol.toUpperCase()}-USD`;
+          const eodPrice = pred_eod ? pred_eod[predictionKey] : undefined;
+          const eowPrice = pred_eow ? pred_eow[predictionKey] : undefined;
+          const eomPrice = pred_eom ? pred_eom[predictionKey] : undefined;
 
           return (
             <tr key={symbol}>
               <td>{symbol.toUpperCase()}</td>
               <td>{balance.toLocaleString()}</td>
-              <td>${price.toFixed(2)}</td>
-              <td>${totalValue.toFixed(2)}</td>
-              <td>${eodPrice?.toFixed(2) ?? 'N/A'}</td>
-              <td>${eowPrice?.toFixed(2) ?? 'N/A'}</td>
-              <td>${eomPrice?.toFixed(2) ?? 'N/A'}</td>
+              <td>{price !== null ? `$${price.toFixed(2)}` : 'N/A'}</td>
+              <td>{totalValue !== null ? `$${totalValue.toFixed(2)}` : 'N/A'}</td>
+              <td>{eodPrice !== undefined ? `$${eodPrice.toFixed(2)}` : 'N/A'}</td>
+              <td>{eowPrice !== undefined ? `$${eowPrice.toFixed(2)}` : 'N/A'}</td>
+              <td>{eomPrice !== undefined ? `$${eomPrice.toFixed(2)}` : 'N/A'}</td>
             </tr>
           );
         })}
