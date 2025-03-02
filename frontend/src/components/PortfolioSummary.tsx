@@ -1,36 +1,117 @@
 import React from 'react';
+import { Box, Card, CardContent, Typography, Slider, styled } from '@mui/material';
 
 interface SummaryStats {
   totalValue: number;
-  riskLevel: string;
+  riskAppetite: number;
+  sustainability: number;
   bestPerformer: string;
   worstPerformer: string;
 }
 
-interface PortfolioSummaryProps {
-  stats: SummaryStats;
-}
+const StyledCard = styled(Card)({
+  minWidth: 275,
+  flex: '1 1 300px',
+  backgroundColor: 'var(--card-bg)',
+  borderRadius: '8px',
+  border: '1px solid var(--border-color)',
+  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)',
+});
 
-const PortfolioSummary: React.FC<PortfolioSummaryProps> = ({ stats }) => {
+const IntensitySlider = styled(Slider)({
+  height: 8,
+  marginTop: '24px',
+  '& .MuiSlider-track': {
+    background: 'linear-gradient(90deg, #ff0000 0%, #ffd700 50%, #00ff00 100%)',
+    border: 'none',
+  },
+  '& .MuiSlider-rail': {
+    backgroundColor: 'var(--border-color)',
+  },
+  '& .MuiSlider-thumb': {
+    height: 24,
+    width: 24,
+    backgroundColor: 'transparent',
+    '&:before': {
+      content: '""',
+      display: 'block',
+      width: 0,
+      height: 0,
+      borderLeft: '12px solid transparent',
+      borderRight: '12px solid transparent',
+      borderBottom: '16px solid var(--accent-color)',
+      transform: 'translateY(-8px)',
+    },
+  },
+});
+
+const PortfolioSummary = () => {
+  const stats: SummaryStats = {
+    totalValue: 1250000,
+    riskAppetite: 0.22,
+    sustainability: 0.35,
+    bestPerformer: 'Tech Stocks',
+    worstPerformer: 'Oil & Gas',
+  };
+
   return (
-    <div className="summary-panel">
-      <div className="summary-card">
-        <h2>Total Value</h2>
-        <p>${stats.totalValue.toLocaleString()}</p>
-      </div>
-      <div className="summary-card">
-        <h2>Risk Level</h2>
-        <p>{stats.riskLevel}</p>
-      </div>
-      <div className="summary-card">
-        <h2>Best Performer</h2>
-        <p>{stats.bestPerformer}</p>
-      </div>
-      <div className="summary-card">
-        <h2>Worst Performer</h2>
-        <p>{stats.worstPerformer}</p>
-      </div>
-    </div>
+    <Box sx={{
+      display: 'flex',
+      gap: '20px',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
+      padding: '20px',
+      backgroundColor: 'var(--card-bg)',
+    }}>
+      <StyledCard>
+        <CardContent>
+          <Typography variant="h6" sx={{ color: 'var(--accent-color)', mb: 2 }}>
+            Total Value
+          </Typography>
+          <Typography variant="h4" sx={{ fontWeight: 'bold', color: 'var(--primary-text)' }}>
+            ${stats.totalValue.toLocaleString()}
+          </Typography>
+        </CardContent>
+      </StyledCard>
+
+      <StyledCard>
+        <CardContent>
+          <Typography variant="h6" sx={{ color: 'var(--accent-color)', mb: 2 }}>
+            Risk Appetite
+          </Typography>
+          <IntensitySlider
+            value={stats.riskAppetite}
+            min={0}
+            max={1}
+            step={0.01}
+            disabled
+          />
+          <Typography variant="caption" sx={{ color: 'var(--secondary-text)', display: 'block', mt: 1 }}>
+            {stats.riskAppetite >= 0.6 ? 'High Risk' : 
+             stats.riskAppetite >= 0.3 ? 'Moderate Risk' : 'Low Risk'}
+          </Typography>
+        </CardContent>
+      </StyledCard>
+
+      <StyledCard>
+        <CardContent>
+          <Typography variant="h6" sx={{ color: 'var(--accent-color)', mb: 2 }}>
+            Sustainability
+          </Typography>
+          <IntensitySlider
+            value={stats.sustainability}
+            min={0}
+            max={1}
+            step={0.01}
+            disabled
+          />
+          <Typography variant="caption" sx={{ color: 'var(--secondary-text)', display: 'block', mt: 1 }}>
+            {stats.sustainability >= 0.6 ? 'High Sustainability' : 
+             stats.sustainability >= 0.3 ? 'Moderate Sustainability' : 'Low Sustainability'}
+          </Typography>
+        </CardContent>
+      </StyledCard>
+    </Box>
   );
 };
 
