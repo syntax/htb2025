@@ -36,7 +36,7 @@ const RiskEthicsForm: React.FC = () => {
   };
 
   const handleSubmit = async () => {
-    const riskScores = questions.risk.map((q) => responses[q] || 1);
+    const riskScores = questions.risk.map((q) => 6 - (responses[q] || 1));
     const ethicalScores = questions.ethical.map((q) => responses[q] || 1);
 
     const riskAvg =
