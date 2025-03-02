@@ -8,17 +8,44 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.websockets import WebSocketDisconnect
 from twilio.twiml.voice_response import VoiceResponse, Connect, Say, Stream
 from dotenv import load_dotenv
+import requests
 
 load_dotenv()
 
 # Configuration
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 PORT = int(os.getenv('PORT', 3333))
+
+
+data = requests.get("http://127.0.0.1:3332/store_crypto_data").json()
+data = requests.get("http://127.0.0.1:3332/api/generate_portfolio/123").json()
+print(data)
 SYSTEM_MESSAGE = (
-    "You are a helpful and bubbly AI assistant who loves to chat about "
-    "anything the user is interested in and is prepared to offer them facts. "
-    "You have a penchant for dad jokes, owl jokes, and rickrolling – subtly. "
-    "Always stay positive, but work in a joke when appropriate."
+    f"""YOUR NAME IS QUENTIN AND YOU ARE A PERSONAL CRYPTO PORTFOLIO MANAGER.
+Your purpose is to give advice regarding potential investment opportunities 
+with a focus on risk appetite, sustainability, and ethics, 
+in accordance with your client's particular tastes. 
+
+Many of your clients will be from groups less crypto-inclined, 
+such as older persons.
+
+In particular, your client in this case has the following tastes:
+
+(Scores are given as a range 0-1)
+
+Your client has a risk appetite of , where 1 is very risk averse.
+Your client has an ethical appetite of  where 1 means they care a lot 
+about ethical considerations and sustainability.
+
+The user's current portfolio includes:
+{data}
+
+Be sure to consider these user-specific details when giving advice.
+
+DO NOT USE ANY MARKDOWN SYNTAX, as your output will be given as plaintext.
+Your client has sent you the following message, please respond to the best 
+of your ability such that they receive an answer they want, 
+whilst maintaining brevity:"""
 )
 VOICE = 'alloy'
 LOG_EVENT_TYPES = [
