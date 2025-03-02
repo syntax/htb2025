@@ -49,12 +49,14 @@ const Portfolio: React.FC = () => {
   const [data, setData] = useState([]);
   const [data2 , setData2] = useState([]);
   const [knnGraph, setKnnGraph] = useState([]);
+  const [pred, setPred] = useState([]);
   
   useEffect(() => {
     fetch("http://127.0.0.1:3332/portfolio/123")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
+  
 
   useEffect(() => {
     fetch("http://127.0.0.1:3332/get_portfolio_value_by_coin/123")
@@ -68,13 +70,19 @@ const Portfolio: React.FC = () => {
       .then((knnGraph) => setKnnGraph(knnGraph));
   }, );
 
+  useEffect(() => {
+    fetch("http://localhost:3332/api/generate_portfolio/123")
+    .then((res) => res.json())
+    .then((data) => setPred(data));
+  }, []);
+
   return (
     <div className="page-container">
       <div className="app-container">
         <div className="content-wrapper">
           <div className="left-panel">
             <PortfolioSummary data={data} data2={data2} />
-            <PortfolioTable data = {data} data2 = {data2} />
+            <PortfolioTable data = {data} data2 = {data2} pred = {pred}/>
             <ChartSelector holdings = {data.holdings} holdings2 = {data2} knndata = {knnGraph} />
           </div>
           <div className="right-panel">
