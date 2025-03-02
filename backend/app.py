@@ -102,22 +102,26 @@ def get_ethics_sentiment():
 def get_portfolio_value_by_coin(user_id):
     db = database.Database()
     portfolio = db.get_portfolio(user_id)
-    db.close_connection()
+    
     
     new_map = {}
     
     for coin_id, amount in portfolio.holdings.items():
-        url = f"https://api.coingecko.com/api/v3/simple/price?ids={coin_id}&vs_currencies=usd"
-        response = requests.get(url)
-        print(response)
+        crypto = db.get_crypto(coin_id)
+
+        name = crypto.name
         
+        url = f"https://api.coingecko.com/api/v3/simple/price?ids={name}&vs_currencies=usd"
+        response = requests.get(url)
+    
         if response.status_code == 200:
             data = response.json()
-            price = data.get(coin_id, {}).get("usd", 0)
+            price = data.get(name, {}).get("usd", 0)
             new_map[coin_id] = price * amount  # Calculate total value per coin
         else:
             new_map[coin_id] = None  # Handle failed requests gracefully
     
+    db.close_connection()
     
     return jsonify(new_map), 200
     
