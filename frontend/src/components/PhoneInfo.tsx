@@ -29,7 +29,7 @@ const PhoneInfo: React.FC = () => {
 
   return (
     <div className="phone-info-panel">
-      <h2>Rug Pull SMS Alerts</h2>
+      <h2>Rug Pull / AtypicalVol SMS Alerts</h2>
       {!submittedPhone ? (
         <form onSubmit={handleSubmit}>
           <div className="phone-input-container">
