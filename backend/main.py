@@ -10,6 +10,8 @@ if __name__ == "__main__":
     obj = PortfolioObject(123)
     obj.add_token("leo", 3)
     obj.add_token("shib", 3)
+    obj.update_ethics_score(0.6)
+    obj.update_risk_score(0.2)
 
     # Add or update the portfolio in the database
     existing_portfolio = db.add_portfolio(obj)
