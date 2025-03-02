@@ -18,6 +18,9 @@ export default function ChartSelector({holdings, holdings2}) {
     }
     chartComponent = <BarChart holdings={holdings2} />;
   } else if (selectedChart === "pie") {
+    if (!holdings) {
+      return <div>No data available.</div>
+    }
     chartComponent = <PieChartComponent holdings={holdings}/>;
   }
 
@@ -25,7 +28,7 @@ export default function ChartSelector({holdings, holdings2}) {
     <div style={{ width: "500px", margin: "0 auto" }}>
       <h2>Chart Selector</h2>
       <select value={selectedChart} onChange={handleSelectChange}>
-        <option value="bar">Bar Chart</option>
+        <option value="bar">Value Chart</option>
         <option value="pie">Holdings Distribution</option>
       </select>
 
