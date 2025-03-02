@@ -8,8 +8,11 @@ import database
 import risk
 from models import Portfolio, Crypto, PortfolioObject
 import ethical
+from flask_cors import CORS
 
 app = Flask(__name__)
+
+CORS(app)
 
 @app.route('/', methods=['GET'])
 def index():
@@ -93,13 +96,22 @@ def get_ethics_sentiment():
 
 @app.route('/api/submit_user_scores', methods=['POST'])
 def submit_user_scores():
-    data = request.get_json()
-    # user_id = data.get("user_id")
-    user_id = 123 # mock user id
-    ethics_score = data.get("ethics_score")
-    risk_score = data.get("risk_score")
-    return user_id, ethics_score, risk_score
+    try:
+        data = request.get_json()
+        
+        if not data or "risk_score" not in data or "ethics_score" not in data:
+            return jsonify({"error": "Missing risk_score or ethics_score"}), 400
+        
+        risk_score = data["risk_score"]
+        ethics_score = data["ethics_score"]
 
+        print(f"Received Scores - Risk: {risk_score}, Ethics: {ethics_score}")
+
+        return jsonify({"message": "Scores received successfully!"}), 200
+
+    except Exception as e:
+        print("Error:", str(e))
+        return jsonify({"error": "Internal server error"}), 500
 
 
 @app.route('/api/symbols', methods=['GET'])
