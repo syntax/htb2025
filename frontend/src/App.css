@@ -27,6 +27,44 @@ body {
   color: var(--primary-text);
 }
 
+.phone-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phone-status-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.active-status {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #22c55e;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #22c55e;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.active-text {
+  font-weight: 500;
+}
+
+
 .page-container {
   display: flex;
   align-items: center;

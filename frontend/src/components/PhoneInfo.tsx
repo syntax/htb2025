@@ -29,7 +29,7 @@ const PhoneInfo: React.FC = () => {
 
   return (
     <div className="phone-info-panel">
-      <h2>Phone Information</h2>
+      <h2>Rug Pull / AtypicalVol SMS Alerts</h2>
       {!submittedPhone ? (
         <form onSubmit={handleSubmit}>
           <div className="phone-input-container">
@@ -47,7 +47,13 @@ const PhoneInfo: React.FC = () => {
         </form>
       ) : (
         <div className="phone-input-container">
-          <p className="phone-display">Phone number: {submittedPhone}</p>
+          <div className="phone-status-group">
+            <p className="phone-display">Phone number: {submittedPhone}</p>
+            <div className="active-status">
+              <span className="checkmark">✓</span>
+              <span className="active-text">Active</span>
+            </div>
+          </div>
           <button type="button" onClick={handleRemove} className="phone-button">
             Remove
           </button>

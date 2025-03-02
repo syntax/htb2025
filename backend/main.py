@@ -18,4 +18,4 @@ if __name__ == "__main__":
     db.close_connection()
     
     # Run the Flask app
-    app.run(debug=True, host="0.0.0.0", port=3333)
+    app.run(debug=True, host="0.0.0.0", port=3332)
