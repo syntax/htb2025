@@ -47,6 +47,15 @@ class PortfolioObject:
     def update_ethics_score(self, ethics):
         self.user_ethics_score = ethics
 
+    def buy_coin(self, coin_id, quantity):
+        self.holdings[coin_id] += quantity
+
+    def sell_coin(self, coin_id, quantity):
+        if self.holdings[coin_id] >= quantity:
+            self.holdings[coin_id] -= quantity
+        else:
+            raise ValueError
+
     def add_token(self, ticker, quantity):
         if ticker in self.holdings:
             self.holdings[ticker] += quantity
