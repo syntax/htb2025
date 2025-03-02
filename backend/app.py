@@ -516,7 +516,7 @@ def get_all_symbol_info():
       - limit: number of OHLCV candles to fetch (default: 100)
       - max: maximum number of symbols to process (default: 10)
     
-    NOTE: Not sure if this is gonna fuck us a bit re rate limits. watch out fellas.
+
     """
     exchange_id = request.args.get('exchange', 'binance')
     timeframe = request.args.get('timeframe', '1h')

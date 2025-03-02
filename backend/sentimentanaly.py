@@ -49,20 +49,3 @@ def compute_sentiment_scores(csv_file, ticker):
     risk_avg = sum(risk_sentiments)/len(risk_sentiments) if risk_sentiments else 0.5
     
     return ethics_avg, risk_avg
-
-
-
-# testing below todo remove
-
-
-def main():
-    # testing
-    csv_file = "utils/crypto_tweets.csv"
-    ticker = "sc"
-    
-    ethics_score, risk_score = compute_sentiment_scores(csv_file, ticker)
-    print(f"Ethics Score (1=ethical): {ethics_score:.2f}")
-    print(f"Risk Score (1=safe): {risk_score:.2f}")
-
-if __name__ == '__main__':
-    main()

@@ -63,7 +63,7 @@ def process_crypto_data(crypto_data, output_file="normalized_crypto_environmenta
     
     tweets_csv = "backend/utils/crypto_tweets.csv"  # path to mock tweet data
     df["ethical sentiment"] = df["ticker"].apply(
-        lambda sym: compute_sentiment_scores(tweets_csv, sym)[0]  # [0] gets ethics score
+        lambda sym: compute_sentiment_scores(tweets_csv, sym)[0]  
     )
 
     # Existing processing

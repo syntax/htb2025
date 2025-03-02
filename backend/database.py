@@ -4,7 +4,7 @@ import json
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from flask import Flask, jsonify
-from models import Portfolio, Crypto, PortfolioObject  # Import models from models.py
+from models import Portfolio, Crypto, PortfolioObject
 
 # SQLite Database Configuration for Local Storage
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///local_database.db")

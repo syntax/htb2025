@@ -74,10 +74,10 @@ class PortfolioObject:
         crypto_data = {crypto.ticker: crypto.risk_score for crypto in session.query(Crypto).all()}
         
         total_risk = 0
-        total_weight = sum(self.holdings.values())  # Sum of all holdings
+        total_weight = sum(self.holdings.values()) 
         
         for ticker, quantity in self.holdings.items():
-            risk_score = crypto_data.get(ticker, 0)  # Default to 0 if ticker not found
+            risk_score = crypto_data.get(ticker, 0) 
             total_risk += risk_score * quantity
         
         self.total_risk = total_risk / total_weight if total_weight > 0 else 0  # Weighted average risk
@@ -87,13 +87,13 @@ class PortfolioObject:
         crypto_data = {crypto.ticker: crypto.ethics_score for crypto in session.query(Crypto).all()}
         
         total_ethics = 0
-        total_weight = sum(self.holdings.values())  # Sum of all holdings
+        total_weight = sum(self.holdings.values())  
         
         for ticker, quantity in self.holdings.items():
-            ethics_score = crypto_data.get(ticker, 0)  # Default to 0 if ticker not found
+            ethics_score = crypto_data.get(ticker, 0) 
             total_ethics += ethics_score * quantity
         
-        self.total_ethics = total_ethics / total_weight if total_weight > 0 else 0  # Weighted average ethics
+        self.total_ethics = total_ethics / total_weight if total_weight > 0 else 0  #
                 
 
     def to_json(self):

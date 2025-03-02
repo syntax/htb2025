@@ -25,7 +25,6 @@ with open(output_filename, "w", newline="", encoding="utf-8") as csvfile:
                 # Retrieve historical market data for the past 30 days
                 data = cg.get_coin_market_chart_by_id(id=coin, vs_currency="usd", days=30)
                 
-                # --- Calculate Volatility from Price Data ---
                 prices = data.get("prices", [])
                 if not prices:
                     raise Exception("No price data available")
@@ -40,7 +39,6 @@ with open(output_filename, "w", newline="", encoding="utf-8") as csvfile:
                 # Calculate volatility as the standard deviation of daily returns
                 volatility = daily_prices["return"].std()
                 
-                # --- Calculate Liquidity from Volume Data ---
                 volumes = data.get("total_volumes", [])
                 if not volumes:
                     raise Exception("No volume data available")

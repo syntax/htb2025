@@ -34,7 +34,7 @@ def calculate_risk_score(data, tweet_csv="backend/utils/crypto_tweets.csv",
     data['financial_risk'] = data['volatility'] / np.log1p(data['average_liquidity'] + epsilon)
     
     data['sentiment_risk'] = data['ticker'].apply(
-        lambda t: compute_sentiment_scores(tweet_csv, t)[1]  # [1] gets risk_score
+        lambda t: compute_sentiment_scores(tweet_csv, t)[1] 
     )
     
     scaler_standard = MinMaxScaler()
