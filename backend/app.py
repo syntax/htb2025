@@ -295,12 +295,17 @@ def generate_portfolio(user_id):
     top_n = min(5, len(indices[0]))
     selected_indices = indices[0][:top_n]
     selected_cryptos = crypto_data.iloc[selected_indices]
-    
+
+    predictions_data = pd.read_csv("lstm/final_predictions.csv")
+    filter_params = [item.upper() + "-USD" for item in list(selected_cryptos["ticker"])]
+    filtered_df = predictions_data[predictions_data["ticker"].isin(filter_params)]
+    pred_dicts = {col: filtered_df.set_index("ticker")[col].to_dict() for col in filtered_df.columns if col != "ticker"}
+
     allocation = {
         row['ticker']: 1.0/top_n 
         for _, row in selected_cryptos.iterrows()
     }
-    
+
     portfolio.holdings = allocation
     
     portfolio.update_total_risk(db.session)
@@ -312,6 +317,9 @@ def generate_portfolio(user_id):
     return jsonify({
         "message": "Portfolio generated using KNN",
         "holdings": allocation,
+        "pred_eod": pred_dicts["pred_eod"],
+        "pred_eow": pred_dicts["pred_eow"],
+        "pred_eom": pred_dicts["pred_eom"],
         "total_risk": portfolio.total_risk,
         "total_ethics": portfolio.total_ethics,
         "selected_cryptos": selected_cryptos.to_dict(orient='records')
@@ -322,7 +330,6 @@ def generate_portfolio(user_id):
     #     print(e.with_traceback())
     #     return jsonify({"error": "Internal server error"}), 500
     
-
 @app.route('/api/symbols', methods=['GET'])
 def get_symbols():
     exchange_id = request.args.get('exchange')
