@@ -49,7 +49,7 @@ const RiskEthicsForm: React.FC = () => {
     // alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
     try {
       // todo might need to change this endpoint
-      const response = await fetch("http://127.0.0.1:3333/api/submit_user_scores", {
+      const response = await fetch("http://127.0.0.1:3332/api/submit_user_scores", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

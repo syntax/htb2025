@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const ChatPanel: React.FC = () => {
+const ChatPanel: React.FC = ({data, data2}) => {
   const [command, setCommand] = useState('');
   const [chatLog, setChatLog] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
@@ -10,6 +10,9 @@ const ChatPanel: React.FC = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setCommand(e.target.value);
   };
+  
+  
+
 
   useEffect(() => {
     if (loading) {
@@ -25,6 +28,8 @@ const ChatPanel: React.FC = () => {
   }, [loading]);
 
   const fetchChatResponse = async (userCommand: string): Promise<string> => {
+    const prompt = createCryptoAdvisorProfile(data, data2, userCommand);
+    console.log(prompt);
     setLoading(true);
     const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
     try {
@@ -36,7 +41,7 @@ const ChatPanel: React.FC = () => {
         },
         body: JSON.stringify({
           model: "gpt-4o-mini",
-          messages: [{ role: "assistant", content: `You are a portfolio manager, and your name is Quentin;\n${userCommand}` }],
+          messages: [{ role: "assistant", content: prompt }],
           temperature: 0.7,
         })
       });
@@ -123,5 +128,53 @@ const ChatPanel: React.FC = () => {
     </div>
   );
 };
+
+interface UserData {
+  holdings: { [key: string]: number };
+  total_ethics: number;
+  total_risk: number;
+  user_id: number;
+}
+
+interface UpdatedHoldings {
+  [key: string]: number;
+}
+
+const createCryptoAdvisorProfile = (
+  data: UserData,
+  data2: UpdatedHoldings,
+  clientMessage: string
+): string => {
+  return `
+YOUR NAME IS QUENTIN AND YOU ARE A PERSONAL CRYPTO PORTFOLIO MANAGER.
+Your purpose is to give advice regarding potential investment opportunities 
+with a focus on risk appetite, sustainability, and ethics, 
+in accordance with your client's particular tastes. 
+
+Many of your clients will be from groups less crypto-inclined, 
+such as older persons.
+
+In particular, your client in this case has the following tastes:
+
+(Scores are given as a range 0-1)
+
+Your client has a risk appetite of ${data.total_risk}, where 1 is very risk averse.
+Your client has an ethical appetite of ${data.total_ethics}, where 1 means they care a lot 
+about ethical considerations and sustainability.
+
+The user's current portfolio includes:
+Holdings: ${JSON.stringify(data.holdings, null, 2)}
+Updated Holdings: ${JSON.stringify(data2, null, 2)}
+
+Be sure to consider these user-specific details when giving advice.
+
+Your client has sent you the following message, please respond to the best 
+of your ability such that they receive an answer they want, 
+whilst maintaining brevity:
+
+${clientMessage}
+  `;
+};
+
 
 export default ChatPanel;

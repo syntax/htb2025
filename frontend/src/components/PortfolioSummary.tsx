@@ -1,12 +1,11 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { Box, Card, CardContent, Typography, Slider, styled } from '@mui/material';
 
 interface SummaryStats {
   totalValue: number;
   riskAppetite: number;
   sustainability: number;
-  bestPerformer: string;
-  worstPerformer: string;
 }
 
 const StyledCard = styled(Card)({
@@ -45,14 +44,22 @@ const IntensitySlider = styled(Slider)({
   },
 });
 
-const PortfolioSummary = () => {
+const PortfolioSummary = ({data, data2}) => {
+  // Example case where holdings is null
+  const total = Object.values(data2 ?? {}).reduce((sum, value) => sum + (value ?? 0), 0);
   const stats: SummaryStats = {
-    totalValue: 1250000,
-    riskAppetite: 0.22,
-    sustainability: 0.35,
-    bestPerformer: 'Tech Stocks',
-    worstPerformer: 'Oil & Gas',
+    totalValue: total,
+    riskAppetite: data.total_risk,
+    sustainability: data.total_ethics,
   };
+
+
+
+  useEffect(() => {
+    console.log(data.holdings);
+  });
+
+
 
   return (
     <Box sx={{
@@ -80,7 +87,7 @@ const PortfolioSummary = () => {
             Risk Appetite
           </Typography>
           <IntensitySlider
-            value={stats.riskAppetite}
+            value={stats.riskAppetite ?? 5}
             min={0}
             max={1}
             step={0.01}
@@ -99,7 +106,7 @@ const PortfolioSummary = () => {
             Sustainability
           </Typography>
           <IntensitySlider
-            value={stats.sustainability}
+            value={stats.sustainability ?? 5}
             min={0}
             max={1}
             step={0.01}
