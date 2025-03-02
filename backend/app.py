@@ -10,6 +10,8 @@ from models import Portfolio, Crypto, PortfolioObject
 import ethical
 from flask_cors import CORS
 from sklearn.neighbors import NearestNeighbors
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 app = Flask(__name__)
 
@@ -210,8 +212,6 @@ def generate_portfolio(user_id):
     if len(crypto_data) < 5:
         return jsonify({"error": "Not enough cryptocurrencies in database"}), 400
 
-
-    print("Crypto Data: ",crypto_data)
     n_neighbors = min(10, len(crypto_data))  # Adjust based on available data
     knn = NearestNeighbors(n_neighbors=4, algorithm='ball_tree')
     knn.fit(crypto_data[['risk_score', 'ethics_score']].values)
