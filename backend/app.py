@@ -9,6 +9,7 @@ import risk
 from models import Portfolio, Crypto, PortfolioObject
 import ethical
 from flask_cors import CORS
+from sklearn.neighbors import NearestNeighbors
 
 app = Flask(__name__)
 
@@ -127,10 +128,26 @@ def submit_user_scores():
         if not data or "risk_score" not in data or "ethics_score" not in data:
             return jsonify({"error": "Missing risk_score or ethics_score"}), 400
         
+        user_id = "123"
         risk_score = data["risk_score"]
         ethics_score = data["ethics_score"]
 
         print(f"Received Scores - Risk: {risk_score}, Ethics: {ethics_score}")
+
+
+        db = database.Database()
+        portfolio = db.get_portfolio(user_id)
+
+        if not portfolio:
+            portfolio = PortfolioObject(user_id)
+        
+        # Update user scores
+        portfolio.user_risk_score = risk_score
+        portfolio.user_ethics_score = ethics_score
+
+        db.add_portfolio(portfolio)
+        db.close_connection()
+
 
         return jsonify({"message": "Scores received successfully!"}), 200
 
@@ -138,6 +155,68 @@ def submit_user_scores():
         print("Error:", str(e))
         return jsonify({"error": "Internal server error"}), 500
 
+@app.route('/api/generate_portfolio/<int:user_id>', methods=['GET'])
+def generate_portfolio(user_id):
+    try:
+        db = database.Database()
+        portfolio = db.get_portfolio(user_id)
+        
+        if not portfolio:
+            return jsonify({"error": "Portfolio not found"}), 404
+        
+        if portfolio.user_risk_score == 0 or portfolio.user_ethics_score == 0:
+            return jsonify({"error": "User scores not submitted"}), 400
+        
+        cryptos = db.session.query(Crypto).all()
+        print("CRYPTOS:", cryptos)
+        if not cryptos:
+            return jsonify({"error": "No crypto data available"}), 404
+        
+        crypto_data = pd.DataFrame([{
+            'ticker': c.ticker,
+            'risk_score': c.risk_score,
+            'ethics_score': c.ethics_score
+        } for c in cryptos])
+
+        if len(crypto_data) < 5:
+            return jsonify({"error": "Not enough cryptocurrencies in database"}), 400
+
+        n_neighbors = min(10, len(crypto_data))  # Adjust based on available data
+        knn = NearestNeighbors(n_neighbors=n_neighbors, algorithm='ball_tree')
+        knn.fit(crypto_data[['risk_score', 'ethics_score']].values)
+
+        _, indices = knn.kneighbors([[portfolio.user_risk_score, portfolio.user_ethics_score]])
+        
+        top_n = min(5, len(indices[0]))
+        selected_indices = indices[0][:top_n]
+        selected_cryptos = crypto_data.iloc[selected_indices]
+        
+        allocation = {
+            row['ticker']: 1.0/top_n 
+            for _, row in selected_cryptos.iterrows()
+        }
+        
+        portfolio.holdings = allocation
+        
+        portfolio.update_total_risk(db.session)
+        portfolio.update_total_ethics(db.session)
+        
+        db.add_portfolio(portfolio)
+        db.close_connection()
+
+        return jsonify({
+            "message": "Portfolio generated using KNN",
+            "holdings": allocation,
+            "total_risk": portfolio.total_risk,
+            "total_ethics": portfolio.total_ethics,
+            "selected_cryptos": selected_cryptos.to_dict(orient='records')
+        }), 200
+
+    except Exception as e:
+        print("Error:", str(e))
+        print(e.with_traceback())
+        return jsonify({"error": "Internal server error"}), 500
+    
 
 @app.route('/api/symbols', methods=['GET'])
 def get_symbols():
