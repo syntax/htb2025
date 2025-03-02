@@ -147,13 +147,6 @@ def get_knn_coords(user_id):
 
     return jsonify(crypto_map), 200
     
-    
-    # go through the cryptos in cryptos and get the risk and ethics scores
-    crypto_data = pd.DataFrame([{
-        'ticker': c.ticker,
-        'risk_score': c.risk_score,
-        'ethics_score': c.ethics_score
-    } for c in cryptos])
 @app.route('/api/submit_user_phone_number', methods=['POST'])
 def submit_user_phone_number():
     try:

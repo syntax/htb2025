@@ -61,7 +61,16 @@ const RiskEthicsForm: React.FC = () => {
 
       const data = await response.json();
       console.log("Submission successful:", data);
-      alert("Scores submitted successfully!");
+      const res = await fetch("http://127.0.0.1:3332/api/generate_portfolio/123", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (!res.ok) {
+        throw new Error("Failed to generate portfolio");
+      }
+      alert("Generating portfolio...");
     } catch (err: any) {
       console.error(err);
       setError("Error submitting your scores. Please try again.");
