@@ -128,8 +128,8 @@ def submit_user_phone_number():
         user_id = data.get('user_id')
         phone_number = data.get('phone_number')
         
-        if not user_id or not phone_number:
-            return jsonify({"error": "Missing user_id or phone_number"}), 400
+        if not user_id:
+            return jsonify({"error": "Missing user_id"}), 400
         
         db = database.Database()
         portfolio = db.get_portfolio(user_id)
@@ -147,6 +147,23 @@ def submit_user_phone_number():
         return jsonify({"message": "Phone number updated successfully"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+
+
+@app.route('/api/get_user_phone_number/<int:user_id>', methods=['GET'])
+def get_user_phone_number(user_id):
+    try:
+        db = database.Database()
+        portfolio = db.get_portfolio(user_id)
+        db.close_connection()
+        
+        if not portfolio:
+            return jsonify({"error": "Portfolio not found"}), 404
+        
+        return jsonify({"phone_number": portfolio.phone_number}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 
 
 @app.route('/api/submit_user_scores', methods=['POST'])
