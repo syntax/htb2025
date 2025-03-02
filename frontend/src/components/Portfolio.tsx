@@ -72,7 +72,7 @@ const Portfolio: React.FC = () => {
           </div>
           <div className="right-panel">
             <PhoneInfo />
-            <ChatPanel />
+            <ChatPanel data = {data} data2 = {data2}/>
           </div>
         </div>
       </div>
