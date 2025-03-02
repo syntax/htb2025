@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # Create a sample portfolio
     obj = PortfolioObject(123)
     # obj.add_token("leo", 3)
-    # obj.add_token("shib", 3)
+    # # obj.add_token("shib", 3)
     # obj.update_ethics_score(0.6)
     # obj.update_risk_score(0.2)
 
