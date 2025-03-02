@@ -50,7 +50,7 @@ class PortfolioObject:
             else:
                 del self.holdings[ticker]
 
-    # Weighted Average
+       # Weighted Average
     def update_total_risk(self, session):
         crypto_data = {crypto.ticker: crypto.risk_score for crypto in session.query(Crypto).all()}
         
