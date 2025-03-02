@@ -1,4 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
+  --bg-color: #121212;
+  --card-bg: #1e1e1e;
+  --primary-text: #e0e0e0;
+  --secondary-text: #aaaaaa;
+  --border-color: #333;
+  --hover-bg: #2a2a2a;
+  --accent-color: #bb86fc;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-text);
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
