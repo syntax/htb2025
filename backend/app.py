@@ -10,6 +10,8 @@ from models import Portfolio, Crypto, PortfolioObject
 import ethical
 from flask_cors import CORS
 from sklearn.neighbors import NearestNeighbors
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 app = Flask(__name__)
 
@@ -152,6 +154,33 @@ def get_knn_coords(user_id):
         'risk_score': c.risk_score,
         'ethics_score': c.ethics_score
     } for c in cryptos])
+@app.route('/api/submit_user_phone_number', methods=['POST'])
+def submit_user_phone_number():
+    try:
+        data = request.get_json()
+        user_id = data.get('user_id')
+        phone_number = data.get('phone_number')
+        
+        if not user_id or not phone_number:
+            return jsonify({"error": "Missing user_id or phone_number"}), 400
+        
+        db = database.Database()
+        portfolio = db.get_portfolio(user_id)
+        
+        # Create new portfolio if it doesn't exist
+        if not portfolio:
+            portfolio = PortfolioObject(user_id)
+        
+        portfolio.phone_number = phone_number
+        print(phone_number)
+        
+        db.add_portfolio(portfolio)
+        db.close_connection()
+        
+        return jsonify({"message": "Phone number updated successfully"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route('/api/submit_user_scores', methods=['POST'])
 def submit_user_scores():
@@ -214,8 +243,6 @@ def generate_portfolio(user_id):
     if len(crypto_data) < 5:
         return jsonify({"error": "Not enough cryptocurrencies in database"}), 400
 
-
-    print("Crypto Data: ",crypto_data)
     n_neighbors = min(10, len(crypto_data))  # Adjust based on available data
     knn = NearestNeighbors(n_neighbors=4, algorithm='ball_tree')
     knn.fit(crypto_data[['risk_score', 'ethics_score']].values)
