@@ -21,7 +21,7 @@ const RiskEthicsForm: React.FC = () => {
   const navigate = useNavigate();
   const [responses, setResponses] = useState<{ [key: string]: number }>({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [error, setError] = useState<string>("");
+  const [_, setError] = useState<string>("");
   const allQuestions = [...questions.risk, ...questions.ethical];
 
   const handleResponse = (value: number) => {
@@ -49,7 +49,7 @@ const RiskEthicsForm: React.FC = () => {
     // alert(`Risk Score: ${riskAvg.toFixed(2)}, Ethical Score: ${ethicalAvg.toFixed(2)}`);
     try {
       // todo might need to change this endpoint
-      const response = await fetch("/api/submit_user_scores", {
+      const response = await fetch("http://127.0.0.1:3333/api/submit_user_scores", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

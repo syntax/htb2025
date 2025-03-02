@@ -99,7 +99,7 @@ const ChatPanel: React.FC = () => {
         </form>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .loading-bar {
           display: flex;
           justify-content: center;
