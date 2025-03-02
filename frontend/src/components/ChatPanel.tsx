@@ -168,6 +168,7 @@ Updated Holdings: ${JSON.stringify(data2, null, 2)}
 
 Be sure to consider these user-specific details when giving advice.
 
+DO NOT USE ANY MARKDOWN SYNTAX, as your output will be given as plaintext.
 Your client has sent you the following message, please respond to the best 
 of your ability such that they receive an answer they want, 
 whilst maintaining brevity:
