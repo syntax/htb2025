@@ -5,7 +5,6 @@ import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler, RobustScaler, StandardScaler
 from sentimentanaly import compute_sentiment_scores
 
-
 def calculate_risk_score(data, tweet_csv="backend/utils/crypto_tweets.csv", 
                         financial_weight=0.7, sentiment_weight=0.3):
     # TODO tweak weights and rebuild model @TristCrocker
@@ -22,6 +21,8 @@ def calculate_risk_score(data, tweet_csv="backend/utils/crypto_tweets.csv",
     Returns:
         DataFrame with risk scores and component breakdown
     """
+
+    required_cols = ['ticker', 'volatility', 'average_liquidity']
     required_cols = ['ticker', 'volatility', 'average_liquidity']
     if not all(col in data.columns for col in required_cols):
         missing = set(required_cols) - set(data.columns)
@@ -47,18 +48,6 @@ def calculate_risk_score(data, tweet_csv="backend/utils/crypto_tweets.csv",
         data['fin_risk_norm'] * financial_weight + 
         data['sent_risk_norm'] * sentiment_weight
     )
-    
+
     
     return data[['ticker', 'risk_score', 'fin_risk_norm', 'sent_risk_norm']]
-
-
-# print("Testing risk calculation")
-# financial_data = pd.DataFrame({
-#     'Ticker': ['btc', 'eth', 'xrp', 'sc'],
-#     'volatility': [0.82, 0.65, 0.41, 0.93],  # Higher = more volatile
-#     'average_liquidity': [1.2e9, 8.5e8, 4.7e8, 2.1e7]  # Higher = more liquid
-# })
-
-# print("Calculating risk")
-# risk_results = calculate_risk_score(financial_data)
-# print(risk_results)
