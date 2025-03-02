@@ -30,7 +30,7 @@ const PortfolioTable: React.FC<PortfolioTableProps> = ({ data, data2 }) => {
       <thead>
         <tr>
           <th>Crypto</th>
-          <th>Balance</th>
+          <th>Portfolio Weights</th>
           <th>Price (USD)</th>
           <th>Total Value (USD)</th>
         </tr>
