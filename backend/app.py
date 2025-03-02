@@ -125,10 +125,39 @@ def get_portfolio_value_by_coin(user_id):
     
     return jsonify(new_map), 200
     
-# @app.route("/api/get_holding_prices/<int:user_id", methods=["GET"])
-# def get_holding_prices(user_id):
-
     
+@app.route('/api/get_knn_coords/<int:user_id>', methods=['GET'])    
+def get_knn_coords(user_id):
+    db = database.Database()
+    portfolio = db.get_portfolio(user_id)
+    db.close_connection()
+    
+    if not portfolio:
+        return jsonify({"error": "Portfolio not found"}), 404
+    
+    holdings = portfolio.holdings
+    coins = holdings.keys()
+    crypto_map = {}
+
+    # for each coin, query the database for the crypto object and store it in a map
+    for coin in coins:
+        crypto = db.get_crypto(coin)
+        if crypto:
+            crypto_map[coin] = [crypto.risk_score, crypto.ethics_score]
+        else:
+            crypto_map[coin] = None
+    
+    crypto_map["user_score"] = [portfolio.user_risk_score, portfolio.user_ethics_score]
+
+    return jsonify(crypto_map), 200
+    
+    
+    # go through the cryptos in cryptos and get the risk and ethics scores
+    crypto_data = pd.DataFrame([{
+        'ticker': c.ticker,
+        'risk_score': c.risk_score,
+        'ethics_score': c.ethics_score
+    } for c in cryptos])
 @app.route('/api/submit_user_phone_number', methods=['POST'])
 def submit_user_phone_number():
     try:
