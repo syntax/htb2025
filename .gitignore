@@ -2,3 +2,4 @@ backend/__pycache__/*
 backend/venv/*
 env/
 local_database.db
+lstm/lstm_env/
