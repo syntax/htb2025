@@ -1,6 +1,7 @@
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, request, abort, Response
 import ccxt
 import pandas as pd
+import json
 import numpy as np
 import requests
 from sentimentanaly import compute_sentiment_scores
@@ -12,6 +13,14 @@ from flask_cors import CORS
 from sklearn.neighbors import NearestNeighbors
 import matplotlib.pyplot as plt
 import seaborn as sns
+import asyncio
+import websockets
+from fastapi import FastAPI, WebSocket, Request
+from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.websockets import WebSocketDisconnect
+from twilio.twiml.voice_response import VoiceResponse, Connect, Say, Stream
+import dotenv
+import os
 
 app = Flask(__name__)
 
@@ -24,11 +33,25 @@ def index():
         "status": "success"
     }), 200
 
-@app.route('/incoming_call', methods=['POST'])
-def incoming_call():
-    data = request.get_json()
-    print(data)
-    return jsonify(data), 200
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
+# @app.route('/incoming-call', methods=['POST'])
+# def incoming_call():
+#     print("Incoming call")
+#     response = VoiceResponse()
+#     # <Say> punctuation to improve text-to-speech flow
+#     response.say("We are connecting you to Quintin, who will assist with personalized cryptocurrency advice.", voice="Polly.Joanna")
+#     response.pause(length=1)
+#     host = request.url.hostname
+#     connect = Connect()
+#     connect.stream(url=f'wss://{host}/media-stream')
+#     response.append(connect)
+#     response_xml = str(response)  # Convert the VoiceResponse to a string.
+#     return Response(response_xml, mimetype="application/xml")
+#     # return HTMLResponse(content=str(response), media_type="application/xml")
+
+
 
 @app.route('/store_crypto_data', methods=['GET'])
 def store_crypto_data():
