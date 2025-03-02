@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { use } from 'react';
 import { useState, useEffect } from 'react';
 import PortfolioSummary from './PortfolioSummary';
 import PortfolioTable from './PortfolioTable';
@@ -48,7 +48,8 @@ const Portfolio: React.FC = () => {
 
   const [data, setData] = useState([]);
   const [data2 , setData2] = useState([]);
-
+  const [knnGraph, setKnnGraph] = useState([]);
+  
   useEffect(() => {
     fetch("http://127.0.0.1:3332/portfolio/123")
       .then((res) => res.json())
@@ -61,6 +62,12 @@ const Portfolio: React.FC = () => {
       .then((data2) => setData2(data2));
   }, []);
 
+  useEffect(() => {
+    fetch("http:///127.0.0.1:3332/api/get_knn_coords/123")
+      .then((res) => res.json())
+      .then((knnGraph) => setKnnGraph(knnGraph));
+  }, );
+
   return (
     <div className="page-container">
       <div className="app-container">
@@ -68,7 +75,7 @@ const Portfolio: React.FC = () => {
           <div className="left-panel">
             <PortfolioSummary data={data} data2={data2} />
             <PortfolioTable data = {data} data2 = {data2} />
-            <ChartSelector holdings = {data.holdings} holdings2 = {data2} />
+            <ChartSelector holdings = {data.holdings} holdings2 = {data2} knndata = {knnGraph} />
           </div>
           <div className="right-panel">
             <PhoneInfo />

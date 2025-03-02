@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import BarChart from "./BarChart";
 import PieChartComponent from "./Chart";
+import KnnGraph from "./KnnChart";
 
-export default function ChartSelector({holdings, holdings2}) {
+export default function ChartSelector({holdings, holdings2, knndata}) {
 
   const [selectedChart, setSelectedChart] = useState("bar");
   
@@ -22,6 +23,11 @@ export default function ChartSelector({holdings, holdings2}) {
       return <div>No data available.</div>
     }
     chartComponent = <PieChartComponent holdings={holdings}/>;
+  } else if (selectedChart === "knn") {
+    if (!knndata) {
+      return <div>No data available.</div>
+    }
+    chartComponent = <KnnGraph coordinates={knndata} />;
   }
 
   return (
@@ -30,6 +36,7 @@ export default function ChartSelector({holdings, holdings2}) {
       <select value={selectedChart} onChange={handleSelectChange}>
         <option value="bar">Value Chart</option>
         <option value="pie">Holdings Distribution</option>
+        <option value="knn">KNN Graph</option>
       </select>
 
       {/* Render the selected chart */}
