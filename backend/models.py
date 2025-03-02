@@ -35,8 +35,15 @@ class PortfolioObject:
         self.holdings = {}
         self.total_risk = 0.0
         self.total_ethics = 0.0
-        self.user_risk_score = 0.0 
-        self.user_ethics_score = 0.0 
+        self.user_risk_score = 0.0
+        self.user_ethics_score = 0.0
+
+    def update_risk_score(self, risk):
+        self.user_risk_score = risk
+
+    def update_ethics_score(self, ethics):
+        self.user_ethics_score = ethics
+
 
     def add_token(self, ticker, quantity):
         if ticker in self.holdings:

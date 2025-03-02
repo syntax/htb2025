@@ -30,6 +30,9 @@ def store_crypto_data():
     symbol_data = pd.read_csv("backend/ethical_data/environmental_ratings.csv")
     symbol_data.columns = symbol_data.columns.str.lower()
     
+    symbol_data.loc[symbol_data["ticker"] == "xrp", "volatility"] = 0.05
+
+
     # Ensure risk and ethics values recalculated before updating table
     risk_scores_df = risk.calculate_risk_score(symbol_data)
     ethics_scores_df = ethical.process_crypto_data(symbol_data)
@@ -157,65 +160,67 @@ def submit_user_scores():
 
 @app.route('/api/generate_portfolio/<int:user_id>', methods=['GET'])
 def generate_portfolio(user_id):
-    try:
-        db = database.Database()
-        portfolio = db.get_portfolio(user_id)
-        
-        if not portfolio:
-            return jsonify({"error": "Portfolio not found"}), 404
-        
-        if portfolio.user_risk_score == 0 or portfolio.user_ethics_score == 0:
-            return jsonify({"error": "User scores not submitted"}), 400
-        
-        cryptos = db.session.query(Crypto).all()
-        print("CRYPTOS:", cryptos)
-        if not cryptos:
-            return jsonify({"error": "No crypto data available"}), 404
-        
-        crypto_data = pd.DataFrame([{
-            'ticker': c.ticker,
-            'risk_score': c.risk_score,
-            'ethics_score': c.ethics_score
-        } for c in cryptos])
+    # try:
+    db = database.Database()
+    portfolio = db.get_portfolio(user_id)
+   
+    if not portfolio:
+        return jsonify({"error": "Portfolio not found"}), 404
+    
+    if portfolio.user_risk_score == 0 or portfolio.user_ethics_score == 0:
+        return jsonify({"error": "User scores not submitted"}), 400
+    
+    cryptos = db.session.query(Crypto).all()
+    
+    if not cryptos:
+        return jsonify({"error": "No crypto data available"}), 404
+    
+    crypto_data = pd.DataFrame([{
+        'ticker': c.ticker,
+        'risk_score': c.risk_score,
+        'ethics_score': c.ethics_score
+    } for c in cryptos])
 
-        if len(crypto_data) < 5:
-            return jsonify({"error": "Not enough cryptocurrencies in database"}), 400
+    if len(crypto_data) < 5:
+        return jsonify({"error": "Not enough cryptocurrencies in database"}), 400
 
-        n_neighbors = min(10, len(crypto_data))  # Adjust based on available data
-        knn = NearestNeighbors(n_neighbors=n_neighbors, algorithm='ball_tree')
-        knn.fit(crypto_data[['risk_score', 'ethics_score']].values)
 
-        _, indices = knn.kneighbors([[portfolio.user_risk_score, portfolio.user_ethics_score]])
-        
-        top_n = min(5, len(indices[0]))
-        selected_indices = indices[0][:top_n]
-        selected_cryptos = crypto_data.iloc[selected_indices]
-        
-        allocation = {
-            row['ticker']: 1.0/top_n 
-            for _, row in selected_cryptos.iterrows()
-        }
-        
-        portfolio.holdings = allocation
-        
-        portfolio.update_total_risk(db.session)
-        portfolio.update_total_ethics(db.session)
-        
-        db.add_portfolio(portfolio)
-        db.close_connection()
+    print("Crypto Data: ",crypto_data)
+    n_neighbors = min(10, len(crypto_data))  # Adjust based on available data
+    knn = NearestNeighbors(n_neighbors=4, algorithm='ball_tree')
+    knn.fit(crypto_data[['risk_score', 'ethics_score']].values)
+    
+    _, indices = knn.kneighbors([[portfolio.user_risk_score, portfolio.user_ethics_score]])
+    
+    top_n = min(5, len(indices[0]))
+    selected_indices = indices[0][:top_n]
+    selected_cryptos = crypto_data.iloc[selected_indices]
+    
+    allocation = {
+        row['ticker']: 1.0/top_n 
+        for _, row in selected_cryptos.iterrows()
+    }
+    
+    portfolio.holdings = allocation
+    
+    portfolio.update_total_risk(db.session)
+    portfolio.update_total_ethics(db.session)
+    
+    db.add_portfolio(portfolio)
+    db.close_connection()
 
-        return jsonify({
-            "message": "Portfolio generated using KNN",
-            "holdings": allocation,
-            "total_risk": portfolio.total_risk,
-            "total_ethics": portfolio.total_ethics,
-            "selected_cryptos": selected_cryptos.to_dict(orient='records')
-        }), 200
+    return jsonify({
+        "message": "Portfolio generated using KNN",
+        "holdings": allocation,
+        "total_risk": portfolio.total_risk,
+        "total_ethics": portfolio.total_ethics,
+        "selected_cryptos": selected_cryptos.to_dict(orient='records')
+    }), 200
 
-    except Exception as e:
-        print("Error:", str(e))
-        print(e.with_traceback())
-        return jsonify({"error": "Internal server error"}), 500
+    # except Exception as e:
+    #     print("Error:", str(e))
+    #     print(e.with_traceback())
+    #     return jsonify({"error": "Internal server error"}), 500
     
 
 @app.route('/api/symbols', methods=['GET'])
